@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head class="at-element-marker">
+  <title>Inizia con Converged Systems Advisor</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Inizia con Converged Systems Advisor" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/it-it/converged-systems-advisor/task_getting_started.html" />
+	<meta property="og:description" content="Per iniziare a utilizzare Converged Systems Advisor, è necessario preparare l"ambiente, installare e configurare l"agente e aggiungere l"infrastruttura conve..." />
+  <meta property="og:image" content="https://docs.netapp.com/it-it/converged-systems-advisor/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Per iniziare a utilizzare Converged Systems Advisor, è necessario preparare l"ambiente, installare e configurare l"agente e aggiungere l"infrastruttura conve...">
+  <meta name="keywords" content=" agent, deploy, install, set up, VMware, ESXi, read-only, accounts, NSS, account, log in, login, UCS, Nexus, ONTAP, download, add device, add infrastructure, share, sharing, notifications, alerts, emails, support, contract, sshd"><!-- Icons -->
+  <link rel="icon" href="/it-it/converged-systems-advisor/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/it-it/converged-systems-advisor/css/netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/it-it/converged-systems-advisor/css/landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/it-it/converged-systems-advisor/css/tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/it-it/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/converged-systems-advisor/task_getting_started.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/converged-systems-advisor/task_getting_started.html" />
+  <link rel='stylesheet' href='/it-it/converged-systems-advisor/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    function addAdobeLaunch(adobeId) {
+      var head = document.getElementsByTagName('head')[0];
+      var adobe = document.createElement("script");
+      adobe.type = "text/plain";
+      adobe.className = "optanon-category-C0002";
+      adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/"+adobeId+".min.js";
+      head.appendChild(adobe);
+    }
+
+    function addGoogleAnalytics(gtagId) {
+      var google = document.createElement("script");
+      google.type = "text/plain";
+      google.className = "optanon-category-C0002";
+      google.src = "https://www.googletagmanager.com/gtag/js?id="+gtagId;
+      var head = document.getElementsByTagName('head')[0];
+      head.appendChild(google);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', gtagId);
+    }
+
+    function addConsent(consentId) {
+      var head = document.getElementsByTagName('head')[0];
+      var onetrustConsent = document.createElement("script");
+      onetrustConsent.type = "text/javascript";
+      onetrustConsent.src = "https://cdn.cookielaw.org/consent/"+consentId+"/OtAutoBlock.js";
+      head.appendChild(onetrustConsent);
+
+      var onetrustScript = document.createElement("script");
+      onetrustScript.type = "text/javascript";
+      onetrustScript.src = "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js";
+      onetrustScript.charset = "UTF-8";
+      onetrustScript.dataset.documentLanguage = "true";
+      onetrustScript.dataset.domainScript = consentId;
+      head.appendChild(onetrustScript);
+    }addConsent("72570c5c-fe30-465f-b0e0-b77f7fb4ae34");
+    addAdobeLaunch("launch-e9ff3acac59f");
+    addGoogleAnalytics("UA-81697994-3");function OptanonWrapper() { }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/it-it/converged-systems-advisor/js/na-search.js'></script><script src='/it-it/converged-systems-advisor/js/na-pagenav.js'></script><script src='/it-it/converged-systems-advisor/js/na-utility.js'></script>
+ <!--  
+  <link rel='stylesheet' href='/it-it/converged-systems-advisor/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/it-it/converged-systems-advisor/css/prism-netapp.css' type='text/css'>
+ -->
+
+  <!-- <script src='/it-it/converged-systems-advisor/js/na-utility.js'></script> -->
+  <script src='/it-it/converged-systems-advisor/js/clouddocs.js'></script>
+  <script src='/it-it/converged-systems-advisor/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- <script src='/it-it/converged-systems-advisor/js/toc.js'></script> -->
+  <!-- <script src='/it-it/converged-systems-advisor/js/customscripts.js'></script> --><script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/it-it/converged-systems-advisor"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script>
+  <script src='/it-it/converged-systems-advisor/js/custom-dropdown.js'></script>
+  <script src='/it-it/converged-systems-advisor/js/FileSaver.min.js'></script>
+  <script src='/it-it/converged-systems-advisor/js/jszip-utils.min.js'></script>
+  <script src='/it-it/converged-systems-advisor/js/jszip.min.js'></script>
+  <!-- <script src='/it-it/converged-systems-advisor/js/pdf-ux.js'></script> -->
+</head>
+
+
+  <body class role="document" data-flavor="">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/converged-systems-advisor.it-it/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/it-it/converged-systems-advisor/task_getting_started.html&page-title=Inizia con Converged Systems Advisor" class="page-nav-contribute-link" role="button"><img src="/it-it/converged-systems-advisor/images/discuss-sm.svg" alt="" class="github-icon" />Richiedi modifiche alla documentazione</a><a target="_blank" href="https://github.com/NetAppDocs/converged-systems-advisor/blob/main/task_getting_started.adoc" class="page-nav-contribute-link" role="button"><img src="/it-it/converged-systems-advisor/images/edit-sm.svg" alt="" class="github-icon" />Modifica questa pagina</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/it-it/converged-systems-advisor/images/article-sm.svg" alt="" class="github-icon" />Scopri come collaborare</a></div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">IN QUESTA PAGINA</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">Prodotto e soluzioni</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">Supporto e training</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">Community</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">Blog</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">Testimonianze dei clienti</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/company/contact-us/" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Contatto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/it-it/converged-systems-advisor/search.html"
+          data-type="widget" 
+          data-placeholder="Esplora la documentazione"
+          data-no-results-found="Nessun risultato per {query}"
+          data-did-you-mean="Cerca {suggestion}."
+          data-no-results-found-did-you-mean="Nessun risultato per {query}. Intendi {suggestion}?"
+          data-results-found="{hitCount} risultati trovati"
+          data-error-message="Si è verificato un problema durante il recupero dei risultati. Riprova."
+          data-error-reset="Reimposta ricerca"
+          data-sk-es-pf-indexes=""
+          data-flavor=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">Italiano</span>
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/it-it/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/de-de/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/es-es/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/fr-fr/converged-systems-advisor/task_getting_started.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li></ul>
+    </div>
+    <!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <!-- End property bar -->
+</header>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" id="sidebar-height">
+      <button id="btn-sidebar-collapse" onclick="hideSidebar()"><img src="/it-it/converged-systems-advisor/images/collapse.png" alt="Comprimi pannello di navigazione"></button>
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+    <img src="/it-it/converged-systems-advisor/images/pdf.png" alt="" width="16" height="16"/>PDF disponibili<span>
+    </span>
+  </a>
+</div>
+<div class="n-pdf-body-container">
+  <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+        
+        
+        
+        <a target="_blank" href="/it-it/converged-systems-advisor/pdfs/fullsite-sidebar/Converged_Systems_Advisor.pdf" >
+          <img src="/it-it/converged-systems-advisor/images/pdf.png" alt="" width="16" height="16"/>PDF del sito di questa documentazione</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/it-it/converged-systems-advisor/pdfs/sidebar/Note_di_rilascio.pdf" 
+            
+          >
+            <img src="/it-it/converged-systems-advisor/images/pdf.png" alt="" width="16" height="16"/>
+            Note di rilascio
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/it-it/converged-systems-advisor/pdfs/sidebar/Concetti.pdf" 
+            
+          >
+            <img src="/it-it/converged-systems-advisor/images/pdf.png" alt="" width="16" height="16"/>
+            Concetti
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/it-it/converged-systems-advisor/pdfs/sidebar/Per_iniziare.pdf" 
+            
+          >
+            <img src="/it-it/converged-systems-advisor/images/pdf.png" alt="" width="16" height="16"/>
+            Per iniziare
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/it-it/converged-systems-advisor/pdfs/sidebar/Monitoraggio_dell_infrastruttura.pdf" 
+            
+          >
+            <img src="/it-it/converged-systems-advisor/images/pdf.png" alt="" width="16" height="16"/>
+            Monitoraggio dell'infrastruttura
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+</li></ul>
+  <div class="zip-pdf-link-container" style="display: none;">   
+    <a href="#" id="zipPdf">
+      <img src="/it-it/converged-systems-advisor/images/pdf-zip.png" alt="" width="16" height="16"/>
+      <pre>Raccolta di documenti PDF separati<span class="zip-size"></span></pre>
+    </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+</div>
+<script>
+  $("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+  });
+</script><div class="sidebar-nav-container" id="mysidebardiv">
+  <ul id="mysidebar" class="nav"><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Documenti di Converged Systems Advisor"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/index.html">
+        Documenti di Converged Systems Advisor
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Note di rilascio"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Note di rilascio</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Novità"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/reference_new.html">
+        Novità
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Archivio novità"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/reference_archive.html">
+        Archivio novità
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Problemi noti"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/reference_issues.html">
+        Problemi noti
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Concetti"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Concetti</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Panoramica"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/concept_overview.html">
+        Panoramica
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Architettura"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/concept_architecture.html">
+        Architettura
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Licensing"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/concept_licensing.html">
+        Licensing
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Sicurezza"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/concept_security.html">
+        Sicurezza
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Ruoli utente"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/reference_user_roles.html">
+        Ruoli utente
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Per iniziare"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Per iniziare</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Avvio rapido"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_quick_start.html">
+        Avvio rapido
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Prepara il tuo ambiente"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_prepare_environment.html">
+        Prepara il tuo ambiente
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Creare account per i dispositivi FlexPod"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_create_accounts_flexpod_devices.html">
+        Creare account per i dispositivi FlexPod
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configurare e implementare l'agente"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_setup_deploy_agent.html">
+        Configurare e implementare l'agente
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Aggiungere l'infrastruttura nel portale"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_add_infrastructure.html">
+        Aggiungere l'infrastruttura nel portale
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configurare le notifiche"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_configure_notifications.html">
+        Configurare le notifiche
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Impostare un IP statico sull'agente"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_setting_static_ip.html">
+        Impostare un IP statico sull'agente
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Monitoraggio dell'infrastruttura"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Monitoraggio dell'infrastruttura</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Esaminare la cronologia dell'infrastruttura"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_review_infrastructure_history.html">
+        Esaminare la cronologia dell'infrastruttura
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Monitorare le regole"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_monitor_rules.html">
+        Monitorare le regole
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Generare report"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_generate_reports.html">
+        Generare report
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Tenere traccia dei contratti di supporto"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_track_contracts.html">
+        Tenere traccia dei contratti di supporto
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Convalidare l'implementazione per partner e rivenditori"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_deployment_validation_partners_resellers.html">
+        Convalidare l'implementazione per partner e rivenditori
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Risoluzione dei problemi"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/task_troubleshooting.html">
+        Risoluzione dei problemi
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Link correlati"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/reference_additional_info.html">
+        Link correlati
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Note legali"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/it-it/converged-systems-advisor/reference_legal_notices.html">
+        Note legali
+      </a></li></ul>
+</div>
+<script>
+  window.onscroll = () => {
+    const value = -40 - (document.body.scrollHeight - (window.innerHeight + document.scrollingElement.scrollTop));
+    
+    document.getElementById("sidebar-height").style.bottom = Math.max(0,value) + "px";
+};
+</script>
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
+
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <div class="ie-utility">
+  <button id="btn-sidebar-expand" onclick="showSidebar()"><img src="/it-it/converged-systems-advisor/images/expand.png" alt="Espandi pannello di navigazione"></button>
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
+        </li>
+        
+
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/it-it/converged-systems-advisor/">Converged&nbsp;Systems&nbsp;Advisor</a>
+        </li>
+
+      </ul>
+    </div>
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+      <div class="ie-nmt-disclaimer">
+  <span>
+    <div class="ie-nmt-disclaimer-container">
+      <div class="ie-nmt-disclaimer-icon">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#circle-info">
+        </svg>
+      </div>
+      <div class="ie-nmt-disclaimer-content">
+        <span> La versione in lingua italiana fornita proviene da una traduzione automatica. Per eventuali incoerenze, fare riferimento alla versione in lingua inglese. </span>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </span>
+</div><div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">Inizia con Converged Systems Advisor</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2023-05-23 12:00:59 +0000">05/23/2023</time>
+    
+  
+
+<span>Collaboratori
+</span>
+
+
+</p>
+
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Per iniziare a utilizzare Converged Systems Advisor, è necessario preparare l&#8217;ambiente, installare e configurare l&#8217;agente e aggiungere un&#8217;infrastruttura convergente al portale.</p>
+</div>
+<div class="paragraph">
+<p>Potrebbe essere utile <a href="concept_architecture.html">"Scopri come funziona Converged Systems Advisor"</a> prima di iniziare.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="prepara-il-tuo-ambiente">Prepara il tuo ambiente</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La preparazione dell&#8217;ambiente include la verifica del supporto per la configurazione, la creazione di account per l&#8217;agente e la registrazione per un account NetApp Support Site.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Verificare il supporto in <a href="http://mysupport.netapp.com/matrix" target="_blank" rel="noopener">"Tool di matrice di interoperabilità NetApp"</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Verifica che Converged Systems Advisor supporti la tua infrastruttura convergente FlexPod.</p>
+</li>
+<li>
+<p>Verificare di disporre di un server VMware ESXi supportato per l&#8217;agente Converged Systems Advisor.</p>
+<div class="paragraph">
+<p>Per ridurre al minimo l&#8217;utilizzo della larghezza di banda, NetApp consiglia di installare l&#8217;agente nello stesso data center dell&#8217;infrastruttura convergente FlexPod.</p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Assicurarsi che la rete in cui si installa l&#8217;agente consenta la connettività tra i componenti:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>L&#8217;agente deve disporre di connettività a ciascun componente di FlexPod per poter raccogliere i dati di configurazione.</p>
+</li>
+<li>
+<p>L&#8217;agente richiede inoltre una connessione Internet in uscita per comunicare con i seguenti endpoint:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>csa.netapp.com</p>
+</li>
+<li>
+<p>docker.com</p>
+</li>
+<li>
+<p>docker.io</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="#creazione-di-account-sui-dispositivi-flexpod">Creare account su ciascun componente di FlexPod</a>.</p>
+<div class="paragraph">
+<p>L&#8217;agente richiede credenziali per raccogliere i dati di configurazione. Quando si configura l&#8217;agente, è necessario fornire le credenziali.</p>
+</div>
+</li>
+<li>
+<p>Accedere alla <a href="https://mysupport.netapp.com" target="_blank" rel="noopener">"Sito di supporto NetApp"</a> e registratevi per un account, se non ne avete uno.</p>
+<div class="paragraph">
+<p>Per configurare l&#8217;agente e accedere al portale, è necessario disporre di un account NetApp Support Site.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="creazione-di-account-sui-dispositivi-flexpod">Creazione di account sui dispositivi FlexPod</h3>
+<div class="paragraph">
+<p>È necessario impostare un account di sola lettura in Cisco UCS Manager e sugli switch Cisco Nexus. Per i sistemi ONTAP e VMware è necessario un account amministratore. È possibile impostare un account di accesso in sola lettura per altri utenti sull&#8217;APIC. L&#8217;agente utilizza questi account per raccogliere i dati di configurazione da ciascun dispositivo.</p>
+</div>
+<div class="sect3">
+<h4 id="creare-un-account-di-sola-lettura-per-cisco-ucs-manager">Creare un account di sola lettura per Cisco UCS Manager</h4>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Accedere a Cisco UCS Manager.</p>
+</li>
+<li>
+<p>Creare un utente autenticato localmente denominato <em>csa-readonly</em>.</p>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/converged-systems-advisor/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+Tutti i nuovi utenti sono di sola lettura per impostazione predefinita.
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="crea-un-account-di-sola-lettura-per-i-tuoi-switch-nexus">Crea un account di sola lettura per i tuoi switch Nexus</h4>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Accedi a ogni switch Nexus utilizzando SSH o telnet.</p>
+</li>
+<li>
+<p>Accedere alla modalità di configurazione globale:</p>
+<div class="literalblock">
+<div class="content">
+<pre>configure terminal</pre>
+</div>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Creare un nuovo utente:</p>
+<div class="literalblock">
+<div class="content">
+<pre> username [name] password [password] role [role]
+.. Salvare la configurazione:</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>copy running configuration startup configuration</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Se si utilizza un server TACACS+ e si devono concedere privilegi utente CSA, visitare il sito <a href="#concessione-di-privilegi-utente-csa-mediante-un-server-tacacs">Concessione di privilegi utente CSA mediante un server TACACS+</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="creare-un-account-admin-per-ontap">Creare un account admin per ONTAP</h4>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Accedere a Gestore di sistema di OnCommand e fare clic sull&#8217;icona delle impostazioni:</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_system_manager_settings.gif" alt="Icona delle impostazioni in System Manager."></span>.</p>
+</div>
+</li>
+<li>
+<p>Nella pagina utenti, fare clic su <strong>Aggiungi</strong>.</p>
+</li>
+<li>
+<p>Inserire un nome utente e una password e aggiungere <strong>ssh</strong>, <strong>ontapi</strong> e <strong>console</strong> come metodi di accesso utente con accesso admin.</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_system_manager_add_user.gif" alt="Mostra la schermata Aggiungi utente in Gestione sistema, in cui un nuovo utente ONTAP dispone delle autorizzazioni ssh e ontapi."></span></p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="creare-un-account-di-sola-lettura-per-vmware">Creare un account di sola lettura per VMware</h4>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Accedere a vCenter.</p>
+</li>
+<li>
+<p>Nel menu vCenter, scegliere <strong>Amministrazione</strong>.</p>
+</li>
+<li>
+<p>In ruoli, scegliere <strong>sola lettura</strong>.</p>
+</li>
+<li>
+<p>Fare clic sull&#8217;icona <strong>Clone role action</strong> (Copia azione ruolo) e modificare il nome in <strong>CSA</strong>.</p>
+</li>
+<li>
+<p>Selezionare il ruolo <strong>CSA</strong> appena creato.</p>
+</li>
+<li>
+<p>Fare clic sull&#8217;icona <strong>Edit role</strong> (Modifica ruolo).</p>
+</li>
+<li>
+<p>In <strong>Edit role</strong> (Modifica ruolo), scegliere <strong>Global</strong> (Globale), quindi selezionare <strong>Licenses</strong> (licenze).</p>
+</li>
+<li>
+<p>Nella barra laterale, selezionare <strong>Single Sign on&#8594;Users and groups&#8594;Create a new user</strong>.</p>
+</li>
+<li>
+<p>Assegnare un nome al nuovo utente <strong>CSARO</strong> nel DOMINIO vpshere.local.</p>
+</li>
+<li>
+<p>Nella barra laterale, selezionare <strong>permessi globali</strong> in <strong>controllo accessi</strong>.</p>
+</li>
+<li>
+<p>Scegliere l&#8217;utente <strong>CSARO</strong> e assegnare IL RUOLO <strong>CSA</strong>.</p>
+</li>
+<li>
+<p>Accedere al client Web.</p>
+<div class="paragraph">
+<p>USA ID utente: <strong>CSARO@vsphere.local</strong> e password creata in precedenza.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="creare-un-account-di-sola-lettura-sullapic">Creare un account di sola lettura sull&#8217;APIC</h4>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Fare clic su <strong>Admin</strong>.</p>
+</li>
+<li>
+<p>Fare clic su <strong>Crea nuovi utenti locali</strong>.</p>
+</li>
+<li>
+<p>In <strong>User Identity</strong> (identità utente), immettere le informazioni sull&#8217;utente.</p>
+</li>
+<li>
+<p>In <strong>Security</strong> (sicurezza), selezionare tutte le opzioni del dominio di protezione.</p>
+</li>
+<li>
+<p>Fare clic su <strong>+</strong> per aggiungere certificati utente e chiavi SSH, se necessario.</p>
+</li>
+<li>
+<p>Fare clic su <strong>Avanti</strong>.</p>
+</li>
+<li>
+<p>Fare clic su <strong>+</strong> per aggiungere ruoli per il dominio.</p>
+</li>
+<li>
+<p>Selezionare <strong>Nome ruolo</strong> dal menu a discesa.</p>
+</li>
+<li>
+<p>Selezionare <strong>Read</strong> (lettura) per il tipo di privilegio del ruolo <strong>Role Privilege Type</strong> (tipo di privilegio del</p>
+</li>
+<li>
+<p>Fare clic su <strong>fine</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="implementazione-dellagente">Implementazione dell&#8217;agente</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>È necessario implementare l&#8217;agente Converged Systems Advisor su un server VMware ESXi. L&#8217;agente raccoglie i dati di configurazione relativi a ciascun dispositivo dell&#8217;infrastruttura convergente FlexPod e li invia al portale Converged Systems Advisor.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p><a href="#download-e-installazione-dellagente">Scaricare e installare l&#8217;agente</a></p>
+</li>
+<li>
+<p><a href="#impostazione-della-rete-per-lagente">Impostare la rete per l&#8217;agente</a></p>
+</li>
+<li>
+<p><a href="#installazione-di-un-certificato-ssl-sullagente">Se necessario, installare un certificato SSL sull&#8217;agente</a></p>
+</li>
+<li>
+<p><a href="#configurazione-dellagente-per-rilevare-linfrastruttura-flexpod">Configurare l&#8217;agente per rilevare l&#8217;infrastruttura FlexPod</a></p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="download-e-installazione-dellagente">Download e installazione dell&#8217;agente</h3>
+<div class="paragraph">
+<p>È necessario implementare l&#8217;agente Converged Systems Advisor su un server VMware ESXi.</p>
+</div>
+<div class="paragraph">
+<div class="title">A proposito di questa attività</div>
+<p>Per ridurre al minimo l&#8217;utilizzo della larghezza di banda, è necessario installare l&#8217;agente su un server VMware ESXi che si trova nello stesso data center della configurazione FlexPod. L&#8217;agente deve essere connesso a ciascun componente FlexPod e a Internet in modo da poter inviare i dati di configurazione al portale Converged Systems Advisor utilizzando la porta HTTPS 443.</p>
+</div>
+<div class="paragraph">
+<p>L&#8217;agente viene implementato come macchina virtuale VMware vSphere da un modello OVF (Open Virtualization Format). Il modello è basato su Debian con 1 vCPU e 2 GB di RAM (potrebbe essere necessario un numero maggiore di sistemi FlexPod multipli o maggiori).</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Scarica l&#8217;agente:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Accedere a. <a href="https://csa.netapp.com/" target="_blank" rel="noopener">"Portale Converged Systems Advisor"</a>.</p>
+</li>
+<li>
+<p>Fare clic su <strong>Download Agent</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Installare l&#8217;agente implementando il modello OVF sul server VMware ESXi.</p>
+<div class="paragraph">
+<p>Su alcune versioni di VMware, potrebbe essere visualizzato un avviso durante l&#8217;implementazione del modello OVF. La macchina virtuale è stata sviluppata sulla versione più recente di vCenter con compatibilità hardware per le versioni precedenti, il che potrebbe causare l&#8217;avviso. Esaminare le opzioni di configurazione prima di confermare l&#8217;avviso e procedere con l&#8217;installazione.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="impostazione-della-rete-per-lagente">Impostazione della rete per l&#8217;agente</h3>
+<div class="paragraph">
+<p>Per consentire la comunicazione tra l&#8217;agente e i dispositivi FlexPod e tra l&#8217;agente e diversi endpoint Internet, è necessario assicurarsi che la rete sia configurata correttamente sulla macchina virtuale dell&#8217;agente. Si noti che lo stack di rete viene disattivato sulla macchina virtuale fino all&#8217;inizializzazione del sistema.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Assicurarsi che una connessione Internet in uscita consenta l&#8217;accesso ai seguenti endpoint:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>csa.netapp.com</p>
+</li>
+<li>
+<p>docker.com</p>
+</li>
+<li>
+<p>docker.io</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Accedere alla console della macchina virtuale dell&#8217;agente utilizzando il client VMware vSphere.</p>
+<div class="paragraph">
+<p>Il nome utente predefinito è <code>csa</code> e la password predefinita è <code>netapp</code>.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/converged-systems-advisor/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+Per motivi di sicurezza, SSHD è disattivato per impostazione predefinita.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Quando richiesto, modificare la password predefinita e prendere nota della password, perché non può essere recuperata.</p>
+<div class="paragraph">
+<p>Dopo aver modificato la password, il sistema si riavvia e avvia il software dell&#8217;agente.</p>
+</div>
+</li>
+<li>
+<p>Se DHCP non è disponibile nella subnet, configurare un indirizzo IP statico e le impostazioni DNS utilizzando gli strumenti standard di Debian, quindi riavviare l&#8217;agente.</p>
+<div class="paragraph">
+<p><a href="task_setting_static_ip.html">"Fare clic qui per istruzioni dettagliate"</a>.</p>
+</div>
+<div class="paragraph">
+<p>La configurazione di rete per la macchina virtuale Debian è DHCP per impostazione predefinita. NetworkManager è installato e fornisce un&#8217;interfaccia utente di testo che è possibile avviare dal comando nmtui (vedere la <a href="https://manpages.debian.org/stretch/network-manager/nmtui.1.en.html" target="_blank" rel="noopener">"pagina man"</a> per ulteriori dettagli).</p>
+</div>
+<div class="paragraph">
+<p>Per ulteriori informazioni sulla rete, vedere <a href="https://wiki.debian.org/NetworkConfiguration" target="_blank" rel="noopener">"La pagina di configurazione di rete nel wiki Debian"</a>.</p>
+</div>
+</li>
+<li>
+<p>Se le policy di sicurezza stabiliscono che l&#8217;agente deve trovarsi su una rete per comunicare con i dispositivi FlexPod e un&#8217;altra rete per comunicare con Internet, aggiungere una seconda interfaccia di rete in vCenter e configurare le VLAN e gli indirizzi IP corretti.</p>
+</li>
+<li>
+<p>Se per l&#8217;accesso a Internet è necessario un server proxy, eseguire il seguente comando:</p>
+<div class="paragraph">
+<p><code>sudo csa_set_proxy</code></p>
+</div>
+<div class="paragraph">
+<p>Il comando genera due prompt e mostra il formato richiesto per la voce del proxy. Il primo prompt consente di specificare un proxy HTTP, mentre il secondo consente di specificare un proxy HTTPS.</p>
+</div>
+<div class="paragraph">
+<p>Di seguito viene visualizzato il prompt per il proxy HTTP:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_http_proxy.gif" alt="Una schermata che mostra il prompt del proxy HTTP."></span></p>
+</div>
+</li>
+<li>
+<p>Una volta attivata la rete, attendere circa 5 minuti per l&#8217;aggiornamento e l&#8217;avvio del sistema.</p>
+<div class="paragraph">
+<p>Quando l&#8217;agente è operativo, sulla console viene visualizzato un messaggio broadcast.</p>
+</div>
+</li>
+<li>
+<p>Verificare la connettività eseguendo il seguente comando CLI dall&#8217;agente:</p>
+<div class="literalblock">
+<div class="content">
+<pre>curl -k https://www.netapp.com/us/index.aspx</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Se il comando non riesce, verificare le impostazioni DNS. La macchina virtuale dell&#8217;agente deve avere una configurazione DNS valida e la capacità di raggiungere csa.netapp.com.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="installazione-di-un-certificato-ssl-sullagente">Installazione di un certificato SSL sull&#8217;agente</h3>
+<div class="paragraph">
+<p>L&#8217;agente crea un certificato autofirmato al primo avvio della macchina virtuale. Se necessario, è possibile eliminare il certificato e utilizzare il proprio certificato SSL.</p>
+</div>
+<div class="paragraph">
+<div class="title">A proposito di questa attività</div>
+<p>Converged Systems Advisor supporta quanto segue:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Qualsiasi crittografia compatibile con OpenSSL versione 1.0.1 o superiore</p>
+</li>
+<li>
+<p>TLS 1.1 e TLS 1.2</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Accedere alla console della macchina virtuale dell&#8217;agente.</p>
+</li>
+<li>
+<p>Selezionare <code>/opt/csa/certs</code></p>
+</li>
+<li>
+<p>Eliminare il certificato autofirmato creato dall&#8217;agente.</p>
+</li>
+<li>
+<p>Incollare il certificato SSL.</p>
+</li>
+<li>
+<p>Riavviare la macchina virtuale.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="configurazione-dellagente-per-rilevare-linfrastruttura-flexpod">Configurazione dell&#8217;agente per rilevare l&#8217;infrastruttura FlexPod</h3>
+<div class="paragraph">
+<p>È necessario configurare l&#8217;agente in modo che raccolga i dati di configurazione da ciascun dispositivo nell&#8217;infrastruttura convergente FlexPod.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Aprire un browser Web e inserire l&#8217;indirizzo IP della macchina virtuale dell&#8217;agente.</p>
+</li>
+<li>
+<p>Accedere all&#8217;agente inserendo il nome utente e la password dell&#8217;account NetApp Support Site.</p>
+</li>
+<li>
+<p>Aggiungere i dispositivi FlexPod che l&#8217;agente deve rilevare.</p>
+<div class="paragraph">
+<p>Sono disponibili due opzioni:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Fare clic su <strong>Aggiungi un dispositivo</strong> per immettere i dettagli relativi ai dispositivi FlexPod, uno alla volta.</p>
+</li>
+<li>
+<p>Fare clic su <strong>Import Devices</strong> (Importa dispositivi) per compilare e caricare un modello CSV che include i dettagli su tutti i dispositivi.</p>
+<div class="paragraph">
+<p>Tenere presente quanto segue:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Il nome utente e la password devono corrispondere all&#8217;account creato in precedenza per la periferica.</p>
+</li>
+<li>
+<p>Se nell&#8217;ambiente UCS è configurata la gestione utente LDAP, è necessario aggiungere il dominio dell&#8217;utente prima del nome utente. Ad esempio: Locale/csa-readonly</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Risultato</div>
+<p>Ogni dispositivo nell&#8217;infrastruttura FlexPod deve essere visualizzato nella tabella con un segno di spunta.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_agent_configuration.gif" alt="Mostra ogni dispositivo richiesto con un segno di spunta verde nella colonna Status (Stato)."></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="aggiunta-di-uninfrastruttura-al-portale">Aggiunta di un&#8217;infrastruttura al portale</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Dopo aver configurato l&#8217;agente, invia le informazioni relative a ciascun dispositivo FlexPod al portale Converged Systems Advisor. È ora necessario selezionare ciascuno di questi componenti nel portale per creare un&#8217;intera infrastruttura che è possibile monitorare.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>In <a href="https://csa.netapp.com/" target="_blank" rel="noopener">"Portale Converged Systems Advisor"</a>, Fare clic su <strong>Aggiungi infrastruttura</strong>.</p>
+</li>
+<li>
+<p>Completare la procedura per aggiungere l&#8217;infrastruttura:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Inserire i dettagli di base sull&#8217;infrastruttura.</p>
+<div class="paragraph">
+<p>Se si sta aggiungendo un&#8217;infrastruttura Cisco ACI, inserire <strong>yes</strong> quando viene richiesto se il FlexPod utilizza Cisco UCS Manager e inserire <strong>Nexus switch in modalità ACI</strong> quando viene richiesto il tipo di configurazione di rete in cui si trova il FlexPod.</p>
+</div>
+</li>
+<li>
+<p>Selezionare ciascun dispositivo che fa parte della configurazione FlexPod.</p>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/converged-systems-advisor/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+Quando si seleziona un dispositivo, la colonna idoneità visualizza <strong>idoneo</strong> o <strong>non idoneo</strong>. Un dispositivo non è idoneo se rilevato da un altro agente.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Una volta selezionati tutti i componenti richiesti, accanto a ciascun tipo di dispositivo viene visualizzato un segno di spunta verde.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_add_infrastructure_pikesupdate.gif" alt="Mostra quattro dispositivi selezionati nella tabella e segni di spunta verdi per ciascuno, che indicano che sono stati selezionati tutti i componenti richiesti."></span></p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Aggiungere il <a href="concept_licensing.html">"Numero di serie di Converged Systems Advisor"</a> per sbloccare la funzionalità delle chiavi.</p>
+</li>
+<li>
+<p>Leggere il riepilogo, accettare i termini del contratto di licenza e fare clic su <strong>Add Infrastructure</strong> (Aggiungi infrastruttura).</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Risultato</div>
+<p>Converged Systems Advisor aggiunge l&#8217;infrastruttura al portale e inizia a raccogliere i dati di configurazione relativi a ciascun dispositivo. Attendere alcuni minuti per consentire all&#8217;agente di raccogliere informazioni dai dispositivi.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="condivisione-di-uninfrastruttura-con-altri-utenti">Condivisione di un&#8217;infrastruttura con altri utenti</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La condivisione di un&#8217;infrastruttura convergente consente a un&#8217;altra persona di accedere al portale Converged Systems Advisor per visualizzare e monitorare la configurazione. La persona con cui condividi l&#8217;infrastruttura deve disporre di un <a href="https://mysupport.netapp.com" target="_blank" rel="noopener">"Sito di supporto NetApp"</a> account.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Nel portale Converged Systems Advisor, fare clic sull&#8217;icona <strong>Impostazioni</strong>, quindi su <strong>utenti</strong>.</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/screenshot_settings.gif" alt="Mostra il menu delle impostazioni, che contiene un collegamento alla pagina utenti."></span></p>
+</div>
+</li>
+<li>
+<p>Selezionare la configurazione dalla tabella User (utente).</p>
+</li>
+<li>
+<p>Fare clic su <span class="image"><img src="./media/screenshot_share_icon.gif" alt="L&#8217;icona per la condivisione di un&#8217;infrastruttura."></span> icona.</p>
+</li>
+<li>
+<p>Inserire uno o più indirizzi e-mail accanto al ruolo utente che si desidera fornire.</p>
+<div class="paragraph">
+<p><a href="reference_user_roles.html">"Visualizzare le differenze tra ciascun ruolo"</a>.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/converged-systems-advisor/images/tip.svg" alt="Suggerimento">
+</td>
+<td class="content">
+È possibile inserire più indirizzi e-mail in un singolo campo premendo <strong>Invio</strong> dopo il primo indirizzo e-mail.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Fare clic su <strong>Invia</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Risultato</div>
+<p>L&#8217;utente deve ricevere un&#8217;e-mail contenente le istruzioni per l&#8217;accesso a Converged Systems Advisor.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="concessione-di-privilegi-utente-csa-mediante-un-server-tacacs">Concessione di privilegi utente CSA mediante un server TACACS+</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Se si utilizza un server TACACS+ e si devono concedere privilegi utente CSA per gli switch, è necessario creare un gruppo di privilegi utente e concedere al gruppo l&#8217;accesso ai comandi di configurazione specifici richiesti da CSA.</p>
+</div>
+<div class="paragraph">
+<p>I seguenti comandi devono essere scritti nel file di configurazione del server TACACS+.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Immettere quanto segue per creare un gruppo di privilegi utente con accesso di sola lettura: Group=nome_gruppo { default service=deny service=exec{ privv-lvl=0 } }</p>
+</li>
+<li>
+<p>Immettere quanto segue per consentire l&#8217;accesso ai comandi richiesti da CSA: cmd=show { permit "ambiente" permit "versione" permit "funzione" permit "set di funzioni" permit "running-config" permit "interfaccia" permit "interfaccia" permit "inventario" permit "licenza" permit "modulo" permit "port-channel database" permit "ntp peer" permit "utilizzo di licenze" permit "switch-config" permessi "0-tmtmttint" permessi "switch" permesso "cdp neighbor detail" permesso "vlan" permesso "vpc" permesso "vpc peer-keealive" permesso "mac address-table" permesso "lacp port-channel" permesso "policy-map" permesso "policy-map system type qos" permesso "policy-map system type network-qos" permesso "zoneset active" permesso "san-port-channel summary" permesso "database clogs" permesso "dettaglio database" dati" permesso "clogs" permesso "zoneset active" permesso "vsan" permesso "utilizzo vsan" permesso "appartenenza vsan" }</p>
+</li>
+<li>
+<p>Immettere quanto segue per aggiungere l&#8217;account utente CSA al gruppo appena creato: User=User_account{ member=group_name login=file/etc/passwd }</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="configurazione-delle-notifiche">Configurazione delle notifiche</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Se disponi di una licenza Premium, Converged Systems Advisor ti avvisa in caso di modifiche all&#8217;infrastruttura FlexPod tramite notifiche via email.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Fasi</div>
+<ol class="arabic">
+<li>
+<p>Nel portale Converged Systems Advisor, fare clic sull&#8217;icona <strong>Impostazioni</strong>, quindi su <strong>Impostazioni avvisi</strong>.</p>
+</li>
+<li>
+<p>Controllare la notifica che si desidera ricevere per ogni infrastruttura convergente che dispone di una licenza Premium.</p>
+<div class="paragraph">
+<p>Ciascuna notifica include le seguenti informazioni:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Errori di raccolta</dt>
+<dd>
+<p>Avvisa l&#8217;utente quando Converged Systems Advisor non è in grado di raccogliere dati da un&#8217;infrastruttura convergente.</p>
+</dd>
+<dt class="hdlist1">Agente offline</dt>
+<dd>
+<p>Avvisa l&#8217;utente quando un agente di Converged Systems Advisor non è online.</p>
+</dd>
+<dt class="hdlist1">Daily Alert Digest</dt>
+<dd>
+<p>Avvisa l&#8217;utente in merito alle regole non riuscite che si sono verificate il giorno precedente.</p>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>Fare clic su <strong>Save</strong> (Salva).</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Risultato</div>
+<p>Converged Systems Advisor invierà ora notifiche e-mail agli utenti associati all&#8217;infrastruttura convergente.</p>
+</div>
+</div>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/copyright/">© 2023 NetApp, Inc.</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Condizioni per l'utilizzo</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Direttiva sulla privacy</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Direttiva sui Cookie</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Impostazioni cookie</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="n-footer__bottom-right">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a target="_self" href="javascript:netapp_mailto()">Invia feedback su questa pagina</a>
+            </li>
+          </ul>
+        </div>
+        <div class="n-footer__social-links">
+          <ul class="n-footer__social-link-list">
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com"
+                target="_blank" title="blog" alt="blog">
+                <span class="n-footer__social-link-text">blog</span>
+                <svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+                  <title>blog@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#blog"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/"
+                target="_blank" title="community" alt="community">
+                <span class="n-footer__social-link-text">community</span>
+                <svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+                  <title>community@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#comments"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp"
+                target="_blank" title="twitter" alt="twitter">
+                <span class="n-footer__social-link-text">twitter</span>
+                <svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+                  <title>twitter@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp"
+                target="_blank" title="facebook" alt="facebook">
+                <span class="n-footer__social-link-text">facebook</span>
+                <svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+                  <title>facebook@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-linkedin"
+                href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+                <span class="n-footer__social-link-text">linkedin</span>
+                <svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+                  <title>linkedin@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-youtube"
+                href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+                <span class="n-footer__social-link-text">youtube</span>
+                <svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+                  <title>youtube@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-slideshare"
+                href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+                <span class="n-footer__social-link-text">slideshare</span>
+                <svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+                  <title>slideshare@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/it-it/converged-systems-advisor/images/sprite.svg#slideshare"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/it-it/converged-systems-advisor/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/it-it/converged-systems-advisor/js/prism.js'></script>
+      <script type="text/javascript" src='/it-it/converged-systems-advisor/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/it-it/converged-systems-advisor/js/tabbed-blocks.js'></script>
+    <script src='/it-it/converged-systems-advisor/js/sidebar.js'></script>
+  </body></html>
