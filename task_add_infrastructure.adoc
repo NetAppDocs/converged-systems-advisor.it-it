@@ -1,0 +1,77 @@
+---
+sidebar: sidebar 
+permalink: task_add_infrastructure.html 
+keywords: add, infrastructure, FlexPod, configuration, Cisco, ACI, UCS, server, FlexPod, converged, infrastructure, sharing, portal 
+summary: 'Aggiungere l"infrastruttura al portale.' 
+---
+= Aggiungere l'infrastruttura al portale
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dopo aver configurato l'agente, invia le informazioni relative a ciascun dispositivo FlexPod al portale Converged Systems Advisor. È ora necessario selezionare ciascuno di questi componenti nel portale per creare un'intera infrastruttura che è possibile monitorare.
+
+.Fasi
+. In https://csa.netapp.com/["Portale Converged Systems Advisor"^], Fare clic su *Aggiungi infrastruttura*.
+. Completare la procedura per aggiungere l'infrastruttura:
++
+.. Inserire i dettagli di base sull'infrastruttura.
++
+Se si sta aggiungendo un'infrastruttura Cisco ACI, inserire *yes* quando viene richiesto se il FlexPod utilizza Cisco UCS Manager e inserire *Nexus switch in modalità ACI* quando viene richiesto il tipo di configurazione di rete in cui si trova il FlexPod.
+
+.. Selezionare ciascun dispositivo che fa parte della configurazione FlexPod.
++
+
+TIP: Quando si seleziona un dispositivo, la colonna idoneità visualizza *idoneo* o *non idoneo*. Un dispositivo non è idoneo se rilevato da un altro agente.
+
+
+
+. Dopo aver selezionato tutti i componenti richiesti, viene visualizzato un segno di spunta verde accanto a ciascun tipo di dispositivo.
++
+image:screenshot_add_infrastructure_pikesupdate.gif["Mostra quattro dispositivi selezionati nella tabella e segni di spunta verdi per ciascuno, che indicano che sono stati selezionati tutti i componenti richiesti."]
+
++
+.. Aggiungere il link:concept_licensing.html["Numero di serie di Converged Systems Advisor"] per sbloccare la funzionalità delle chiavi.
+.. Leggere il riepilogo, accettare i termini del contratto di licenza e fare clic su *Add Infrastructure* (Aggiungi infrastruttura).
+
+
++
+
+NOTE: Se sei un partner o un rivenditore, puoi saltare la procedura relativa all'aggiunta di una licenza o di un numero di serie e fare clic su *Add Infrastructure* (Aggiungi infrastruttura).
+
+
+
+.Risultato
+Converged Systems Advisor aggiunge l'infrastruttura al portale e inizia a raccogliere i dati di configurazione relativi a ciascun dispositivo. Attendere alcuni minuti per consentire all'agente di raccogliere informazioni dai dispositivi.
+
+
+
+= Condivisione di un'infrastruttura con altri utenti
+
+La condivisione di un'infrastruttura convergente consente a un'altra persona di accedere al portale Converged Systems Advisor per visualizzare e monitorare la configurazione. La persona con cui condividi l'infrastruttura deve disporre di un https://mysupport.netapp.com["Sito di supporto NetApp"^] account.
+
+.Fasi
+. Nel portale Converged Systems Advisor, fare clic sull'icona *Impostazioni*, quindi su *utenti*.
++
+image:screenshot_settings.gif["Mostra il menu delle impostazioni, che contiene un collegamento alla pagina utenti."]
+
+. Selezionare la configurazione dalla tabella User (utente).
+. Fare clic su image:screenshot_share_icon.gif["L'icona per la condivisione di un'infrastruttura."] icona.
+. Inserire uno o più indirizzi e-mail accanto al ruolo utente che si desidera fornire.
++
+link:reference_user_roles.html["Visualizzare le differenze tra ciascun ruolo"].
+
++
+
+TIP: È possibile inserire più indirizzi e-mail in un singolo campo premendo *Invio* dopo il primo indirizzo e-mail.
+
+. Fare clic su *Invia*.
+
+
+.Risultato
+L'utente deve ricevere un'e-mail contenente le istruzioni per l'accesso a Converged Systems Advisor.

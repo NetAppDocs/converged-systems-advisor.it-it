@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: reference_new.html 
+keywords: 'new, features, what"s new, enhancements, release notes' 
+summary: NetApp aggiorna periodicamente Converged Systems Advisor per offrire nuove funzionalità, miglioramenti e correzioni di bug. 
+---
+= Novità di Converged Systems Advisor
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp aggiorna periodicamente Converged Systems Advisor per offrire nuove funzionalità, miglioramenti e correzioni di bug.
+
+Per confermare che i componenti FlexPod sono supportati dall'agente CSA, fare riferimento a. http://mysupport.netapp.com/matrix["Tool di matrice di interoperabilità NetApp"^] (IMT).
+
+
+
+== 31 luglio 2020
+
+La release include i seguenti miglioramenti:
+
+* <<Nuove funzionalità per il rilevamento delle modifiche dello storage (Diff)>>
+* <<Garanzia di configurazione estesa per switch di interconnessione cluster>>
+* <<Copertura iniziale dei progetti NVMe>>
+
+
+
+
+== Nuove funzionalità per il rilevamento delle modifiche dello storage (Diff)
+
+Ora è possibile rilevare le modifiche che si sono verificate nel sistema di storage. Per verificare la presenza di modifiche, dalle pagine *Storage Inventory* (inventario storage), fare clic su *View Configuration Difference* (Visualizza differenza configurazione). Quindi, selezionare i dati e l'ora di configurazione precedenti, che verranno confrontati con la configurazione dello storage più recente. Le eventuali modifiche apportate verranno evidenziate per una rapida revisione.
+
+
+
+== Garanzia di configurazione estesa per switch di interconnessione cluster
+
+Nel portale Converged Systems Advisor, i controlli di configurazione sono stati ampliati per monitorare la supportabilità dello switching di interconnessione cluster ONTAP per i seguenti modelli:
+
+* Cisco Nexus 3132Q-V.
+* Cisco Nexus 3232C
+* Cisco Nexus 92300YC
+
+
+
+
+== Copertura iniziale dei progetti NVMe
+
+Sono stati aggiunti i controlli iniziali di verifica della configurazione per monitorare la supportabilità dei progetti di storage NVMe ONTAP in FlexPod.

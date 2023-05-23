@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: concept_licensing.html 
+keywords: licenses, standard, premium, features, licensing, alerts, notifications, emails, reports, term, subscription, reporting 
+summary: Per sbloccare le funzioni di Converged Systems Advisor è necessaria una licenza. È possibile scegliere tra alcune opzioni di licenza per ogni infrastruttura convergente FlexPod. 
+---
+= Licensing
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Per sbloccare le funzioni di Converged Systems Advisor è necessaria una licenza. È possibile scegliere tra alcune opzioni di licenza per ogni infrastruttura convergente FlexPod.
+
+[cols="12,64,24"]
+|===
+| Licenza | Caratteristiche | Termini 
+
+
+| Nessuna licenza  a| 
+Versione limitata per dimostrare le funzionalità del prodotto:
+
+* Monitoraggio delle configurazioni FlexPod per un periodo di prova di 24 ore
+* Dashboard di salute per visualizzare la conformità alle Best practice FlexPod
+* Inventario e risoluzione dei problemi limitati (disponibili nelle versioni con licenza)
+
+ a| 
+* Gratuito
+* Monouso (24 ore)
+
+
+
+
+| Standard  a| 
+* Monitoraggio continuo delle configurazioni FlexPod
+* Dashboard di salute per visualizzare la conformità alle Best practice FlexPod
+* Interoperabilità del firmware per calcolo, rete, storage e hypervisor
+* Strumenti di gestione del ciclo di vita per identificare le modifiche e prevenire la deriva della configurazione
+* Inventario dettagliato e diagrammi di sistema per la risoluzione avanzata dei problemi
+* Supporto fornito direttamente da NetApp
+
+ a| 
+Licenza basata su abbonamento:
+
+* minimo 12 mesi
+* massimo 60 mesi
+
+
+
+
+| Premium  a| 
+Tutte le funzionalità incluse nella licenza Standard, oltre a:
+
+* Creazione di report
++
+Report completi e in tempo reale sullo stato di salute, interoperabilità e inventario di FlexPod
+
+* Notifiche e avvisi
++
+Notifiche periodiche dello stato di salute della configurazione e delle modifiche dello stato
+
+
+ a| 
+Licenza basata su abbonamento:
+
+* minimo 12 mesi
+* massimo 60 mesi
+
+
+|===

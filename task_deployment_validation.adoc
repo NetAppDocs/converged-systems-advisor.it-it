@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: task_deployment_validation.html 
+keywords: partner, validate, deployment validation 
+summary: 'Se sei un partner NetApp, puoi iniziare a utilizzare Converged Systems Advisor collaborando con il cliente per implementare l"agente e configurare il portale prima di eseguire una convalida dell"implementazione.' 
+---
+= Report sulla convalida dell'implementazione per i partner
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+I partner NetApp possono eseguire una convalida dell'implementazione per verificare che un'infrastruttura convergente FlexPod sia configurata correttamente. I partner possono quindi consegnare il report ai clienti.
+
+.Fasi
+. Accedere a. https://csa.netapp.com/["Portale Converged Systems Advisor"^].
+. Espandere la configurazione del cliente dall'elenco clienti.
++
+image:screenshot_partner_customer_list.gif["Mostra tre infrastrutture convergenti per un cliente."]
+
+. In Deployment Validation Report, fare clic su *generate* (genera).
+. Scegliere se visualizzare il report nel browser, in formato PDF o via email.
+. Esaminare il report e correggere eventuali problemi di interoperabilità e errori di convalida dell'implementazione.
++
+*Esempio*
+
++
+In questa configurazione di esempio, le versioni firmware degli switch Nexus non sono supportate:
+
++
+image:screenshot_validation_interop.gif["Mostra la sezione relativa all'interoperabilità del Deployment Validation Report. Include due switch con versioni firmware non supportate."]
+
++
+Anche quattro regole di convalida non sono riuscite a causa di problemi di connettività dello switch:
+
++
+image:screenshot_validation_errors.gif["Mostra la sezione Errors del Deployment Validation Report. L'interconnessione fabric non effettua il collegamento in uplink nel fabric Fibre Channel Nexus corrispondente."]
+
++
+L'aggiornamento del firmware può correggere l'interoperabilità della configurazione e l'aggiunta di collegamenti può correggere le regole di convalida non riuscite.
+
+. Dopo aver corretto i problemi, raccogliere i dati per garantire che Converged Systems Advisor disponga dei dati di configurazione più recenti:
++
+.. Selezionare l'infrastruttura convergente.
+.. In alto a destra, fare clic su *Collect* (Raccogli).
++
+image:screenshot_collect_button.gif["Mostra il pulsante Collect (Raccogli) in alto a destra disponibile dopo aver selezionato un'infrastruttura convergente."]
+
+
+
+. Generare nuovamente il report per verificare di aver corretto i problemi.
+. Inviare il report finale sulla convalida dell'implementazione al cliente.
+
+
+.Risultato
+L'infrastruttura convergente è ora configurata in base alle Best practice.

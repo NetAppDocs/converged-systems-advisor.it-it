@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_review_infrastructure_history.html 
+keywords: review, history, converged, infrastructure, configuration, resolve, issue, warnings, failures, collected, collections, data 
+summary: Quando si riceve un avviso relativo a una regola non riuscita, è possibile visualizzare una cronologia delle modifiche nella configurazione per risolvere il problema. 
+---
+= Esaminare la cronologia di un'infrastruttura
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Quando si riceve un avviso relativo a una regola non riuscita, è possibile visualizzare una cronologia delle modifiche nella configurazione per risolvere il problema.
+
+.Fasi
+. Selezionare un'infrastruttura convergente.
+. Fare clic su *Altro > Cronologia*.
++
+image:screenshot_history_navigation.gif["Mostra il menu Altro che include l'opzione Cronologia."]
+
+. Fare clic su un giorno del calendario per visualizzare il numero di avvisi e errori identificati durante ciascuna raccolta di dati.
++
+
+TIP: Il numero visualizzato per ogni giorno corrisponde al numero di volte in cui l'agente ha raccolto i dati. Ad esempio, se si mantiene l'intervallo di raccolta predefinito di 24 ore, viene visualizzata una raccolta al giorno.
+
++
+La seguente immagine mostra una singola raccolta il 27 del mese.
+
++
+image:screenshot_history_status.gif["Mostra il punto numero uno e il punto giallo sul 27 del mese."]
+
+. Per visualizzare ulteriori dettagli sui dati raccolti, fare clic su *Vai a ci Dashboard* per una raccolta.
+. Se necessario, visualizzare la cronologia per l'ultima volta in cui non sono stati identificati avvisi o errori.
++
+Il confronto dei dati tra i due periodi di raccolta consente di identificare le modifiche apportate.
+
+

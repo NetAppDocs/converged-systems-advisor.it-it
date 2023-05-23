@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: task_deployment_validation_partners_resellers.html 
+keywords: review, alerts, warnings, failed, rules, alerts, history, remediate, remediation, suppress, display, fail, warning, pass, notifications, email 
+summary: 'In qualità di partner o rivenditore, è possibile convalidare l"implementazione dell"infrastruttura di un client.' 
+---
+= Convalidare l'implementazione per partner e rivenditori
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+In qualità di partner o rivenditore, è possibile convalidare l'implementazione dell'infrastruttura del cliente esaminando i dati visualizzati nella dashboard o generando un report sullo stato di salute.
+
+.Prima di iniziare
+* È stato installato un nuovo FlexPod presso la sede del cliente o si sta lavorando con un FlexPod esistente.
+* Sono stati creati account sui dispositivi FlexPod.
+* Se si utilizza un server TACACS+, sono stati concessi i privilegi utente CSA.
+* L'agente è stato scaricato e installato.
++
+Fare riferimento a. link:task_setup_deploy_agent.html["Configurare e implementare l'agente"].
+
+* È stata impostata la rete per l'agente e, facoltativamente, è stato installato un certificato SSL sull'agente.
+* Con le tue credenziali NetApp, hai creato il ci per il tuo cliente per aggiungere l'infrastruttura al portale.
++
+Fare riferimento a. link:task_add_infrastructure["Aggiungere l'infrastruttura al portale"] Per creare un ci nel portale CSA.
+
+* Facoltativamente, l'infrastruttura è condivisa con altri utenti.
+
+
+.Fasi
+I partner e i rivenditori utilizzano le proprie credenziali NetApp per accedere al portale CSA e avviare il processo di convalida.
+
+. Accedere a. https://csa.netapp.com/["Portale Converged Systems Advisor"^] Utilizzando le tue credenziali NetApp.
+. Fare clic su *Select a ci* (Seleziona ci*), quindi fare clic sul ci appropriato per il cliente oppure digitare il nome del ci nella casella di ricerca. Viene visualizzata la dashboard per il ci.
+
+
+In qualità di partner o rivenditori, puoi convalidare l'infrastruttura del tuo cliente utilizzando i seguenti metodi:
+
+* Nella dashboard, è possibile convalidare diversi aspetti dell'infrastruttura:
++
+** *Interoperabilità firmware*: Visualizza le versioni software installate. Fare clic su ciascuna intestazione per visualizzare ulteriori dettagli.
+** *Contratto di supporto* indica la scadenza dei contratti. Fare clic su *View Details* (Visualizza dettagli) per ulteriori informazioni.
+** *Agent Status* (Stato agente) visualizza i dettagli relativi all'agente, inclusi i dispositivi monitorati.
+** *Capacità* indica l'utilizzo dello spazio su disco, delle porte di rete e dello chassis blade UCS. Fare clic sui collegamenti per visualizzare i dettagli di ciascun utilizzo.
+** *Health* visualizza graficamente lo stato delle regole per le funzionalità di storage, calcolo, rete e virtualizzazione dell'infrastruttura. Fare clic sulle aree di colore della grafica per visualizzare ulteriori dettagli.
+** *Rules Summary* (Riepilogo regole) mostra gli avvisi relativi a regole e avvisi non riusciti. Fare clic sulle frecce a sinistra di ciascuna riga oppure fare clic sul nome del dispositivo per visualizzare ulteriori dettagli.
+
+
+* Nella barra delle azioni, selezionare *Report->Health Report* per generare un report dettagliato sullo stato di salute del sistema convergente. Puoi visualizzarlo nel browser, scaricarlo come file PDF o condividerlo via email.
+

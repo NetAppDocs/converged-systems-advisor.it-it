@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: reference_additional_info.html 
+keywords: help, technical report, tr, 4036, best practices, imt, interoperability matrix, community, forum, docs, documentation, copyrights, notice 
+summary: Puoi ottenere aiuto e ottenere ulteriori informazioni su Converged Systems Advisor attraverso varie risorse. 
+---
+= Dove trovare assistenza e ulteriori informazioni
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puoi ottenere aiuto e ottenere ulteriori informazioni su Converged Systems Advisor attraverso varie risorse.
+
+* https://www.netapp.com/us/media/ds-3896.pdf["Scheda informativa di Converged Systems Advisor"^]
++
+Per ulteriori informazioni sul valore offerto da Converged Systems Advisor.
+
+* https://www.netapp.com/us/media/tr-4036.pdf["Report tecnico NetApp 4036: Specifiche tecniche del data center FlexPod"^]
++
+Esaminate le Best practice e i requisiti del firmware che Converged Systems Advisor mette a confronto le vostre configurazioni.
+
+* http://mysupport.netapp.com/matrix["Tool di matrice di interoperabilità NetApp"^]
++
+Verificare il supporto per la configurazione.
+
+* http://community.netapp.com["Community NetApp"^]
++
+Connettiti con i colleghi, fai domande, scambia idee, trova risorse e condividi le Best practice.
+
+* http://docs.netapp.com["Documentazione sui prodotti NetApp"^]
++
+Cerca nella documentazione dei prodotti NetApp istruzioni, risorse e risposte.
+
+* https://mysupport.netapp.com/portal["Aprire un caso di supporto"]
++
+Aprire un caso di supporto per ulteriore assistenza. I casi di supporto devono essere aperti in *CAT1 -> Strumenti di diagnostica remota* e *CAT2 -> Converged System Advisor*.
+
+

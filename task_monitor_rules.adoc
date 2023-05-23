@@ -1,0 +1,127 @@
+---
+sidebar: sidebar 
+permalink: task_monitor_rules.html 
+keywords: review, alerts, warnings, failed, rules, alerts, history, remediate, remediation, suppress, display, fail, warning, pass, notifications, email 
+summary: 'È possibile rimediare alle regole non riuscite, eliminare le regole, visualizzare l"elenco delle regole che sono state soppresse e, se si desidera, selezionare per terminare la soppressione.' 
+---
+= Monitorare le regole dell'infrastruttura
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Per monitorare l'infrastruttura, è possibile correggere le regole non riuscite, eliminare le regole, visualizzare l'elenco delle regole che sono state soppresse e, se si desidera, selezionare per terminare la soppressione.
+
+
+
+== Esaminare gli avvisi per le regole e gli avvisi non riusciti
+
+Converged Systems Advisor monitora costantemente l'infrastruttura e genera avvisi e guasti per garantire che il sistema sia configurato e che sia in grado di eseguire le Best practice.
+
+.Fasi
+. Accedere a. https://csa.netapp.com/["Portale Converged Systems Advisor"^] E fare clic su *regole*.
++
+La pagina regole visualizza un riepilogo di tutte le regole. Lo stato di ciascuna regola è *Pass*, *Warning* o *Fail*.
+
+. Fare clic sull'icona del filtro nella colonna Status (Stato) e selezionare *Fail* (non riuscito), *Warning* (Avviso) o Both (entrambi).
++
+image:screenshot_rules_filter.gif["Mostra l'icona del filtro che consente di filtrare la tabella in modo da visualizzare solo le regole che hanno superato, non riuscito o includono avvisi."]
+
+. Per visualizzare i dettagli sulle singole regole, fare clic sulla freccia accanto alla colonna Status (Stato).
++
+image:screenshot_rules_information.gif["Mostra i dettagli di una regola, tra cui descrizione, impatto e risoluzione."]
+
+. Seguire le istruzioni nella risoluzione per risolvere il problema.
++
+Se necessario, <<Analisi della cronologia di un'infrastruttura,esaminare la cronologia della configurazione>> per aiutare l'infrastruttura a risolvere il problema.
+
+
+
+.Al termine
+Lo stato delle regole indirizzate deve essere visualizzato come Pass dopo il successivo periodo di raccolta dell'agente.
+
+
+
+== Correggere le regole non riuscite
+
+Converged Systems Advisor può risolvere alcune regole di errore correggendo il problema sottostante dell'infrastruttura convergente.
+
+.A proposito di questa attività
+* È necessario disporre della licenza Premium.
+* Devi essere assegnato come proprietario dell'infrastruttura convergente.
+
+
+.Fasi
+. Accedere a. https://csa.netapp.com/["Portale Converged Systems Advisor"^] E fare clic su *regole*.
++
+La pagina regole visualizza un riepilogo di tutte le regole. Lo stato di ciascuna regola è *Pass*, *Warning* o *Fail*.
+
+. Selezionare *Filter rules that CAN be rimediated* (regole filtro che è possibile correggere).
+. Espandere la regola che si desidera risolvere.
+. Fare clic su image:wrench_icon.jpg["Mostra l'icona della chiave che consente di correggere automaticamente le regole non riuscite."] nell'angolo in alto a destra della regola espansa.
++
+Se l'icona è disattivata, l'agente non è in linea, non si dispone dei privilegi di proprietario o non si dispone di una licenza Premium.
+
+. Se necessario, inserire i valori immessi.
++
+A seconda della regola non riuscita, alcuni valori di input sono necessari per risolvere il problema.
+
+. Se si desidera eseguire una raccolta di dati dopo il completamento della correzione, selezionare l'opzione *Collect when Remediation Job completed* (Raccogli al completamento del processo di correzione).
+. Fare clic su *Esegui correzione*.
+. Fare clic su *Conferma*.
+. Per visualizzare le azioni intraprese per risolvere le regole non riuscite, fare clic sull'icona *Operations* e selezionare *Remediation Action*.
++
+image:operations_icon.gif["Mostra l'icona delle operazioni che apre il menu per visualizzare le azioni correttive."]
+
+
+
+
+
+== Elimina regole non riuscite
+
+Converged Systems Advisor consente di eliminare le regole in modo che non vengano visualizzate nella dashboard e non inviino più notifiche e-mail in caso di errore della regola.
+
+Ad esempio, non è consigliabile attivare telnet, ma se si preferisce attivarlo, è possibile eliminare la regola.
+
+.A proposito di questa attività
+Per configurare le notifiche, è necessario disporre della licenza Premium.
+
+.Fasi
+. Dalla dashboard, fare clic su *Rules* (regole).
+. Trovare le regole che si stanno cercando filtrando il contenuto della tabella.
+. Selezionare una o più righe per le regole con stato Warning (Avviso) o Fail (errore), quindi fare clic sull'icona *Alerts* (Avvisi).
++
+image:screenshot_rules_suppress.gif["Mostra l'icona degli avvisi sopra la tabella che consente di eliminare le regole."]
+
+. Selezionare una durata, quindi fare clic su *Invia*.
+
+
+
+TIP: Se si desidera attivare gli avvisi, seguire la stessa procedura e selezionare *fine soppressione*.
+
+.Risultato
+Converged Systems Advisor non notifica più la regola per la durata specificata e la regola non sarà più visibile nella dashboard.
+
+
+
+== Visualizza regole soppresse
+
+.Fasi
+. Fare clic sull'icona *Impostazioni* e selezionare *regole soppresse*.
++
+image:screenshot_suppressed_rules.gif["Mostra l'icona delle impostazioni che apre il menu per selezionare le regole soppresse."]
+
+. Selezionare le regole sospese che si desidera visualizzare.
+. Fare clic sull'icona *Alerts*.
++
+image:screenshot_rules_suppress.gif["Mostra l'icona degli avvisi sopra la tabella che consente di eliminare le regole."]
+
+. Selezionare *End Suppression* (fine eliminazione), quindi fare clic su *Submit* (Invia).
+
+
+.Risultato
+Gli avvisi vengono attivati per la regola selezionata e la regola viene visualizzata nella tabella regole e nella dashboard.

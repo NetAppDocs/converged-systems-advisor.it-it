@@ -1,0 +1,63 @@
+---
+sidebar: sidebar 
+permalink: task_setting_static_ip.html 
+keywords: networking, ip address, static, static ip, agent 
+summary: 'Se l"ambiente non dispone di un server DHCP, è possibile impostare un indirizzo IP statico nell"agente Converged Systems Advisor.' 
+---
+= Impostare un indirizzo IP statico sull'agente
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se l'ambiente non dispone di un server DHCP, è possibile impostare un indirizzo IP statico nell'agente Converged Systems Advisor.
+
+.Fasi
+. Accedere alla console della macchina virtuale dell'agente utilizzando il client VMware vSphere.
++
+Il nome utente predefinito è *csa* e la password predefinita è *netapp*. Modificare la password, se richiesto.
+
+. Invio `sudo su –` al prompt csa di diventare root.
+. Invio `# systemctl stop csa.service` Per interrompere il servizio CSA.
+. Immettere quanto segue per determinare il nome corretto del file di interfaccia.
++
+In questo esempio, il nome del file di interfaccia è `eth0`.
+
++
+`# ls /etc/network/interfaces.d/`
+
+. Invio `# /sbin/ifdown eth0` per interrompere l'interfaccia attiva.
+. Modificare il file /etc/network/interfaces.d/eth0 con l'editor desiderato.
++
+`# nano /etc/network/interfaces.d/eth0`oppure
+`# vi /etc/network/interfaces.d/eth0`
+
++
+Il file contiene quanto segue:
+
++
+`allow-hotplug eth0`
+`iface eth0 inet dhcp`
+
+. Rimuovere `iface eth0 inet dhcp` e aggiungere quanto segue. NOTA: È necessario sostituire i valori corretti per tutte le voci che seguono i nomi dei campi nell'esempio seguente. Ad esempio, `192.168.11.1` è il valore del gateway nell'esempio. Tuttavia, invece di `192.168.11.1`, inserire l'indirizzo corretto per il gateway.
++
+`iface eth0 inet static`
+`address 192.168.11.100`
+`netmask 255.255.255.0`
+`gateway 192.168.11.1`
+`dns-domain example.com`
+`dns-nameservers 192.168.11.1`
+
+. Salvare il file.
++
+In nano, inserisci *ctrl + o* seguito da *ctrl + x* per salvare.
+
+. Invio `vi/etc/resolv.conf` per aprire il file di configurazione.
+. Aggiungi `nameserver <ip_address>` nella parte superiore del file.
+. Invio `# ifup eth0` per avviare l'interfaccia di rete.
+. Invio `systemctl start csa.service` Per riavviare Converged Systems Advisor.
+

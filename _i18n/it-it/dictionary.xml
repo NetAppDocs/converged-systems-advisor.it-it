@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="70a81ab3570971044c051a122f25ee0b" category="summary">Puoi ottenere aiuto e ottenere ulteriori informazioni su Converged Systems Advisor attraverso varie risorse.</block>
+  <block id="3cd12697cda279c9c99b093a265c1ba8" category="doc">Dove trovare assistenza e ulteriori informazioni</block>
+  <block id="ba69e3ff884a3e60e26bcffcb121315d" category="inline-link">Scheda informativa di Converged Systems Advisor</block>
+  <block id="5bcf85e8807e9d7961fa86529a7ee3ac" category="list-text"><block ref="5bcf85e8807e9d7961fa86529a7ee3ac" category="inline-link-rx"></block></block>
+  <block id="b1b49e994988385600e529f9e03aeded" category="paragraph">Per ulteriori informazioni sul valore offerto da Converged Systems Advisor.</block>
+  <block id="5768a4e6671c0fb61f9cc9bccc217998" category="inline-link">Report tecnico NetApp 4036: Specifiche tecniche del data center FlexPod</block>
+  <block id="9569519d894aa3e75942763a12a60c12" category="list-text"><block ref="9569519d894aa3e75942763a12a60c12" category="inline-link-rx"></block></block>
+  <block id="d5ae438f326f42644223635842ca89cc" category="paragraph">Esaminate le Best practice e i requisiti del firmware che Converged Systems Advisor mette a confronto le vostre configurazioni.</block>
+  <block id="9ed4a475dd3705157a9fed8811f63ce2" category="inline-link">Tool di matrice di interoperabilità NetApp</block>
+  <block id="b1540a3ec25c7d8277b499a1cc1d920b" category="list-text"><block ref="b1540a3ec25c7d8277b499a1cc1d920b" category="inline-link-rx"></block></block>
+  <block id="b9c8769caa39394587c227d447b7343b" category="paragraph">Verificare il supporto per la configurazione.</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="inline-link">Community NetApp</block>
+  <block id="692fac6072c610332c2f66f183595f71" category="list-text"><block ref="692fac6072c610332c2f66f183595f71" category="inline-link-rx"></block></block>
+  <block id="4c7cda3e1dc1461a889607095bfa6769" category="paragraph">Connettiti con i colleghi, fai domande, scambia idee, trova risorse e condividi le Best practice.</block>
+  <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="inline-link">Documentazione sui prodotti NetApp</block>
+  <block id="178e09d5859093549cf62631c31b4e03" category="list-text"><block ref="178e09d5859093549cf62631c31b4e03" category="inline-link-rx"></block></block>
+  <block id="66c5be124e373109c15d21cfd76b84a5" category="paragraph">Cerca nella documentazione dei prodotti NetApp istruzioni, risorse e risposte.</block>
+  <block id="7732b9007870fcad946e2c77ac91e87d" category="inline-link">Aprire un caso di supporto</block>
+  <block id="0dcb6d5b41f9b4b5ae94ff5f19c1d12e" category="list-text"><block ref="0dcb6d5b41f9b4b5ae94ff5f19c1d12e" category="inline-link-rx"></block></block>
+  <block id="b4ec9fb497489f10c512e2032e49fb08" category="paragraph">Aprire un caso di supporto per ulteriore assistenza. I casi di supporto devono essere aperti in *CAT1 -&gt; Strumenti di diagnostica remota* e *CAT2 -&gt; Converged System Advisor*.</block>
+  <block id="af30d3755f96862e145057d908a2e786" category="summary">Se disponi di una licenza Premium, Converged Systems Advisor ti avvisa in caso di modifiche all'infrastruttura FlexPod tramite notifiche via email.</block>
+  <block id="19a5158f1235c29843008925adb7baf8" category="doc">Configurare le notifiche</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Fasi</block>
+  <block id="cd34eac38f2c4b9f2103eda33482b061" category="list-text">Nel portale Converged Systems Advisor, fare clic sull'icona *Impostazioni*, quindi su *Impostazioni avvisi*.</block>
+  <block id="4e6aad27476e9fe331f476974ff873e5" category="list-text">Controllare la notifica che si desidera ricevere per ogni infrastruttura convergente che dispone di una licenza Premium.</block>
+  <block id="d498146c1e8ccfa027b0be4e0ec6c938" category="paragraph">Ciascuna notifica include le seguenti informazioni:</block>
+  <block id="51931057b0a67bf82ab417b2870f3a3c" category="list-text">Errori di raccolta</block>
+  <block id="4596170a0369f156d6a5f2091e13b52a" category="list-text">Avvisa l'utente quando Converged Systems Advisor non è in grado di raccogliere dati da un'infrastruttura convergente.</block>
+  <block id="7abf3c6257605cebf46fa1d1dfb7f567" category="list-text">Agente offline</block>
+  <block id="f0a59a4f9d275170a08a14a81258c126" category="list-text">Avvisa l'utente quando un agente di Converged Systems Advisor non è online.</block>
+  <block id="3b0e647e86cb4c7b03e82d277f5f75b6" category="list-text">Daily Alert Digest</block>
+  <block id="e50c05288bdcd3e7f9ac99e37a5935f4" category="list-text">Avvisa l'utente in merito alle regole non riuscite che si sono verificate il giorno precedente.</block>
+  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">Fare clic su *Save* (Salva).</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Risultato</block>
+  <block id="e34a46d20515530b01e1c96a225829e4" category="paragraph">Converged Systems Advisor invierà ora notifiche e-mail agli utenti associati all'infrastruttura convergente.</block>
+  <block id="bdb0dc2742052e838432bdb344b2269d" category="summary">La guida introduttiva all'agente e al portale Converged Systems Advisor include alcuni passaggi.</block>
+  <block id="d765707c3b28b87a0166a122e0893c44" category="doc">Guida rapida per Converged Systems Advisor</block>
+  <block id="bb4e793023539d2e73eea517a0009f8f" category="paragraph">Per iniziare con l'agente Converged Systems Advisor e il portale per FlexPod sono necessari alcuni passaggi.</block>
+  <block id="6e5bc02812454d72aa1b3361bc2f6c73" category="inline-image-macro">numero 1</block>
+  <block id="559f8475e1ff74d0a5b077794558916f" category="section-title"><block ref="dc5de6e35d5028cc4c0b89b89e621258" category="inline-image-macro-rx" type="image"></block> Prepara il tuo ambiente</block>
+  <block id="ebd4d70d369b168865892524fb385472" category="inline-link-macro">Prepara il tuo ambiente</block>
+  <block id="861d7392cf2a3c7ca2ed1442f6237101" category="paragraph">Verificare il supporto per la configurazione. <block ref="5db18581d3c751db9049195c8f5e0955" category="inline-link-macro-rx"></block>.</block>
+  <block id="3db14b7ee6183c9d58f1e9d5e8e63efd" category="inline-image-macro">numero 2</block>
+  <block id="bc83ea51badfd0910cc8d7bae37d8acd" category="section-title"><block ref="8a21168e601d45e544969f8d2c358917" category="inline-image-macro-rx" type="image"></block> Creare account sui dispositivi FlexPod</block>
+  <block id="2f166ccfcdb92d24539f300510b6c06a" category="inline-link-macro">Creare account sui dispositivi FlexPod</block>
+  <block id="ef53b42f68445a3ad4051becb0f15d0a" category="paragraph">Configurare gli account in Cisco UCS Manager, sugli switch Cisco Nexus, sui sistemi ONTAP, su VMware e su APIC. Questi account vengono utilizzati dall'agente per raccogliere i dati di configurazione.<block ref="3431097fc9e072fa942c7d7d18ec5a22" category="inline-link-macro-rx"></block>.</block>
+  <block id="9f3ebc84fe13f3200262a9c4b7c9807d" category="inline-image-macro">numero 3</block>
+  <block id="3e12ab5fae17206c542331228866ed0d" category="section-title"><block ref="436aa95806ef0877809848921c187b08" category="inline-image-macro-rx" type="image"></block> Concedere i privilegi dell'utente CSA utilizzando un server TACACS+</block>
+  <block id="92a02a450197db41e0b230ea53ef8ff3" category="inline-link-macro">Concedere i privilegi dell'utente CSA utilizzando un server TACACS+</block>
+  <block id="2c1c5cb63f66b3d5b5f4eeb79a858979" category="paragraph">Per coloro che utilizzano un server TACACS+, è necessario concedere privilegi utente CSA per gli switch, creare un gruppo di privilegi utente e concedere al gruppo l'accesso ai comandi di configurazione specifici richiesti da CSA.<block ref="4c9d56d5e4670c50abdba1f72cb4866c" category="inline-link-macro-rx"></block></block>
+  <block id="86f188df3015051c771264e12c69d0e4" category="inline-image-macro">numero 4</block>
+  <block id="511da2848c80f269eb677e5a5710cbcd" category="section-title"><block ref="b0069e021ff5287a729b22bfea26bbe1" category="inline-image-macro-rx" type="image"></block> Configurare e implementare l'agente</block>
+  <block id="c0fb3c98adaf760968c2a76d78a5b482" category="inline-link-macro">Implementare l'agente</block>
+  <block id="0550cf7fd37a5b054ce87062df5f3254" category="paragraph">Implementare l'agente Converged Systems Advisor su un server VMware ESXi. L'agente raccoglie i dati di configurazione relativi a ciascun dispositivo dell'infrastruttura convergente FlexPod e li invia al portale Converged Systems Advisor.<block ref="96f9770b130e3bbf775f182c9ade7098" category="inline-link-macro-rx"></block>.</block>
+  <block id="5870ed875d2bc967928d9a48d0bcac54" category="inline-image-macro">numero 5</block>
+  <block id="3a9f59ee192096314f07968a153e54b2" category="section-title"><block ref="c76f59d4b1b742813df5111ab3a44f58" category="inline-image-macro-rx" type="image"></block> Aggiungere/condividere l'infrastruttura nel portale</block>
+  <block id="19262993c294a1c73c8ae843e52a78f8" category="inline-link-macro">Aggiungere e condividere l'infrastruttura nel portale</block>
+  <block id="98e6f4726c519b5915a8c7eda3e7406d" category="paragraph">Aggiungere ciascun dispositivo FlexPod al portale Converged Systems Advisor per creare un'intera infrastruttura che è possibile monitorare. È inoltre possibile condividere un'infrastruttura convergente per consentire a un'altra persona di accedere al portale in modo che possa visualizzare e monitorare la configurazione.<block ref="8650b55bc84e39256db0ba998f0a5b40" category="inline-link-macro-rx"></block>.</block>
+  <block id="efd2db6ed66cb68b1ef85f7fc95f01ef" category="inline-image-macro">numero6</block>
+  <block id="000de680812539d81f6b9eb895793c90" category="section-title"><block ref="434171cc767ea1c526904692eaabbd08" category="inline-image-macro-rx" type="image"></block> Configurare le notifiche</block>
+  <block id="68b25f35698ade6b2d3fe83dec7cf861" category="paragraph">Con una licenza Premium, è possibile impostare notifiche che avvisano l'utente in caso di modifiche all'infrastruttura FlexPod tramite notifiche e-mail.<block ref="ebe1a4d3225f5bb69764eba03129edce" category="inline-link-macro-rx"></block></block>
+  <block id="71bb2e8e85702bc6dc8fe49bc2ca2664" category="inline-image-macro">numero7</block>
+  <block id="ec82488760b9c067f6a1effc164db7f9" category="section-title"><block ref="a30b4945ccf5eb8b859e8a3c07b0e494" category="inline-image-macro-rx" type="image"></block> Impostare un indirizzo IP statico</block>
+  <block id="bb970f20a14446757048e71ed32f976f" category="inline-link-macro">Impostare un indirizzo IP statico sull'agente</block>
+  <block id="db15846e3abf8485dbf81a496e64d90a" category="paragraph">Se l'ambiente non dispone di un server DHCP, è possibile impostare un indirizzo IP statico nell'agente Converged Systems Advisor.<block ref="708dd38422a6a2d257990b66f3dbd251" category="inline-link-macro-rx"></block></block>
+  <block id="6ee6d9fef76364b6211226d197ecc12d" category="summary">Per iniziare, configurare gli account per i dispositivi FlexPod.</block>
+  <block id="763bff2d0a7510e1f497deffa1445dc8" category="doc">Creare account per i dispositivi FlexPod</block>
+  <block id="b73ab54ffa874225e874120d5e960d8d" category="paragraph">Per iniziare, configurare gli account per i dispositivi FlexPod:</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-xref"></block>
+  <block id="3b96bcbc483e9dd6bc3de826b5ffebb4" category="list-text"><block ref="198faeb348646b73e8da0473fcbe5455" category="inline-xref-macro-rx"></block></block>
+  <block id="dcc7b585896b920ed248bedc33fd4226" category="list-text"><block ref="81f1ba78fc4860b0c6197cc3de611053" category="inline-xref-macro-rx"></block></block>
+  <block id="0aa7c76a9a217ac66f5c793b6cb1779f" category="list-text"><block ref="2b75336c52fd5d571ce4755e5e6519ea" category="inline-xref-macro-rx"></block></block>
+  <block id="9d3cabb8bde54e4363132768c56ce892" category="list-text"><block ref="846474009d05c567cc71d50a068b3621" category="inline-xref-macro-rx"></block></block>
+  <block id="2bc3d9e6e8aac0760ec9c02e91515774" category="list-text"><block ref="eff313783d36eafeb3b0aebc4c097d24" category="inline-xref-macro-rx"></block></block>
+  <block id="c5a6e959bd6cf63be1fd9acf96a06c5c" category="list-text"><block ref="bc9cf9da7b1de83caf24ede548f23300" category="inline-xref-macro-rx"></block></block>
+  <block id="3f797dc0f189f9b373d1432af32b220f" category="paragraph">L'agente utilizza questi account per raccogliere le informazioni di configurazione da ciascun dispositivo.</block>
+  <block id="2099da3d792d28b71a89dc894beb5412" category="section-title">Creare un account di sola lettura per Cisco UCS Manager</block>
+  <block id="d0a91502d061d00cbb9e6dc6cffd77d8" category="list-text">Accedere a Cisco UCS Manager.</block>
+  <block id="6096415620060705d9595c8fcdea6a16" category="list-text">Creare un utente autenticato localmente denominato _csa-readonly_.</block>
+  <block id="8b21b866bd2a7de4e562a060cc292063" category="admonition">Tutti i nuovi utenti sono di sola lettura per impostazione predefinita.</block>
+  <block id="3d69dc5441492f15abb95321c2cc1ada" category="section-title">Creare un account di sola lettura per gli switch Nexus</block>
+  <block id="c2b8d6852be42f06f88b0c3fbbc5422e" category="list-text">Accedere a ogni switch Nexus utilizzando SSH o Telnet.</block>
+  <block id="3b38f09e87b817db54392ca6b1472e1e" category="list-text">Accedere alla modalità di configurazione globale:</block>
+  <block id="4f043b26c1328f0930d8b487af491e8a" category="inline-link-macro">Concessione di privilegi utente CSA mediante un server TACACS+</block>
+  <block id="ec376469ee262b680d7560c874cb55d3" category="paragraph">Se si utilizza un server TACACS+ e si devono concedere privilegi utente CSA, visitare il sito <block ref="5dddc1466e8f7274f5d10e745bddaa1c" category="inline-link-macro-rx"></block>.</block>
+  <block id="441b67283784cf29a2752c9221d9104d" category="section-title">Creare un account admin per ONTAP</block>
+  <block id="2eb574bbc5428e7dea15be69deaa1c65" category="list-text">Accedere a Gestore di sistema di OnCommand e fare clic sull'icona delle impostazioni:</block>
+  <block id="ff04c64278a2550f801d1574ac8721bb" category="inline-image-macro">Icona delle impostazioni in System Manager.</block>
+  <block id="f75f73a91fb7e1b449135d8a270ae45d" category="paragraph"><block ref="8402a9390d1a047bb229c69f6d499dcc" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="a3bb348ea680d62531cc238832ec85a9" category="list-text">Nella pagina utenti, fare clic su *Aggiungi*.</block>
+  <block id="420a2546a3b1365ceef517f1c2fbedff" category="list-text">Inserire un nome utente e una password e aggiungere *ssh*, *ontapi* e *console* come metodi di accesso utente con accesso admin.</block>
+  <block id="8bdd45b91a31a8690735acc4dc31dd7c" category="inline-image-macro">Mostra la schermata Aggiungi utente in Gestione sistema, in cui un nuovo utente ONTAP dispone delle autorizzazioni ssh e ontapi.</block>
+  <block id="635784ac2bb89e09681e74e579ca8fcb" category="paragraph"><block ref="635784ac2bb89e09681e74e579ca8fcb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d50762e2e2ae9423f1ddc5c966abf6f8" category="section-title">Creare un account di sola lettura per VMware</block>
+  <block id="8ab62d7f9f3a4115127d107eb3bb968e" category="list-text">Accedere a vCenter.</block>
+  <block id="b49e1321d03903b7162f038b7d1172a4" category="list-text">Nel menu vCenter, scegliere *Amministrazione*.</block>
+  <block id="0fe0ca267ec8a3414939edcddc2655f8" category="list-text">In ruoli, scegliere *sola lettura*.</block>
+  <block id="0f1e92f24deba3a45e3d35cf0d9904e7" category="list-text">Fare clic sull'icona *Clone role action* (Copia azione ruolo) e modificare il nome in *CSA*.</block>
+  <block id="1bb04863ceac05afe9ad4fdad53ae507" category="list-text">Selezionare il ruolo *CSA* appena creato.</block>
+  <block id="1fa75ccc3b524ebb284b414f693d9ea3" category="list-text">Fare clic sull'icona *Edit role* (Modifica ruolo).</block>
+  <block id="530c373900375f89da032a2be406339b" category="list-text">In *Edit role* (Modifica ruolo), scegliere *Global* (Globale), quindi selezionare *Licenses* (licenze).</block>
+  <block id="c1c72f117598ab72cba25e02bccc6ce1" category="list-text">Nella barra laterale, selezionare *Single Sign on-&gt;Users and groups-&gt;Create a new user*.</block>
+  <block id="6bc62772cb888790f62ed044695c938b" category="list-text">Assegnare un nome al nuovo utente *CSARO* nel DOMINIO vpshere.local.</block>
+  <block id="f0492f189d9f3e559364e7a80d965b66" category="list-text">Nella barra laterale, selezionare *permessi globali* in *controllo accessi*.</block>
+  <block id="c4d670cd7c54761045ecf7ea7b25881d" category="list-text">Scegliere l'utente *CSARO* e assegnare IL RUOLO *CSA*.</block>
+  <block id="be4288b6ed1d0ecfaaf07da5641ac434" category="list-text">Accedere al client Web.</block>
+  <block id="e28a0e6a0ac7170c91b6d87fdc748f98" category="paragraph">USA ID utente: *CSARO@vsphere.local* e password creata in precedenza.</block>
+  <block id="7be11821733a031669f85a1a5370ba38" category="section-title">Creare un account di sola lettura sull'APIC</block>
+  <block id="633f9fb33a1388464d4bf0b5da121e14" category="list-text">Fare clic su *Admin*.</block>
+  <block id="3a8f71da9eee0ee42f05f2f8d1d0f8f2" category="list-text">Fare clic su *Crea nuovi utenti locali*.</block>
+  <block id="e291dc9a4f7b47bba8f92fc5d0e3dde4" category="list-text">In *User Identity* (identità utente), immettere le informazioni sull'utente.</block>
+  <block id="4f92120b362aa5d46fe2dd945e59a62b" category="list-text">In *Security* (sicurezza), selezionare tutte le opzioni del dominio di protezione.</block>
+  <block id="67af9425d7e9ad7680fec5bf53372882" category="list-text">Fare clic su *+* per aggiungere certificati utente e chiavi SSH, se necessario.</block>
+  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">Fare clic su *Avanti*.</block>
+  <block id="0dc0ee3389edaea118e1a45a6903949a" category="list-text">Fare clic su *+* per aggiungere ruoli per il dominio.</block>
+  <block id="0cc4bd8e3fd7dbb38ce965c9c9e4ecfc" category="list-text">Selezionare *Nome ruolo* dal menu a discesa.</block>
+  <block id="250e8d621353745811bcc80cd5d064bb" category="list-text">Selezionare *Read* (lettura) per il tipo di privilegio del ruolo *Role Privilege Type* (tipo di privilegio del</block>
+  <block id="1859e92122e266181cafb9c13d7400a0" category="list-text">Fare clic su *fine*.</block>
+  <block id="9594abb61036587b970df022c2515a6e" category="paragraph">Se si utilizza un server TACACS+ e si devono concedere privilegi utente CSA per gli switch, creare un gruppo di privilegi utente e concedere al gruppo l'accesso ai comandi di configurazione specifici richiesti da CSA.</block>
+  <block id="85ad73480f819de59e2df469c4b46dc4" category="paragraph">I seguenti comandi devono essere scritti nel file di configurazione del server TACACS+.</block>
+  <block id="8e8c3bcc7746453643cf1bcd798bfab0" category="list-text">Immettere quanto segue per creare un gruppo di privilegi utente con accesso di sola lettura:</block>
+  <block id="a00ed1ca8e2bff8f5a9a44d1f182e66d" category="list-text">Immettere quanto segue per consentire l'accesso ai comandi richiesti da CSA:</block>
+  <block id="164354e7a574442b2d5ff39fd82a9775" category="list-text">Immettere quanto segue per aggiungere l'account utente CSA al gruppo appena creato:</block>
+  <block id="62a7d89267f8f25ef4b1bd80b1bb9b82" category="summary">Se si utilizza un server TACACS+ e si devono concedere privilegi utente CSA per gli switch, è necessario creare un gruppo di privilegi utente e concedere al gruppo l'accesso ai comandi di configurazione specifici richiesti da CSA.</block>
+  <block id="e518836d5edd45b09ec72b8a2caf2b83" category="paragraph">Se si utilizza un server TACACS+ e si devono concedere privilegi utente CSA per gli switch, è necessario creare un gruppo di privilegi utente e concedere al gruppo l'accesso ai comandi di configurazione specifici richiesti da CSA. I seguenti comandi devono essere scritti nel file di configurazione del server TACACS+.</block>
+  <block id="fc0cbb5a7205b6cf0664d8b69726908a" category="list-text">Immettere quanto segue per creare un gruppo di privilegi utente con accesso di sola lettura: Group=nome_gruppo { default service=deny service=exec{ privv-lvl=0 } }</block>
+  <block id="bdc54b3290834bff5f9c73e4644958ce" category="list-text">Immettere quanto segue per consentire l'accesso ai comandi richiesti da CSA: cmd=show { permit "ambiente" permit "versione" permit "funzione" permit "set di funzioni" permit "running-config" permit "interfaccia" permit "interfaccia" permit "inventario" permit "licenza" permit "modulo" permit "port-channel database" permit "ntp peer" permit "utilizzo di licenze" permit "switch-config" permessi "0-tmtmttint" permessi "switch" permesso "cdp neighbor detail" permesso "vlan" permesso "vpc" permesso "vpc peer-keealive" permesso "mac address-table" permesso "lacp port-channel" permesso "policy-map" permesso "policy-map system type qos" permesso "policy-map system type network-qos" permesso "zoneset active" permesso "san-port-channel summary" permesso "database clogs" permesso "dettaglio database" dati" permesso "clogs" permesso "zoneset active" permesso "vsan" permesso "utilizzo vsan" permesso "appartenenza vsan" }</block>
+  <block id="73a4aebaeec211620a602108d2b9404c" category="list-text">Immettere quanto segue per aggiungere l'account utente CSA al gruppo appena creato: User=User_account{ member=group_name login=file/etc/passwd }</block>
+  <block id="fead888004a92d6dfa05d65937791d7a" category="summary">Aggiungere l'infrastruttura al portale.</block>
+  <block id="74b63237fcb1f920a090dda1571975fa" category="doc">Aggiungere l'infrastruttura al portale</block>
+  <block id="09482af74c0fb235cb990c21fd64ac8a" category="paragraph">Dopo aver configurato l'agente, invia le informazioni relative a ciascun dispositivo FlexPod al portale Converged Systems Advisor. È ora necessario selezionare ciascuno di questi componenti nel portale per creare un'intera infrastruttura che è possibile monitorare.</block>
+  <block id="a58c9e4d78fea3ec21310844f2a1a057" category="inline-link">Portale Converged Systems Advisor</block>
+  <block id="6143810a5758d40ca944c87e723c2336" category="list-text">In<block ref="eb9f0f7fac75ca880e49216162865e36" category="inline-link-rx"></block>, Fare clic su *Aggiungi infrastruttura*.</block>
+  <block id="b6fc266df6b5347cf745a3bb726ee8fb" category="list-text">Completare la procedura per aggiungere l'infrastruttura:</block>
+  <block id="e5995527f37c1280c19b1f208371dc88" category="list-text">Inserire i dettagli di base sull'infrastruttura.</block>
+  <block id="3f1895854fcfd3f43e655e98f5e23785" category="paragraph">Se si sta aggiungendo un'infrastruttura Cisco ACI, inserire *yes* quando viene richiesto se il FlexPod utilizza Cisco UCS Manager e inserire *Nexus switch in modalità ACI* quando viene richiesto il tipo di configurazione di rete in cui si trova il FlexPod.</block>
+  <block id="b0b7f31250da7bf765e10779d0365272" category="list-text">Selezionare ciascun dispositivo che fa parte della configurazione FlexPod.</block>
+  <block id="c7151a24306478a168450ab965978056" category="admonition">Quando si seleziona un dispositivo, la colonna idoneità visualizza *idoneo* o *non idoneo*. Un dispositivo non è idoneo se rilevato da un altro agente.</block>
+  <block id="5ccd3ae8019aaa20043decdb88b02c77" category="list-text">Dopo aver selezionato tutti i componenti richiesti, viene visualizzato un segno di spunta verde accanto a ciascun tipo di dispositivo.</block>
+  <block id="a00e5d02f688427a8d0d4d44e6ca5323" category="inline-image-macro">Mostra quattro dispositivi selezionati nella tabella e segni di spunta verdi per ciascuno, che indicano che sono stati selezionati tutti i componenti richiesti.</block>
+  <block id="619835ed3a90c1cb330d44e60f8274be" category="paragraph"><block ref="619835ed3a90c1cb330d44e60f8274be" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ab6978789cc8f83bdbe9c52865c923d2" category="inline-link-macro">Numero di serie di Converged Systems Advisor</block>
+  <block id="8cbaf181bdfa1c67af784fdd2194eaa5" category="list-text">Aggiungere il <block ref="f595728f50d76ab728ff7bd8910a61b2" category="inline-link-macro-rx"></block> per sbloccare la funzionalità delle chiavi.</block>
+  <block id="797a00180da92226080260f480aefccc" category="list-text">Leggere il riepilogo, accettare i termini del contratto di licenza e fare clic su *Add Infrastructure* (Aggiungi infrastruttura).</block>
+  <block id="1d6a8b8a7a248d55ebc08413d1f0351f" category="admonition">Se sei un partner o un rivenditore, puoi saltare la procedura relativa all'aggiunta di una licenza o di un numero di serie e fare clic su *Add Infrastructure* (Aggiungi infrastruttura).</block>
+  <block id="4bf1a4af8a8cb8351b634079b83482c9" category="paragraph">Converged Systems Advisor aggiunge l'infrastruttura al portale e inizia a raccogliere i dati di configurazione relativi a ciascun dispositivo. Attendere alcuni minuti per consentire all'agente di raccogliere informazioni dai dispositivi.</block>
+  <block id="8b130f5642a0375b57405ab988e2f3c8" category="section-title">Condivisione di un'infrastruttura con altri utenti</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">Sito di supporto NetApp</block>
+  <block id="b68d29191b4bf17413d0de2fb367a174" category="paragraph">La condivisione di un'infrastruttura convergente consente a un'altra persona di accedere al portale Converged Systems Advisor per visualizzare e monitorare la configurazione. La persona con cui condividi l'infrastruttura deve disporre di un<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> account.</block>
+  <block id="b757778aa184cb17827f163a931435c8" category="list-text">Nel portale Converged Systems Advisor, fare clic sull'icona *Impostazioni*, quindi su *utenti*.</block>
+  <block id="1334f18240a22161ba3220b536dafca8" category="inline-image-macro">Mostra il menu delle impostazioni, che contiene un collegamento alla pagina utenti.</block>
+  <block id="3309334356038ffefd55e44fd5bdf676" category="paragraph"><block ref="3309334356038ffefd55e44fd5bdf676" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d3b855a8cec281d1ddcd757db875bf3d" category="list-text">Selezionare la configurazione dalla tabella User (utente).</block>
+  <block id="b7a1706b38d181dd429f28a8d8b01a9a" category="inline-image-macro">L'icona per la condivisione di un'infrastruttura.</block>
+  <block id="b6dc779a70da38c6a44e7e3ac6b8c105" category="list-text">Fare clic su <block ref="1298afe1dc7b9f75c44b6fc7c17da58f" category="inline-image-macro-rx" type="image"></block> icona.</block>
+  <block id="08db01e9434b8967d82716afd99a12da" category="list-text">Inserire uno o più indirizzi e-mail accanto al ruolo utente che si desidera fornire.</block>
+  <block id="38d0e6accfd7998dd4374f37ab584784" category="inline-link-macro">Visualizzare le differenze tra ciascun ruolo</block>
+  <block id="c8b1c03512472d09b840b43806763819" category="paragraph"><block ref="9a80d53ca716b5bdc550d031e48e1f7b" category="inline-link-macro-rx"></block>.</block>
+  <block id="877183fb9a9e175360206e3b5c15f472" category="admonition">È possibile inserire più indirizzi e-mail in un singolo campo premendo *Invio* dopo il primo indirizzo e-mail.</block>
+  <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">Fare clic su *Invia*.</block>
+  <block id="27d99b7c3e654fa561ca825398cd698b" category="paragraph">L'utente deve ricevere un'e-mail contenente le istruzioni per l'accesso a Converged Systems Advisor.</block>
+  <block id="fea69bb2f9adb3acd9912f4b8845328f" category="summary">Per iniziare a utilizzare Converged Systems Advisor, è necessario preparare il proprio ambiente.</block>
+  <block id="0f7a50e7e27ae4b8a6ada4185d771634" category="paragraph">Per iniziare a utilizzare Converged Systems Advisor, è necessario preparare il proprio ambiente. La preparazione dell'ambiente include la verifica del supporto per la configurazione e la registrazione per un account NetApp Support Site.</block>
+  <block id="9c76809ba74f487564d81d73527b3fe2" category="inline-link-macro">Scopri come funziona Converged Systems Advisor</block>
+  <block id="ebd37a66dc59778d2804027afa1f58a5" category="paragraph">Potrebbe essere utile <block ref="771043ac6a9633eb387c627af684f340" category="inline-link-macro-rx"></block> prima di iniziare.</block>
+  <block id="acae4ba9c958f18bf1b49e96b4af9738" category="list-text">Verificare il supporto in<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block>:</block>
+  <block id="41a3fbf39e4637ff6ae392a274957047" category="list-text">Verifica che Converged Systems Advisor supporti la tua infrastruttura convergente FlexPod.</block>
+  <block id="68bbe7c77d8372a4b1f52aca16c1d943" category="list-text">Verificare di disporre di un server VMware ESXi supportato per l'agente Converged Systems Advisor.</block>
+  <block id="bc7fdfa6747d9e82b4939e6908125106" category="paragraph">Per ridurre al minimo l'utilizzo della larghezza di banda, NetApp consiglia di installare l'agente nello stesso data center dell'infrastruttura convergente FlexPod.</block>
+  <block id="5ac5af6f1a6d7ab3113bf48bce81f5b0" category="list-text">Assicurarsi che la rete in cui si installa l'agente consenta la connettività tra i componenti:</block>
+  <block id="0c44c7a8e009741e355249ae724ea5bf" category="list-text">L'agente deve disporre di connettività a ciascun componente di FlexPod per poter raccogliere i dati di configurazione.</block>
+  <block id="dbaf3f863e61397546349245ecfbdfa0" category="list-text">L'agente richiede inoltre una connessione Internet in uscita per comunicare con i seguenti endpoint:</block>
+  <block id="6464743ee6a2ff8ae3e8cab2528f5a6e" category="list-text">csa.netapp.com</block>
+  <block id="8df6590d0d74f73adbfe5f8379f58893" category="list-text">docker.com</block>
+  <block id="0b505db73d92bac18356fa3feb3cf7e3" category="list-text">docker.io</block>
+  <block id="f15b13a8a13824d20ee27e7fa1a637a9" category="list-text">Accedere alla<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> e registratevi per un account, se non ne avete uno.</block>
+  <block id="b3b0d32e083781e38eb5aa3923fbd5b8" category="paragraph">Per configurare l'agente e accedere al portale, è necessario disporre di un account NetApp Support Site.</block>
+  <block id="666dfdc92a9ae18acf492302e071d09e" category="summary">Quando si condivide un'infrastruttura convergente con un altro utente, è possibile fornire privilegi di sola lettura, scrittura o proprietario.</block>
+  <block id="f4040f71a7d553f2519487070892b115" category="doc">Ruoli utente</block>
+  <block id="f9736c983077f8f7ecce4803263c835c" category="paragraph">Quando si condivide un'infrastruttura convergente con un altro utente, è necessario fornire privilegi di sola lettura, di scrittura o di proprietario.</block>
+  <block id="08a7773f23ba1fab2a1f9f0cc4fd2242" category="paragraph">La tabella seguente identifica le attività che ciascun ruolo utente può eseguire.</block>
+  <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">Attività</block>
+  <block id="d8bd6e60adcc01ce20f509ea6800de8f" category="cell">Sola lettura</block>
+  <block id="1129c0e4d43f2d121652a7302712cff6" category="cell">Di scrittura</block>
+  <block id="b6f4a2ec6356bbd56d49f2096bf9d3d3" category="cell">Proprietario</block>
+  <block id="5c2cfa1c6483a2055e455e9fe917150c" category="cell">Visualizzare un sistema</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">Sì</block>
+  <block id="7a873aab992e5e0739ab89574668b232" category="cell">Aggiornare il nome di un sistema</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">No</block>
+  <block id="39bb7ebe2d2851afbd84381cb85b6bab" category="cell">Aggiorna i dettagli del contratto di supporto</block>
+  <block id="3fa7e1f59dbad21ae04cb45eb44902ab" category="cell">Modificare l'intervallo di raccolta dati</block>
+  <block id="12e7c44e5b7cb54e6ce9a17051959801" category="cell">Richiedi una nuova raccolta di dati</block>
+  <block id="e8c371197783251f857e86da91b8fe35" category="cell">Condividere un sistema</block>
+  <block id="bd8040acd9ca680be2aa7f93ebb36e14" category="cell">Sì, con accesso di sola lettura o di scrittura</block>
+  <block id="e89e5b89aea3717ddc42c434fe92255b" category="cell">Sì, con accesso di sola lettura, scrittura o proprietario</block>
+  <block id="3c13d4713cd753567d8d7ae5dbf2a445" category="cell">Modificare i componenti di un sistema</block>
+  <block id="be62ee4908c8d3dca05c47093c17858d" category="cell">Eliminare un sistema</block>
+  <block id="b689686306a7a611fc6499acdfee3772" category="summary">Converged Systems Advisor convalida l'implementazione della tua infrastruttura FlexPod e fornisce monitoraggi e notifiche continui per garantire la business continuity.</block>
+  <block id="4daf49986af67aba8f5e944968d88167" category="doc">Panoramica di Converged Systems Advisor</block>
+  <block id="b3072b853bb7e155aaf1f74dc7548418" category="paragraph">Guarda il seguente video per una panoramica di Converged Systems Advisor:</block>
+  <block id="fccce43bca628d5f348a9d60196dd5ac" category="inline-link">leggi la scheda informativa</block>
+  <block id="c4a6f4e43c995f810acb8c7b73e0d5d1" category="paragraph">Per ulteriori informazioni sul valore offerto da Converged Systems Advisor,<block ref="f25cd14a6ee6a3fdd35c3bb14df6ae32" category="inline-link-rx"></block>.</block>
+  <block id="ade2db7ff69f464a3b4134ab103d943b" category="summary">Converged Systems Advisor è una piattaforma SaaS (Software-as-a-Service) che consiste in un agente on-premise e un portale basato sul cloud.</block>
+  <block id="77a689c1bae0e53995786b80a8e17081" category="doc">Come funziona Converged Systems Advisor</block>
+  <block id="0a00ece35e033d1841a339c210e04460" category="paragraph">La seguente immagine mostra la relazione tra i componenti di Converged Systems Advisor:</block>
+  <block id="21662a34f2c5913ae9ffdfc6a87df49d" category="inline-image-macro">Un diagramma concettuale che mostra un agente di FlexPod e Converged Systems Advisor installato in un data center e il portale basato sul cloud.</block>
+  <block id="15141ad14b4848210c9524f5d11800b6" category="paragraph"><block ref="15141ad14b4848210c9524f5d11800b6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ee3f80be147065bd8cb81d11a0fb5bb8" category="list-text">L'agente Converged Systems Advisor, che risiede in sede, raccoglie i dati di configurazione da un'infrastruttura convergente FlexPod utilizzando le credenziali fornite dall'utente.</block>
+  <block id="5d64a5d6c8d20705c06e727402864f7a" category="list-text">L'agente invia i dati al portale Converged Systems Advisor.</block>
+  <block id="adcb1449e4f973f9450c864800b1b9c7" category="list-text">Gli utenti accedono al portale Converged Systems Advisor utilizzando un browser Web per convalidare, monitorare e ottimizzare la propria infrastruttura convergente FlexPod.</block>
+  <block id="e6fd1f675823f4d8c0538e7f54e2e725" category="inline-link-macro">Scopri come Converged Systems Advisor protegge i dati</block>
+  <block id="4c4f62ffb153bddcdb3f3b3c38e73c3b" category="paragraph"><block ref="c922e371de9560d3839bd4c1500caf95" category="inline-link-macro-rx"></block>.</block>
+  <block id="1fac350b63f9cdd13f2a806c4b0df46c" category="summary">NetApp aggiorna periodicamente Converged Systems Advisor per offrire nuove funzionalità, miglioramenti e correzioni di bug.</block>
+  <block id="f22b831ba6d141bbc230c57682a06371" category="doc">Archivio di "What's new in Converged Systems Advisor"</block>
+  <block id="65d73807e625a264821492e5d4d33a03" category="paragraph">Per confermare che i componenti FlexPod sono supportati dall'agente CSA, fare riferimento a.<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block> (IMT).</block>
+  <block id="c1df1da7a1ce305a3b60af9d5733ac1d" category="section-title">Contenuto</block>
+  <block id="10e44b58c927b3793e7f2955f75f28e1" category="paragraph">Questo archivio contiene informazioni relative alle seguenti release:</block>
+  <block id="08c7a44165e799a355ebdc0f1ea70824" category="list-text"><block ref="145ef373c65808f9e952c78fb0e16c8e" category="inline-xref-macro-rx"></block></block>
+  <block id="2840e6a3600b55dceaa37ee80ec335fe" category="list-text"><block ref="42c4d619be309721d53c234cf3e5ff62" category="inline-xref-macro-rx"></block></block>
+  <block id="0bcb4151c66555aa13c51fb3b2a0a165" category="list-text"><block ref="ff3199e7c1970c02e0fd6c613ab0cce7" category="inline-xref-macro-rx"></block></block>
+  <block id="7b3a2fc382a596f810e0b8e710c8f711" category="list-text"><block ref="d2238c839e2fd698d2dbfb6f4c4e7d87" category="inline-xref-macro-rx"></block></block>
+  <block id="15176397357e4255e6362e5d05e4c485" category="list-text"><block ref="92d4523432902f3accb2306b045d583f" category="inline-xref-macro-rx"></block></block>
+  <block id="5e00a79faef421b2fe94f16e0a17775d" category="list-text"><block ref="b7b5b50c4a5efe1b9e45ea1d0e26a6ae" category="inline-xref-macro-rx"></block></block>
+  <block id="63e51da11fa43c2342d55984be82f013" category="list-text"><block ref="48d43c26a55ab7429e9668ebb7b374a4" category="inline-xref-macro-rx"></block></block>
+  <block id="a6490175aa5211c7fdb6af58bbf5ad58" category="list-text"><block ref="6687bc1c3d75b9a19804b86bf196a6d2" category="inline-xref-macro-rx"></block></block>
+  <block id="ed27e56e8d1aaac52ff5846f18293cad" category="section-title">30 aprile 2020</block>
+  <block id="d3cafecaed44ca675980389b10250736" category="paragraph">Questa versione include i seguenti miglioramenti:</block>
+  <block id="76474e02e81d415c3af99611aa7fd9db" category="list-text"><block ref="e91c3dcf41ee65cf857a4e2744c7116f" category="inline-xref-macro-rx"></block></block>
+  <block id="f9cbb438ee7ec2413c4e51c6dd1cc0a1" category="list-text"><block ref="0440a41fa8d53d80c2925fd5b2f412d2" category="inline-xref-macro-rx"></block></block>
+  <block id="5cd898867cfea299e6bb00bf416b9543" category="list-text"><block ref="8800f9920c62cf189ef2790b6cf576c0" category="inline-xref-macro-rx"></block></block>
+  <block id="92189b298e4d66f3b20c9ee7eb4420d1" category="list-text"><block ref="090331b4b8642fa566a355a973455d3b" category="inline-xref-macro-rx"></block></block>
+  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">Upgrade Advisor</block>
+  <block id="3f23a5d9cd3790369771e0a3bf58d7b4" category="inline-image-macro">screenshot, width=65%, align=left</block>
+  <block id="7e8467d4e506341be39612804bb6fd31" category="paragraph">Ora è possibile verificare la compatibilità delle versioni di VMware vCenter e ONTAP con i componenti Nexus e UCS. Per verificare la compatibilità, utilizzare Upgrade Advisor nella dashboard sotto firmware Interoperability (interoperabilità firmware). Sono supportate tutte le versioni visualizzate.<block ref="70a9fa1e61ddb2086ced7efe6d468e67" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a44c62f2e89581c2cf4b405ac4bc48d1" category="section-title">Switch di interconnessione del cluster</block>
+  <block id="17a266803afb405673de128775490aa3" category="paragraph">*Cluster Interconnect Switch* è stato aggiunto in *firmware Interoperability* nella vista Dashboard. Ora è possibile monitorare la supportabilità degli switch di interconnessione cluster ONTAP per i seguenti modelli:</block>
+  <block id="1d8bdbbecd2a7992d9b2c5314cbc8da8" category="list-text">Cisco Nexus 3132Q-V.</block>
+  <block id="21cefb007c9064d8adcf6c162e74b0bf" category="list-text">Cisco Nexus 3232C</block>
+  <block id="f8215ac1ab39569e2ede8f10c0a8405a" category="list-text">Cisco Nexus 92300YC</block>
+  <block id="19f18e62543870b928eb9b2e96e164e5" category="paragraph"><block ref="19f18e62543870b928eb9b2e96e164e5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14203af76d3ed0d9f147b636afc6df00" category="paragraph">Nell'agente, è ora possibile aggiungere uno switch di interconnessione cluster come dispositivo nel menu a discesa *Add Device Information* (Aggiungi informazioni periferica).</block>
+  <block id="22584daa6922a9f57595fff0e66aaeac" category="inline-image-macro">screenshot, width=35%, align=left</block>
+  <block id="514f8c728a2790b1558d08079076380c" category="paragraph"><block ref="514f8c728a2790b1558d08079076380c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="77c929b6a6cda6208e81c181eef47740" category="section-title">Miglioramenti della scheda di capacità</block>
+  <block id="721acbf5f459d09509fd8f70d1f967c8" category="paragraph">Sono stati inoltre aggiunti collegamenti all'utilizzo delle porte di rete e all'utilizzo dei server blade UCS per consentire il monitoraggio e l'espansione dell'infrastruttura FlexPod. Nella vista Dashboard, quando si passa a Capacity, vengono visualizzati due nuovi collegamenti.<block ref="060bfad4c8cdb501dd093dad2bc44ef5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c678373d74bb6da469f6748ecd369a85" category="paragraph">L'utilizzo delle porte consente di accedere a informazioni dettagliate sulle interfacce nel Tier di rete.<block ref="aca1a8b86c59dfb174ed946d595bbf84" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="648afe57a27e117a191a79a8d6d0abb2" category="paragraph">UCS Blade Server Utilization (utilizzo dei server blade UCS): Link a informazioni dettagliate per i blade nel livello di elaborazione.<block ref="a13bb6f0073a0a088151d532da9b6312" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="93bbd48ded0a0454703eb895c255d06d" category="section-title">Avvisi del diagramma di sistema</block>
+  <block id="a6282442e8c29dd3f2b8dc110cfc9ae4" category="paragraph">Gli avvisi vengono visualizzati nelle viste del diagramma del sistema, in modo da poter monitorare meglio l'infrastruttura.<block ref="f9157057998e51b9fb12515c6a346233" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="69464e68a5cdd0b54694ac92276fa1a3" category="section-title">Problemi risolti</block>
+  <block id="6aa177b471b9d5a16c4090627dbb93a9" category="paragraph">In questa versione sono stati risolti i seguenti problemi noti:</block>
+  <block id="b066ca6122c9857ad1ee3a44f18cc5e7" category="cell">ID bug</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descrizione</block>
+  <block id="34e17db35518e448663a73c33632b94b" category="inline-link">1253405</block>
+  <block id="0ee79ab5ee2af58e1c534d21e395fe77" category="cell"><block ref="68039b95c5a75e0be8228eccc6908ff8" category="inline-link-rx"></block></block>
+  <block id="64131c95b7858ed72eedb62e9a32ff2f" category="cell">Lo stato della porta dello switch Nexus potrebbe non essere visualizzato correttamente in Converged Systems Advisor.</block>
+  <block id="d12d95a3af8745784a9064d204004d3c" category="list-text">Tornare a. <block ref="1a241aed8804786761beb208ad9f11d4" category="inline-xref-macro-rx"></block></block>
+  <block id="48328ffa37012f3f870faa37b9fa666a" category="section-title">3 febbraio 2020</block>
+  <block id="86d9e6345baacd928ad8dada377cab74" category="list-text"><block ref="c553ce28d20d5f7e40a45ea2ba52989a" category="inline-xref-macro-rx"></block></block>
+  <block id="e046a22b8cbc00a605fbea199b8e1ab1" category="list-text"><block ref="115938d820b660b16bc33f86e52bebc4" category="inline-xref-macro-rx"></block></block>
+  <block id="654d496d9bbb3eb7aed8b9d7e7bede02" category="section-title">Miglioramenti alla navigazione</block>
+  <block id="c7da2deb892e540c5a400fbfff29bafc" category="list-text">Questa versione consente di visualizzare tutti i sistemi in *Visualizza tutti i sistemi*.</block>
+  <block id="8ee281360fa3bd26cbb98359f0a790c5" category="list-text">È più facile per te vedere e navigare attraverso la struttura dei tuoi Tier di componenti. È possibile utilizzare il menu a discesa e le frecce per visualizzare i dispositivi.</block>
+  <block id="5df6c4a2075cc06374be4ce2aa57b3d2" category="list-text">Inoltre, è più semplice spostarsi da e verso la vista Dashboard (home) utilizzando una traccia di navigazione.</block>
+  <block id="3533fddef5dd5fcf0e1d388ddf48e22c" category="paragraph"><block ref="3533fddef5dd5fcf0e1d388ddf48e22c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="294ca68e36dc38cbc11f8aeb5a06fb7b" category="section-title">Dettagli aggregati</block>
+  <block id="bcaccaf4d97300681fbb5cfee359717e" category="paragraph">Nella vista Dashboard, quando si passa a Capacity (capacità), viene visualizzato un link a *aggregate Details* (Dettagli aggregato). È possibile utilizzare il link fornito per visualizzare informazioni dettagliate sugli aggregati nel Tier di storage.</block>
+  <block id="2a5652cfbaed3bd793169739d862fe44" category="paragraph"><block ref="2a5652cfbaed3bd793169739d862fe44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3d764022cf533eaeab2378fa40c2eda" category="paragraph"><block ref="e3d764022cf533eaeab2378fa40c2eda" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6dd20b51a073e00e72a5886489d9ac23" category="inline-link">1279956</block>
+  <block id="46907cddd9ff63e0466a78c60f4c60b9" category="cell"><block ref="2f1de675eb087c523328ea1df509e554" category="inline-link-rx"></block></block>
+  <block id="31d9ba8fb9df9a35fd5988e6a338be5c" category="cell">MetroCluster a nodo singolo non mostra il modulo di espansione IOXM nel riepilogo Panoramica e regole della pagina dei dettagli del cluster.</block>
+  <block id="cb03043febda9c865a13af70e1efe360" category="section-title">7 novembre 2019</block>
+  <block id="bf647454e36069fd16f1a7a35cf6a865" category="inline-link-macro">Per iniziare</block>
+  <block id="5137e1743b8c3f4b2f072f0907d5941c" category="admonition">Tutte le nuove funzionalità e i miglioramenti di questa release vengono inclusi automaticamente dopo l'aggiunta del FlexPod in Converged Systems Advisor. Seguire le istruzioni riportate in <block ref="73c402b67f510704de8228c6214ccf6d" category="inline-link-macro-rx"></block> Per aggiungere FlexPod come infrastruttura convergente in Converged Systems Advisor.</block>
+  <block id="1bcec21d67da91d55b9e2b14c867c995" category="paragraph">Questa versione include le seguenti nuove funzioni e miglioramenti:</block>
+  <block id="555719e2c4114db93af1d8b3d3ac0fc0" category="list-text"><block ref="d5b57589f05f189cbc860a5c385e1cb5" category="inline-xref-macro-rx"></block></block>
+  <block id="60ac199a07c4f68f6d2d7bdbef65ec1c" category="list-text"><block ref="31d477d44391b3c0b58e41ee9a37948f" category="inline-xref-macro-rx"></block></block>
+  <block id="9cd9a2aa347af7513b4c663660832244" category="list-text"><block ref="27f68d9d616c3d419db9436ca7436cbc" category="inline-xref-macro-rx"></block></block>
+  <block id="62a8f36b0f440492e49f8e922d741d17" category="section-title">Consapevolezza di MetroCluster</block>
+  <block id="a5f7ef2db62928a50ba7f96892ad00c8" category="paragraph">Converged Systems Advisor ora supporta l'aggiunta di un singolo sito di un MetroCluster FlexPod come infrastruttura convergente. Gli analytics saranno ora in grado di determinare lo stato di salute di entrambi i lati del MetroCluster.</block>
+  <block id="0f63d57e26b097fe542bb83633e6398d" category="section-title">Consapevolezza NVMe</block>
+  <block id="22f7ebd445d477df205c0982fa2468e2" category="paragraph">Converged Systems Advisor eseguirà ora analisi per verificare la configurazione del protocollo NVMe supportato da ONTAP 9.4 e versioni successive.</block>
+  <block id="1a6b93828ae59ab63dc0d438e21af378" category="section-title">Funzionalità di interoperabilità migliorata</block>
+  <block id="0547c0a84d599658af4f58d553e0dcd2" category="paragraph">Converged Systems Advisor dispone di una scheda di interoperabilità aggiornata che consente di visualizzare le versioni correnti, più vicine e più recenti supportate per ciascun componente. Nella finestra a comparsa è stato aggiunto un nuovo report che mostra un report di interoperabilità personalizzato per ogni livello di componente.</block>
+  <block id="7be03ea15608a3afd4b7f1553a8b93b1" category="section-title">24 luglio 2019</block>
+  <block id="3de14a766018f3a0e190f6963cf79b65" category="list-text"><block ref="285069d07f51b91a90e9daf7e4a22c2c" category="inline-xref-macro-rx"></block></block>
+  <block id="a51081ace27562019c87ffdb141acdcc" category="list-text"><block ref="b6d9e8cd9b98324fab9ceb53ed799778" category="inline-xref-macro-rx"></block></block>
+  <block id="c88b794def2afa5b760b26678860c517" category="section-title">Supporto per Cisco ACI in FlexPod</block>
+  <block id="e0729bd1bd4fb7a2ed7e509b4001a117" category="paragraph">Converged Systems Advisor ora supporta i design FlexPod con Cisco ACI Networking. Verranno valutati il supporto e la configurazione di tutti i dispositivi del tuo FlexPod, anche i due switch Leaf determinati dinamicamente collegati agli altri dispositivi FlexPod.</block>
+  <block id="b7e76920c826212726bcd2c4c278cece" category="section-title">Supporto di più cluster in un singolo FlexPod</block>
+  <block id="53c03d655b92c79a60b56c91dcfc3d33" category="paragraph">Converged Systems Advisor ora supporta più cluster in un singolo FlexPod. Le regole di Storage ONTAP vengono elaborate su tutti i cluster e tutti i cluster vengono riportati nel diagramma di sistema.</block>
+  <block id="6852c0ff45224de595d5295eac339442" category="section-title">25 aprile 2019</block>
+  <block id="ec290a4ea4f9c1d799baf6e50cdfa64e" category="list-text"><block ref="7dbc36f3c2a4e546cd038b61fa66adad" category="inline-xref-macro-rx"></block></block>
+  <block id="bf5e8a112746ae204916387b6224d8b3" category="list-text"><block ref="bacba7b8b1af2d91560cbd6ddd21cbcf" category="inline-xref-macro-rx"></block></block>
+  <block id="346e5b8d27b5bc4b8b1705dd89b91797" category="section-title">Risoluzione automatica delle regole non riuscite</block>
+  <block id="0f4328bb9454528512249e468db30c3e" category="paragraph">Converged Systems Advisor è ora in grado di risolvere automaticamente i problemi che causano il malfunzionamento di determinate regole. Questa funzionalità viene attivata automaticamente riavviando l'agente.</block>
+  <block id="c783bfb0f4281a0a2dc92570b6e2b20b" category="section-title">Visualizzazione delle regole soppresse</block>
+  <block id="05814bc364b125b53f0cf12dbf6c8438" category="paragraph">È ora possibile visualizzare un elenco globale di regole soppresse in Converged Systems Advisor e riabilitare gli avvisi per le regole soppresse dall'elenco.</block>
+  <block id="f16c3ebec6a5ded39b75c6f38f570780" category="inline-link">1211321</block>
+  <block id="2d3f80599531b8b63fd835200e3d6727" category="cell"><block ref="a44c06a4b2a6170ea5a33c220414d285" category="inline-link-rx"></block></block>
+  <block id="bc30687d397ed706898ea444df0dde4c" category="cell">Le immagini dei diagrammi di sistema potrebbero non essere visualizzate per un'infrastruttura convergente</block>
+  <block id="1c8ff7117059b27ffa62f6bd8a591101" category="inline-link">1211987</block>
+  <block id="042c2d583f25282609b9503d09d51155" category="cell"><block ref="44d8592541f939183de2e0a885375edf" category="inline-link-rx"></block></block>
+  <block id="a50c7fa8095657476c27aec123b192e0" category="cell">Il valore di efficienza del cluster di storage non viene visualizzato correttamente</block>
+  <block id="07cd1efd9b1bbc1c1cc4d38e19c07589" category="inline-link">1211995</block>
+  <block id="04c016fc549ac6850c08110fd3409666" category="cell"><block ref="b9702e7ed530a19bec6f645dc7a6866d" category="inline-link-rx"></block></block>
+  <block id="185d625ed6330faeb271f3dce51808d6" category="cell">Lo stato della porta dello switch Nexus potrebbe non essere visualizzato correttamente</block>
+  <block id="b060712ac43c210355429accd269de4e" category="inline-link">1211999</block>
+  <block id="84ac921ab1a975fc2c21ad5f7919e0a3" category="cell"><block ref="b80cb91305a095366aa4a78015bfbc70" category="inline-link-rx"></block></block>
+  <block id="e7db1e98b025a528671c622f3b0fabde" category="cell">Lo stato della prenotazione dello spazio non viene visualizzato correttamente</block>
+  <block id="5d5316487266b882f235edf2575eaeec" category="section-title">28 marzo 2019</block>
+  <block id="7aba6d8ee839fe7a78123c0207d3edab" category="inline-link">1211993</block>
+  <block id="9572132c0bc007159a9b08486308eeba" category="cell"><block ref="4b1ffacdbfc8af9ce08b31a0abb940fa" category="inline-link-rx"></block></block>
+  <block id="b637f3519598b2cc4e7b31b1afc6c01c" category="cell">Lo stato di thin provisioning non viene visualizzato correttamente in CSA</block>
+  <block id="9251ffcb0c3da1ea28d59acc9376f6a9" category="inline-link">1211998</block>
+  <block id="ee17bbc8d10290ea608a1e55abae6528" category="cell"><block ref="02d3e3a4942ec08f5d2adfe3e0a3a20c" category="inline-link-rx"></block></block>
+  <block id="c2a3227c220126274034a0478eb67de3" category="cell">La percentuale di utilizzo dello spazio su disco non viene visualizzata correttamente in CSA</block>
+  <block id="07b3432777ce890e768e06a9216f9e17" category="inline-link">1211990</block>
+  <block id="73b904199eb87ae4c41fb7baa1ef9c3e" category="cell"><block ref="a5f604ba6ece1c21d65563c22d9dfa09" category="inline-link-rx"></block></block>
+  <block id="229885f383807af450d10b03b8f4fe80" category="cell">Le interfacce mappate alla VLAN nello switch Nexus potrebbero non corrispondere con l'output effettivo del dispositivo in CSA</block>
+  <block id="1bc43dc9c0ccf501bb125bee86c0762d" category="inline-link">1212001</block>
+  <block id="c929bc8afa52722c4ea36633f2342986" category="cell"><block ref="0afdd8fc92549c954cf056c0fd2f43e9" category="inline-link-rx"></block></block>
+  <block id="6371eb3c6ede0799d86928f822ecd62a" category="cell">Le informazioni sull'alimentatore per un server montato su rack potrebbero essere visualizzate in modo errato in CSA</block>
+  <block id="885796f1558f69819a19653c55fc70df" category="section-title">17 gennaio 2019</block>
+  <block id="1ce083f756b15c285486292953c6322f" category="list-text"><block ref="411f434e0a9ed872a9f1bb58c9537de4" category="inline-xref-macro-rx"></block></block>
+  <block id="784e8f995a17e4b20cc48d2e3b85733d" category="list-text"><block ref="082d18ba9d4541f4622119fe7163d353" category="inline-xref-macro-rx"></block></block>
+  <block id="ae1f56d899a738074bc45d19117bb7b3" category="list-text"><block ref="eb95827ed3a78b450622544c911aaef6" category="inline-xref-macro-rx"></block></block>
+  <block id="09578b9e2fba7ffc0f760074de6dbd42" category="list-text"><block ref="d7d8cc5a2328c43a800dee79efc9edd7" category="inline-xref-macro-rx"></block></block>
+  <block id="a0927389ed150a6d3dd3f199e2f02203" category="list-text"><block ref="bef3e86ecb3e9b0bd334e2d7808e2f6f" category="inline-xref-macro-rx"></block></block>
+  <block id="549fee24f6eab5da3408e162e7c36792" category="section-title">Supporto per nuovi dispositivi FlexPod</block>
+  <block id="3dda465897f38c44199dff7e943f026c" category="paragraph">Converged Systems Advisor ora supporta i seguenti dispositivi FlexPod:</block>
+  <block id="74ef034873be6e75908e22616e82181f" category="list-text">Server rack Cisco UCS C-Series</block>
+  <block id="65bc074f6f89fc7a2c4ddd76c483b40a" category="list-text">Switch Nexus serie 3000</block>
+  <block id="d8ff0147940c2dea2c2e10bee47a16a6" category="list-text">Switch Cisco UCS direttamente collegati ai controller NetApp</block>
+  <block id="eba015cdb18494bab904be12811fbac4" category="paragraph">Per un elenco completo dei dispositivi supportati, consultare<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block>.</block>
+  <block id="b55147098ea79a37c44c3f969962658c" category="section-title">Informazioni dettagliate su host e macchine virtuali</block>
+  <block id="1f05349a9a559af8f60a2124d6b92acb" category="paragraph">Converged Systems Advisor fornisce ora ulteriori informazioni sull'ambiente di virtualizzazione. È possibile eseguire il drill-down per visualizzare informazioni su singoli host e macchine virtuali, inclusi diagrammi, un elenco di inventario e un riepilogo delle regole.</block>
+  <block id="cf577b1db36c3d9fa2729b836cc9ee7d" category="paragraph"><block ref="cf577b1db36c3d9fa2729b836cc9ee7d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6430949860b854b1fbddcf3d7e22cbda" category="section-title">Esperienza semplificata con l'aggiunta di un'infrastruttura</block>
+  <block id="438a9fb42090e4c9a930857d04f88e11" category="paragraph">È ora più semplice aggiungere un'infrastruttura a Converged Systems Advisor. Il portale consente di inserire le informazioni passo dopo passo:</block>
+  <block id="cfa524a6fd491de0c00bd6dd5c436577" category="paragraph"><block ref="cfa524a6fd491de0c00bd6dd5c436577" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="da3321aced7c009c6a3c95bb47c8a5db" category="inline-link-macro">Scopri come aggiungere un'infrastruttura a Converged Systems Advisor</block>
+  <block id="9ea1990012ed7bcb428aa3a678b3cef1" category="paragraph"><block ref="f26c49940495a2374917e5099fe60e0e" category="inline-link-macro-rx"></block>.</block>
+  <block id="b021522d2331d2749a808707884b5d64" category="section-title">Importazione del dispositivo mediante un file</block>
+  <block id="222bdb07e138433c7340c22a4b2be824" category="paragraph">È ora possibile configurare l'agente Converged Systems Advisor per rilevare l'infrastruttura FlexPod importando un file che include informazioni su ciascun dispositivo. L'importazione dei dispositivi è un'alternativa all'aggiunta manuale di ciascun dispositivo, uno alla volta.</block>
+  <block id="3e4f861d1f41e3909e3cb2edcfd8c2c4" category="paragraph"><block ref="3e4f861d1f41e3909e3cb2edcfd8c2c4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2b58ea2ceb1d32edb5672b4763042add" category="inline-link-macro">Scopri come configurare l'agente per rilevare la tua infrastruttura FlexPod</block>
+  <block id="19dde02c5aa9d7eff0a98c1479042e8c" category="paragraph"><block ref="411c46172c11c949d9c5775fe02e578b" category="inline-link-macro-rx"></block>.</block>
+  <block id="af65db9beaf7491f0e97cd298af6d2ec" category="section-title">Integrazione con NetApp Active IQ</block>
+  <block id="de3967986e98713f03423ebafc1ed7a3" category="paragraph">È ora possibile avviare Active IQ da Converged Systems Advisor. L'esempio seguente mostra un collegamento Active IQ disponibile nella pagina Storage:</block>
+  <block id="dc4eaa1dd902716b8c6730ea5857bf06" category="paragraph"><block ref="dc4eaa1dd902716b8c6730ea5857bf06" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="722caafb4825ef5d8670710fa29087cf" category="cell">4671</block>
+  <block id="4af1d2e9326336996680f2800e8f9255" category="cell">Firefox potrebbe smettere di rispondere durante la navigazione nel portale Converged Systems Advisor.</block>
+  <block id="7d6548bdc0082aacc950ed35e91fcccb" category="cell">4500</block>
+  <block id="fa94538c06427a7eee07a7d149129ed6" category="cell">Il portale Converged Systems Advisor non effettua la disconnessione dopo la scadenza dell'intervallo di timeout. L'utente rimane connesso, ma non riesce a visualizzare i sistemi FlexPod.</block>
+  <block id="e465ae46b07058f4ab5e96b98f101756" category="cell">2794</block>
+  <block id="da31ea1df7858bacfe34c952e3742b07" category="cell">Converged Systems Advisor visualizza "Pass" per la regola intitolata "VMware tools check" anche se i tool VMware non sono stati installati sulla macchina virtuale.</block>
+  <block id="d49a667ac74125df1b94fe71d09ffe0e" category="section-title">13 settembre 2018</block>
+  <block id="283458aba148e98cebd1c3b4f751c858" category="paragraph">Questa versione di Converged Systems Advisor include le seguenti nuove funzionalità:</block>
+  <block id="e49eace41b9f30aba321e27c558d7fc6" category="list-text">Una nuova interfaccia utente ed esperienza utente per semplificare le operazioni FlexPod dei clienti</block>
+  <block id="d129f055ca827c53ec3d0376a207f245" category="list-text">Convalida dello stato di salute e delle Best practice per la virtualizzazione VMware</block>
+  <block id="aeceeff9b721328a53ecf24ddcdb02f7" category="list-text">Supporto per switch Cisco MDS con supporto Fibre Channel esteso</block>
+  <block id="b4d4c91661a500ca9f836dd268c8d92a" category="summary">Puoi monitorare la tua infrastruttura convergente rispondendo agli avvisi, rivedendo la cronologia delle modifiche e generando report che offrono una vista olistica di un'infrastruttura.</block>
+  <block id="382088a5073a61e9b13725ada78c8e59" category="doc">Monitoraggio dell'infrastruttura convergente</block>
+  <block id="97eb92a13cf2b5bd7063ad249b6f2569" category="section-title">Revisione degli avvisi per le regole e gli avvisi non riusciti</block>
+  <block id="da4489f0980a33fa90b138ab1711c18c" category="paragraph">Converged Systems Advisor monitora costantemente l'infrastruttura e genera avvisi e guasti per garantire che il sistema sia configurato e che sia in grado di eseguire le Best practice.</block>
+  <block id="fdc06c9d5f91b90f8456a6b05f258299" category="list-text">Accedere a.<block ref="eb9f0f7fac75ca880e49216162865e36" category="inline-link-rx"></block> E fare clic su *regole*.</block>
+  <block id="763d1db2c64a3c2393a29e26e3822f16" category="paragraph">La pagina regole visualizza un riepilogo di tutte le regole. Lo stato di ciascuna regola è *Pass*, *Warning* o *Fail*.</block>
+  <block id="06c6354f899f95a2e0c6a3fe5d570fb3" category="list-text">Fare clic sull'icona del filtro nella colonna Status (Stato) e selezionare *Fail* (non riuscito), *Warning* (Avviso) o Both (entrambi).</block>
+  <block id="202fb926cf9309ce674dce57d623e78a" category="inline-image-macro">Mostra l'icona del filtro che consente di filtrare la tabella in modo da visualizzare solo le regole che hanno superato, non riuscito o includono avvisi.</block>
+  <block id="2ad463ee636371e42c7ca5636e28fed7" category="paragraph"><block ref="2ad463ee636371e42c7ca5636e28fed7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c5d5d1929d7a4a13da82909982901f4e" category="list-text">Per visualizzare i dettagli sulle singole regole, fare clic sulla freccia accanto alla colonna Status (Stato).</block>
+  <block id="b09ee340cf3bb35ade0990ee9bbcabc8" category="inline-image-macro">Mostra i dettagli di una regola, tra cui descrizione, impatto e risoluzione.</block>
+  <block id="a89ca4858b9e96829f0eaf450d2c6df6" category="paragraph"><block ref="a89ca4858b9e96829f0eaf450d2c6df6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="763b4a62989ab53c3781e84d97960bbc" category="list-text">Seguire le istruzioni nella risoluzione per risolvere il problema.</block>
+  <block id="6ad500dce2c2a7d8f7b13693cf492abe" category="inline-xref">esaminare la cronologia della configurazione</block>
+  <block id="2625ad3fd82097f140d0bc8d371ccda9" category="paragraph">Se necessario, <block ref="8fbdc8d58e24479b2bffb697841f542c" category="inline-xref-macro-rx"></block> per aiutare l'infrastruttura a risolvere il problema.</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Al termine</block>
+  <block id="02d591fa96f231677fb827a48cbe57b1" category="paragraph">Lo stato delle regole indirizzate deve essere visualizzato come Pass dopo il successivo periodo di raccolta dell'agente.</block>
+  <block id="6f60fe9da42eedfd7df6bbc30d7b77da" category="section-title">Correzione delle regole non riuscite</block>
+  <block id="351c1a6b45f8840d4c1a4e9ee589573d" category="paragraph">Converged Systems Advisor può risolvere alcune regole di errore correggendo il problema sottostante dell'infrastruttura convergente.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">A proposito di questa attività</block>
+  <block id="4e3abf9ee681918e75136c8643d1b6fb" category="list-text">È necessario disporre della licenza Premium.</block>
+  <block id="97b32378ece8468ddfbdabc0ff920cc3" category="list-text">Devi essere assegnato come proprietario dell'infrastruttura convergente.</block>
+  <block id="d8615765e8e292dd939bf87224df7e05" category="list-text">Selezionare *Filter rules that CAN be rimediated* (regole filtro che è possibile correggere).</block>
+  <block id="3d7ac1b543a43164220663463e8d2ae7" category="list-text">Espandere la regola che si desidera risolvere.</block>
+  <block id="796f6174c88667af46eeef46c9ebefba" category="inline-image-macro">Mostra l'icona della chiave che consente di correggere automaticamente le regole non riuscite.</block>
+  <block id="3b521101805d8fdb2ea6abac2d2fddcb" category="list-text">Fare clic su <block ref="42948ea8407431ac3aebb834069c3081" category="inline-image-macro-rx" type="image"></block> nell'angolo in alto a destra della regola espansa.</block>
+  <block id="9d090cca2b0bb235d833fc152f4a1e95" category="paragraph">Se l'icona è disattivata, l'agente non è in linea, non si dispone dei privilegi di proprietario o non si dispone di una licenza Premium.</block>
+  <block id="5034d5c0e6e5f309421842bba0171e21" category="list-text">Se necessario, inserire i valori immessi.</block>
+  <block id="4ed2f0fd2887d376f8661c62f2726132" category="paragraph">A seconda della regola non riuscita, alcuni valori di input sono necessari per risolvere il problema.</block>
+  <block id="aac3b6603b045fbde7518cd9ed13f031" category="list-text">Se si desidera eseguire una raccolta di dati dopo il completamento della correzione, selezionare l'opzione *Collect when Remediation Job completed* (Raccogli al completamento del processo di correzione).</block>
+  <block id="42a29a38eaebc4cd2f01a5fbdd7560aa" category="list-text">Fare clic su *Esegui correzione*.</block>
+  <block id="8183c9dbb2354fb933c18a1e36501526" category="list-text">Fare clic su *Conferma*.</block>
+  <block id="bfc045b4e61163bafe6a55ea0791d7b8" category="list-text">Per visualizzare le azioni intraprese per risolvere le regole non riuscite, fare clic sull'icona *Operations* e selezionare *Remediation Action*.</block>
+  <block id="aa2e3bc4a59e8dd66e574a74b917b05b" category="inline-image-macro">Mostra l'icona delle operazioni che apre il menu per visualizzare le azioni correttive.</block>
+  <block id="7ec3bd6219f41f64a90c3960344b842e" category="paragraph"><block ref="7ec3bd6219f41f64a90c3960344b842e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f052a30a2aeb64391002dc3341563048" category="section-title">Eliminazione delle regole non riuscite</block>
+  <block id="293df73a9b50a370a73fb719ee2421b1" category="paragraph">Converged Systems Advisor consente di eliminare le regole in modo che non vengano visualizzate nella dashboard e non inviino più notifiche e-mail in caso di errore della regola.</block>
+  <block id="a0063f9781e30cf5197307c2991a6ad2" category="paragraph">Ad esempio, non è consigliabile attivare telnet, ma se si preferisce attivarlo, è possibile eliminare la regola.</block>
+  <block id="4a7307c336893b2d270760d3b3cb38eb" category="paragraph">Per configurare le notifiche, è necessario disporre della licenza Premium.</block>
+  <block id="25c1c98d63843493c60d7f6fabd12311" category="list-text">Dalla dashboard, fare clic su *Rules* (regole).</block>
+  <block id="308a821e385567451839a9424c3a0859" category="list-text">Trovare le regole che si stanno cercando filtrando il contenuto della tabella.</block>
+  <block id="12f6b83ab6c268342595376953a17e80" category="list-text">Selezionare una o più righe per le regole con stato Warning (Avviso) o Fail (errore), quindi fare clic sull'icona *Alerts* (Avvisi).</block>
+  <block id="008427ab5412d6ddcdad9d6bfaa3a149" category="inline-image-macro">Mostra l'icona degli avvisi sopra la tabella che consente di eliminare le regole.</block>
+  <block id="fcaf1234e9852d27e0b9d5ab8c5cf389" category="paragraph"><block ref="fcaf1234e9852d27e0b9d5ab8c5cf389" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e69c9ca1da916fbe7c75dadd97962038" category="list-text">Selezionare una durata, quindi fare clic su *Invia*.</block>
+  <block id="dcdfbaafd1cee028472b916b24ae285f" category="admonition">Se si desidera attivare gli avvisi, seguire la stessa procedura e selezionare *fine soppressione*.</block>
+  <block id="4639e34f277e9cc25cab4e3d77223113" category="paragraph">Converged Systems Advisor non notifica più la regola per la durata specificata e la regola non sarà più visibile nella dashboard.</block>
+  <block id="e5fb1eac98e8be5c995e7929e8b70da0" category="paragraph">È possibile visualizzare l'elenco delle regole che sono state soppresse e, se si desidera, selezionare per terminare l'eliminazione.</block>
+  <block id="1ffeb833453e69841ffa25ed250f8850" category="list-text">Fare clic sull'icona *Impostazioni* e selezionare *regole soppresse*.</block>
+  <block id="b6b001d1dff9d0dbe8295732f02275ea" category="inline-image-macro">Mostra l'icona delle impostazioni che apre il menu per selezionare le regole soppresse.</block>
+  <block id="2206ba8c8f83e664f85e355245f63e87" category="paragraph"><block ref="2206ba8c8f83e664f85e355245f63e87" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b165f6e721b097b70c6ad4b29a4d279d" category="list-text">Selezionare le regole sospese che si desidera visualizzare.</block>
+  <block id="ec322b3a2d92a535cd71909b666547c0" category="list-text">Fare clic sull'icona *Alerts*.</block>
+  <block id="07c26e41b63d0ff3970894104e144d9d" category="list-text">Selezionare *End Suppression* (fine eliminazione), quindi fare clic su *Submit* (Invia).</block>
+  <block id="77f317049f7895469c3d010a42706564" category="paragraph">Gli avvisi vengono attivati per la regola selezionata e la regola viene visualizzata nella tabella regole e nella dashboard.</block>
+  <block id="78d8b6135ca87d41ab89914e626de9a5" category="section-title">Analisi della cronologia di un'infrastruttura</block>
+  <block id="255d8d695266132eb9b6a52c6ee00b71" category="paragraph">Quando si riceve un avviso relativo a una regola non riuscita, è possibile visualizzare una cronologia delle modifiche nella configurazione per risolvere il problema.</block>
+  <block id="ddb6cc4a6a81ec19ebb07387b482e42f" category="list-text">Selezionare un'infrastruttura convergente.</block>
+  <block id="7a1c2c362657dac6fb6d5de1697d59eb" category="list-text">Fare clic su *Altro &gt; Cronologia*.</block>
+  <block id="f5a1e9ab2662a2f1e774fa5b1b22354c" category="inline-image-macro">Mostra il menu Altro che include l'opzione Cronologia.</block>
+  <block id="d86f023c281e4c7e1cc6422740a2ce3d" category="paragraph"><block ref="d86f023c281e4c7e1cc6422740a2ce3d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="819726a36e174ef47ab655e2c54e1f30" category="list-text">Fare clic su un giorno del calendario per visualizzare il numero di avvisi e errori identificati durante ciascuna raccolta di dati.</block>
+  <block id="ddff6108b62f0e074e78accb27419744" category="admonition">Il numero visualizzato per ogni giorno corrisponde al numero di volte in cui l'agente ha raccolto i dati. Ad esempio, se si mantiene l'intervallo di raccolta predefinito di 24 ore, viene visualizzata una raccolta al giorno.</block>
+  <block id="b69e4b5d485bc08cef823be6ac4ba22d" category="paragraph">La seguente immagine mostra una singola raccolta il 27 del mese.</block>
+  <block id="ff23ac22b6549ebac2e097387d9e1a7e" category="inline-image-macro">Mostra il punto numero uno e il punto giallo sul 27 del mese.</block>
+  <block id="d5c441097ffe44c888eb3afd6f7afb21" category="paragraph"><block ref="d5c441097ffe44c888eb3afd6f7afb21" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="017ef171d8620c381816c046d14e0a28" category="list-text">Per visualizzare ulteriori dettagli sui dati raccolti, fare clic su *Vai a ci Dashboard* per una raccolta.</block>
+  <block id="420fee2342b69a09df56c9f4c8948315" category="list-text">Se necessario, visualizzare la cronologia per l'ultima volta in cui non sono stati identificati avvisi o errori.</block>
+  <block id="7297f536b887e2351b3f1d8d075f4043" category="paragraph">Il confronto dei dati tra i due periodi di raccolta consente di identificare le modifiche apportate.</block>
+  <block id="567235aef678e48ef18482e34043f721" category="section-title">Generazione di report</block>
+  <block id="64b90563965409f7bfe8d73a0d85c567" category="paragraph">Se si dispone di una licenza Premium, è possibile generare diversi tipi di report che forniscono dettagli sullo stato corrente dell'infrastruttura convergente: Un report di inventario, un report sullo stato di salute, un report di valutazione e altro ancora.</block>
+  <block id="a911f6618c123405cc3fc8cfe65c731f" category="list-text">Fare clic su *Report*.</block>
+  <block id="51ed89d13fed8fbbd34332091a1f4cf3" category="list-text">Selezionare un report e fare clic su *generate* (genera).</block>
+  <block id="3b1f0b66bd433b7e1259d5ca6f0f6e84" category="list-text">Scegliere le opzioni per il report:</block>
+  <block id="46496ed8b9ac1d5f6eeba7ff09cf405c" category="list-text">Se si desidera, passare dalla raccolta di dati più recente a quella precedente.</block>
+  <block id="d6d980dc9979eb210416d40a6eed3028" category="list-text">Scegliere la modalità di visualizzazione del report: Nel browser, come PDF scaricato o via e-mail.</block>
+  <block id="4e821fd1fc9d0d94e03013829b560a2f" category="inline-image-macro">Mostra le opzioni per la generazione di un report, che includono la selezione di un'infrastruttura convergente e di uno snapshot, quindi la scelta della modalità di visualizzazione desiderata.</block>
+  <block id="a4ca0ac64711a4aec786760c86c6dc75" category="paragraph"><block ref="a4ca0ac64711a4aec786760c86c6dc75" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cdfd3e7337dd38ee1623080a3c618e83" category="paragraph">Converged Systems Advisor genera il report.</block>
+  <block id="f24126e7aabc8fc06c1874eb6abef5eb" category="section-title">Monitoraggio dei contratti di supporto</block>
+  <block id="08dd468a8c74db6c2663baba0ec0d793" category="paragraph">È possibile aggiungere dettagli sui contratti di assistenza per ciascun dispositivo in una configurazione: Data di inizio, data di fine e ID del contratto. In questo modo è possibile tenere traccia dei dettagli in una posizione centrale, in modo da sapere quando rinnovare i contratti di supporto per ciascun dispositivo.</block>
+  <block id="a6a6a713a212d5be421f5c986e13a878" category="list-text">Fare clic su *Select a ci* (Seleziona ci) e selezionare l'infrastruttura convergente.</block>
+  <block id="9f529ff9d992ed0eefdeba5bcf4ccce3" category="list-text">Nel widget Support Contract (Contratto di assistenza), fare clic sull'icona *Edit contract* (Modifica contratto).</block>
+  <block id="4acbaa402382b53ae1547f7303cf04da" category="list-text">Selezionare *Data di inizio* e *Data di fine* e inserire *ID contratto*.</block>
+  <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">Fare clic su *Invia*.</block>
+  <block id="3cd95388ab719dadee5bcf6a664ddea7" category="list-text">Ripetere la procedura per ciascun dispositivo nella configurazione.</block>
+  <block id="9e1d8362ca0406d31099d22cf48d0b99" category="paragraph">Converged Systems Advisor ora visualizza i dettagli del contratto di supporto per ciascun dispositivo. È possibile visualizzare facilmente i dispositivi con contratti di supporto attivi e scaduti.</block>
+  <block id="4b95f23f0f314a2b4da695b700811595" category="inline-image-macro">Mostra quattro contratti di supporto: Uno è scaduto e gli altri tre sono attivi.</block>
+  <block id="ee5940588622152ee61a29d80da69ddc" category="paragraph"><block ref="ee5940588622152ee61a29d80da69ddc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Le note legali forniscono l'accesso a dichiarazioni di copyright, marchi, brevetti e altro ancora.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Note legali</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marchi</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, il logo NETAPP e i marchi elencati nella pagina dei marchi NetApp sono marchi di NetApp, Inc. Altri nomi di società e prodotti potrebbero essere marchi dei rispettivi proprietari.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevetti</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Un elenco aggiornato dei brevetti di proprietà di NetApp è disponibile all'indirizzo:</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Direttiva sulla privacy</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">I file di avviso forniscono informazioni sul copyright e sulle licenze di terze parti utilizzate nel software NetApp.</block>
+  <block id="e0315085076faa5f8bd08e82d140ee63" category="inline-link-macro">Avviso per Converged Systems Advisor</block>
+  <block id="4abf4a1cccc2bcfbc79190153a49a2fb" category="paragraph"><block ref="4abf4a1cccc2bcfbc79190153a49a2fb" category="inline-link-macro-rx"></block></block>
+  <block id="1f060636fe5b0a8ed84fb873b522ba92" category="summary">Se sei un partner NetApp, puoi iniziare a utilizzare Converged Systems Advisor collaborando con il cliente per implementare l'agente e configurare il portale prima di eseguire una convalida dell'implementazione.</block>
+  <block id="8d10e09bd713073b88005ddecbf5705a" category="doc">Report sulla convalida dell'implementazione per i partner</block>
+  <block id="62cc019b98cca9e1b65c304991c3dca4" category="paragraph">I partner NetApp possono eseguire una convalida dell'implementazione per verificare che un'infrastruttura convergente FlexPod sia configurata correttamente. I partner possono quindi consegnare il report ai clienti.</block>
+  <block id="c45ae599d04d2b26de9c536e2bd168db" category="list-text">Accedere a.<block ref="eb9f0f7fac75ca880e49216162865e36" category="inline-link-rx"></block>.</block>
+  <block id="91ab85eefd69d7cffdeaeafa97f57ef0" category="list-text">Espandere la configurazione del cliente dall'elenco clienti.</block>
+  <block id="66b8bcf3d36b277ad8598bfaebbb4a0d" category="inline-image-macro">Mostra tre infrastrutture convergenti per un cliente.</block>
+  <block id="436ecfb9b85682461b5bef001b3da4f1" category="paragraph"><block ref="436ecfb9b85682461b5bef001b3da4f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5ebb04ca9d563bbc59f02045e89b0296" category="list-text">In Deployment Validation Report, fare clic su *generate* (genera).</block>
+  <block id="b2d71063ea8fde5885ee791895d5b980" category="list-text">Scegliere se visualizzare il report nel browser, in formato PDF o via email.</block>
+  <block id="78bf58d229f9d24f426ff1c4f3828e65" category="list-text">Esaminare il report e correggere eventuali problemi di interoperabilità e errori di convalida dell'implementazione.</block>
+  <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">*Esempio*</block>
+  <block id="a9a2b2fd01902eb7f49cb1c9804e3a26" category="paragraph">In questa configurazione di esempio, le versioni firmware degli switch Nexus non sono supportate:</block>
+  <block id="bb64e3d66337e032632e2ed6ec12ae72" category="inline-image-macro">Mostra la sezione relativa all'interoperabilità del Deployment Validation Report. Include due switch con versioni firmware non supportate.</block>
+  <block id="dd9c33553627d1d3b83629490b10df63" category="paragraph"><block ref="dd9c33553627d1d3b83629490b10df63" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b095a50bfe33e9fe8853f327e3bd8096" category="paragraph">Anche quattro regole di convalida non sono riuscite a causa di problemi di connettività dello switch:</block>
+  <block id="60e4bd0929967950652424f215972c08" category="inline-image-macro">Mostra la sezione Errors del Deployment Validation Report. L'interconnessione fabric non effettua il collegamento in uplink nel fabric Fibre Channel Nexus corrispondente.</block>
+  <block id="31703635dd32ada82bfb46847cbf2dc6" category="paragraph"><block ref="31703635dd32ada82bfb46847cbf2dc6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1f8f0171baa7230cba1d85a6c7319cb" category="paragraph">L'aggiornamento del firmware può correggere l'interoperabilità della configurazione e l'aggiunta di collegamenti può correggere le regole di convalida non riuscite.</block>
+  <block id="3c96b2dab570e1aa3d25891c5dd4535a" category="list-text">Dopo aver corretto i problemi, raccogliere i dati per garantire che Converged Systems Advisor disponga dei dati di configurazione più recenti:</block>
+  <block id="c4502a9584d9a8ef2a0725e38125721e" category="list-text">Selezionare l'infrastruttura convergente.</block>
+  <block id="f3ebaa3a8eccc55285a7255f35ac0959" category="list-text">In alto a destra, fare clic su *Collect* (Raccogli).</block>
+  <block id="45fafa74ca5c8a674fae2461dafb1b36" category="inline-image-macro">Mostra il pulsante Collect (Raccogli) in alto a destra disponibile dopo aver selezionato un'infrastruttura convergente.</block>
+  <block id="a8f5313e16a911a45da81a60a5bf3e0f" category="paragraph"><block ref="a8f5313e16a911a45da81a60a5bf3e0f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ee82c853dbac102b9219eea66b5b703c" category="list-text">Generare nuovamente il report per verificare di aver corretto i problemi.</block>
+  <block id="3b44cf4d04f47c573ce4cab54a472577" category="list-text">Inviare il report finale sulla convalida dell'implementazione al cliente.</block>
+  <block id="94e52eed71380953e3f8c1a6475f9c91" category="paragraph">L'infrastruttura convergente è ora configurata in base alle Best practice.</block>
+  <block id="51dfc4332789916d0d45402bb63b0740" category="summary">In qualità di partner o rivenditore, è possibile convalidare l'implementazione dell'infrastruttura di un client.</block>
+  <block id="33dd6d0a84d49364e0252ed85d6c8008" category="doc">Convalidare l'implementazione per partner e rivenditori</block>
+  <block id="3e63df2d8130d6beb5aedd0b3a623455" category="paragraph">In qualità di partner o rivenditore, è possibile convalidare l'implementazione dell'infrastruttura del cliente esaminando i dati visualizzati nella dashboard o generando un report sullo stato di salute.</block>
+  <block id="bf49a2af93184828c602f30985ab7b3e" category="list-title">Prima di iniziare</block>
+  <block id="7cb24243c2f9dc81564e7c17ee96502a" category="list-text">È stato installato un nuovo FlexPod presso la sede del cliente o si sta lavorando con un FlexPod esistente.</block>
+  <block id="b828c89f48e5931a2f3e94a1a8a438bb" category="list-text">Sono stati creati account sui dispositivi FlexPod.</block>
+  <block id="891db3e486cd7319b253443e598258a9" category="list-text">Se si utilizza un server TACACS+, sono stati concessi i privilegi utente CSA.</block>
+  <block id="ea4bf3bfa43cc087b048001387e44202" category="list-text">L'agente è stato scaricato e installato.</block>
+  <block id="c2a536bd136ebbff93df02f66cdfa216" category="inline-link-macro">Configurare e implementare l'agente</block>
+  <block id="6b604d4a2761364bcc54cdca23050f1f" category="paragraph">Fare riferimento a. <block ref="c493233aaa3279340a41c1d7e26d3e4f" category="inline-link-macro-rx"></block>.</block>
+  <block id="ab8671fbf18903d8d9040f241c26f3c4" category="list-text">È stata impostata la rete per l'agente e, facoltativamente, è stato installato un certificato SSL sull'agente.</block>
+  <block id="284f34a0af39b4a6009a8dd20ad8a40a" category="list-text">Con le tue credenziali NetApp, hai creato il ci per il tuo cliente per aggiungere l'infrastruttura al portale.</block>
+  <block id="c65ffe1d7cf10fedb9d945fa4f2747c0" category="paragraph">Fare riferimento a. <block ref="7fb29a0e0fb1c8ef914768025b76cc3b" category="inline-link-macro-rx"></block> Per creare un ci nel portale CSA.</block>
+  <block id="c694cfbda1d422c56933f41ed2f42d12" category="list-text">Facoltativamente, l'infrastruttura è condivisa con altri utenti.</block>
+  <block id="95928bd14e09a05a7b9ffbd1c4bcd1bd" category="paragraph">I partner e i rivenditori utilizzano le proprie credenziali NetApp per accedere al portale CSA e avviare il processo di convalida.</block>
+  <block id="383cbb4f450bb9faa09fc9988b680b22" category="list-text">Accedere a.<block ref="eb9f0f7fac75ca880e49216162865e36" category="inline-link-rx"></block> Utilizzando le tue credenziali NetApp.</block>
+  <block id="f0e9f34f0828883f7e388c1c501c43be" category="list-text">Fare clic su *Select a ci* (Seleziona ci*), quindi fare clic sul ci appropriato per il cliente oppure digitare il nome del ci nella casella di ricerca. Viene visualizzata la dashboard per il ci.</block>
+  <block id="2619c13f9c80221c7c784b18d2577797" category="paragraph">In qualità di partner o rivenditori, puoi convalidare l'infrastruttura del tuo cliente utilizzando i seguenti metodi:</block>
+  <block id="aa33dea2c5b586714ddaff5b57479455" category="list-text">Nella dashboard, è possibile convalidare diversi aspetti dell'infrastruttura:</block>
+  <block id="045a4a98e67e0ccc2e5fa0bc9433dc20" category="list-text">*Interoperabilità firmware*: Visualizza le versioni software installate. Fare clic su ciascuna intestazione per visualizzare ulteriori dettagli.</block>
+  <block id="ea2d295b0de68cb7f17155b911364d3f" category="list-text">*Contratto di supporto* indica la scadenza dei contratti. Fare clic su *View Details* (Visualizza dettagli) per ulteriori informazioni.</block>
+  <block id="a2fecfd4fc9e1ff1687f192020980447" category="list-text">*Agent Status* (Stato agente) visualizza i dettagli relativi all'agente, inclusi i dispositivi monitorati.</block>
+  <block id="d33175282e5e9dd3f4c93082e969592b" category="list-text">*Capacità* indica l'utilizzo dello spazio su disco, delle porte di rete e dello chassis blade UCS. Fare clic sui collegamenti per visualizzare i dettagli di ciascun utilizzo.</block>
+  <block id="fa20339c0bb6d12c4a44d9897faea4bc" category="list-text">*Health* visualizza graficamente lo stato delle regole per le funzionalità di storage, calcolo, rete e virtualizzazione dell'infrastruttura. Fare clic sulle aree di colore della grafica per visualizzare ulteriori dettagli.</block>
+  <block id="58f7fb86ef80cd20f35da08ef88659a7" category="list-text">*Rules Summary* (Riepilogo regole) mostra gli avvisi relativi a regole e avvisi non riusciti. Fare clic sulle frecce a sinistra di ciascuna riga oppure fare clic sul nome del dispositivo per visualizzare ulteriori dettagli.</block>
+  <block id="6c43bac8f5c611f216fc4d5a14ab648e" category="list-text">Nella barra delle azioni, selezionare *Report-&gt;Health Report* per generare un report dettagliato sullo stato di salute del sistema convergente. Puoi visualizzarlo nel browser, scaricarlo come file PDF o condividerlo via email.</block>
+  <block id="f5a33842927eb03d2f6ec5e320ebfcec" category="summary">È possibile generare diversi tipi di report, ad esempio un report sullo stato di salute o un report di convalida dell'implementazione per i partner.</block>
+  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">Generare report</block>
+  <block id="6610ef9bd5e35768446c72320c3ad413" category="paragraph">Se si dispone di una licenza Premium, è possibile generare diversi tipi di report che forniscono dettagli sullo stato corrente dell'infrastruttura convergente: Un report di inventario, un report sullo stato di salute, un report di valutazione, un report di convalida dell'implementazione per i partner e altro ancora.</block>
+  <block id="7a49965d9cfff28dae6c97f9b420a932" category="summary">Converged Systems Advisor di NetApp convalida, monitora e ottimizza l'implementazione della tua infrastruttura convergente FlexPod per garantire le migliori performance e disponibilità per le tue applicazioni di business.</block>
+  <block id="04fbad68af42342b74d64c44c053aeb6" category="doc">Converged Systems Advisor</block>
+  <block id="492e5546e60705134bff8d7f80511a8d" category="section-title">Scopri le novità</block>
+  <block id="9019b4a8afd649f588dde381d9d2c1cb" category="inline-link-macro">Novità di Converged Systems Advisor</block>
+  <block id="cfaf20a40a53abf04e998d745a541106" category="paragraph"><block ref="cfaf20a40a53abf04e998d745a541106" category="inline-link-macro-rx"></block></block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="section-title">Inizia subito</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="inline-link-macro">Avvio rapido</block>
+  <block id="30974525ad850301dc82692fbf1875de" category="paragraph"><block ref="30974525ad850301dc82692fbf1875de" category="inline-link-macro-rx"></block></block>
+  <block id="11a009d53ca4078eeb1d7f09553e18d5" category="section-title">Scopri Converged Systems Advisor</block>
+  <block id="3b878279a04dc47d60932cb294d96259" category="inline-link-macro">Panoramica</block>
+  <block id="433e74eb36d7b9b81d0daefd838e9fc3" category="list-text"><block ref="433e74eb36d7b9b81d0daefd838e9fc3" category="inline-link-macro-rx"></block></block>
+  <block id="2d242bb36ec91b32005f9296ff03a912" category="inline-link-macro">Architettura</block>
+  <block id="299cf6f7124b7dd4cdecf41a2dde5691" category="list-text"><block ref="299cf6f7124b7dd4cdecf41a2dde5691" category="inline-link-macro-rx"></block></block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="inline-link-macro">Licensing</block>
+  <block id="a136464e5f9b093e6667a604b15e3605" category="list-text"><block ref="a136464e5f9b093e6667a604b15e3605" category="inline-link-macro-rx"></block></block>
+  <block id="2c73d1eaa92fa653dab6b18c453721b0" category="section-title">Ottieni aiuto e connettiti con i colleghi</block>
+  <block id="d0bd79212ef041ed73ac193cda56b985" category="inline-link">Community NetApp: Infrastruttura convergente</block>
+  <block id="9c57c6e5c44386158ad4e62b7404eb56" category="paragraph"><block ref="9c57c6e5c44386158ad4e62b7404eb56" category="inline-link-rx"></block></block>
+  <block id="84337504add563b4ec594010634eff77" category="summary">Per sbloccare le funzioni di Converged Systems Advisor è necessaria una licenza. È possibile scegliere tra alcune opzioni di licenza per ogni infrastruttura convergente FlexPod.</block>
+  <block id="794df3791a8c800841516007427a2aa3" category="cell">Licenza</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="cell">Caratteristiche</block>
+  <block id="6f1bf85c9ebb3c7fa26251e1e335e032" category="cell">Termini</block>
+  <block id="9654f0c8da8f367f3742a2c03f71cdd5" category="cell">Nessuna licenza</block>
+  <block id="6c05ba238f74e7e5841e247c02782965" category="paragraph">Versione limitata per dimostrare le funzionalità del prodotto:</block>
+  <block id="13fb576ab15b58ff9f2c42c2ca9fba59" category="list-text">Monitoraggio delle configurazioni FlexPod per un periodo di prova di 24 ore</block>
+  <block id="8b88eb36420b3734f1a32cc92729f737" category="list-text">Dashboard di salute per visualizzare la conformità alle Best practice FlexPod</block>
+  <block id="5c94f844e0c2aa342c0fc3c39b222f44" category="list-text">Inventario e risoluzione dei problemi limitati (disponibili nelle versioni con licenza)</block>
+  <block id="b24ce0cd392a5b0b8dedc66c25213594" category="list-text">Gratuito</block>
+  <block id="41108d73c7c8c7e5306ab8252c1fee46" category="list-text">Monouso (24 ore)</block>
+  <block id="eb6d8ae6f20283755b339c0dc273988b" category="cell">Standard</block>
+  <block id="d812b7d7941c1b7e96f8c371e1b23668" category="list-text">Monitoraggio continuo delle configurazioni FlexPod</block>
+  <block id="7d841c4ea708b59b4c75cfe062d368ff" category="list-text">Interoperabilità del firmware per calcolo, rete, storage e hypervisor</block>
+  <block id="04d40b337323b71473e55502652986f0" category="list-text">Strumenti di gestione del ciclo di vita per identificare le modifiche e prevenire la deriva della configurazione</block>
+  <block id="7aedb869ed87ea13dba5ebd6c35b375a" category="list-text">Inventario dettagliato e diagrammi di sistema per la risoluzione avanzata dei problemi</block>
+  <block id="3f0ea683d61b7d4cab7f17b7ca918290" category="list-text">Supporto fornito direttamente da NetApp</block>
+  <block id="8a8d17b8bc23dd596aa82fa82f407a6e" category="paragraph">Licenza basata su abbonamento:</block>
+  <block id="ecd2535bf841c57eafcac599e5fb523e" category="list-text">minimo 12 mesi</block>
+  <block id="b9b5754ccad548be3f9f4b58d1234564" category="list-text">massimo 60 mesi</block>
+  <block id="8d5e7e72f12067991186cdf3cb7d5d9d" category="cell">Premium</block>
+  <block id="9c014c91b2b7fffa5bffd53c69726d82" category="paragraph">Tutte le funzionalità incluse nella licenza Standard, oltre a:</block>
+  <block id="c5562ce2e22a86c247849904ecef3dc8" category="list-text">Creazione di report</block>
+  <block id="ba4e88caeeb0ee1bb85ccef6dc858be5" category="paragraph">Report completi e in tempo reale sullo stato di salute, interoperabilità e inventario di FlexPod</block>
+  <block id="3ee2dd0d0cd3925e0e213578441f88ac" category="list-text">Notifiche e avvisi</block>
+  <block id="b861373e1977a76436240aebcf8a34e0" category="paragraph">Notifiche periodiche dello stato di salute della configurazione e delle modifiche dello stato</block>
+  <block id="2eb056f6c6b223bb3c50b4fcf727d4eb" category="summary">Converged Systems Advisor raccoglie i dati di configurazione relativi all'infrastruttura convergente FlexPod per aiutarti a validare e monitorare il sistema. Potresti voler comprendere come vengono raccolti i dati, come vengono trasferiti a NetApp e come vengono mantenuti protetti e privati.</block>
+  <block id="2fae32629d4ef4fc6341f1751b405e45" category="doc">Sicurezza</block>
+  <block id="0dde8a78d38311a247bbf2fa6af88b26" category="section-title">Come vengono raccolti i dati</block>
+  <block id="74a2c114e006124264aa6d139846b389" category="paragraph">L'agente Converged Systems Advisor richiede le credenziali per accedere ai dispositivi nell'infrastruttura convergente FlexPod. Per gli switch Cisco UCS e Nexus sono richieste credenziali di sola lettura, mentre per ONTAP sono richieste credenziali di amministratore. Le credenziali vengono crittografate e memorizzate localmente sull'agente, non vengono inviate al portale basato sul cloud.</block>
+  <block id="3d146764dc7da8ff645fe77b5678a05b" category="paragraph">Una volta fornite le credenziali, l'agente raccoglie i dati di _configurazione_ dai dispositivi. I dati _cliente_ che risiedono sui dispositivi non vengono mai utilizzati o trasferiti. Un esempio rappresentativo dei dati di configurazione raccolti dall'agente include quanto segue:</block>
+  <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="list-text">Capacità</block>
+  <block id="c9d686789d1b6040c1e28229509dad68" category="list-text">CPU e memoria</block>
+  <block id="39f32b6d9ba3ada83f10b3e2eec6d54b" category="list-text">Connettività del dispositivo</block>
+  <block id="ba21ed5910360635a1c11252020f1ddc" category="list-text">Nomi e ID dei dispositivi</block>
+  <block id="25231a54747f5f95826dacef2fa019da" category="list-text">Stato del dispositivo</block>
+  <block id="798084429970e88fa1f49f12b5f60f32" category="list-text">Versioni del firmware</block>
+  <block id="1d9e509ddb93a176b7d369a91ad7deaf" category="list-text">Indirizzi IP</block>
+  <block id="df6170f24d35cedf1aade86eb5bf3677" category="list-text">Destinazioni iSCSI</block>
+  <block id="f6aca2dcfee051b254bbcb878dc70d09" category="list-text">Licenze</block>
+  <block id="3f3982b71a0b2c0fc888ae360cac17e0" category="list-text">Indirizzi MAC</block>
+  <block id="a2f9557c1ef079d139d75178f75297ad" category="list-text">Numeri di modello</block>
+  <block id="e79c08243e599c00a89a413b1f4a2833" category="list-text">Numeri di serie</block>
+  <block id="f57b3db31dc3631b0e4002674f7c5224" category="section-title">Modalità di trasferimento dei dati</block>
+  <block id="ce25f4ff29d29c32de78f11e0ead410b" category="paragraph">Una volta che l'agente rileva i dati di configurazione dall'infrastruttura convergente FlexPod, invia i dati al portale Converged Systems Advisor utilizzando HTTPS. La comunicazione viene crittografata utilizzando il certificato TLS 1.2 di NetApp.</block>
+  <block id="397c3a0728520f5f02fedcc4d52ce7d4" category="inline-image-macro">Mostra una connessione HTTPS crittografata dall'agente al portale.</block>
+  <block id="925c5ef979c196c708b4af9aed3b0c61" category="paragraph"><block ref="925c5ef979c196c708b4af9aed3b0c61" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b1fdc903c6928dc480b8c082d1319427" category="section-title">Come i dati vengono mantenuti protetti e privati</block>
+  <block id="9ea2a5555b9f0b48272507704c0bff54" category="paragraph">I dati di configurazione risiedono all'interno della rete NetApp e vengono gestiti dall'IT di NetApp. I dati sono protetti da un livello di accesso ai dati che richiede l'identificazione positiva di ogni utente che richiede l'accesso.</block>
+  <block id="f78cd1b36118788b43de167b4accc127" category="paragraph">L'utente che ha implementato l'agente può accedere ai dati dal portale Converged Systems Advisor effettuando l'accesso con un account NetApp Support Site. Questo utente dispone di _owner_ privilegi per l'infrastruttura convergente. Il proprietario può condividere l'infrastruttura convergente con altri utenti concedendo privilegi di sola lettura, scrittura o proprietario. Questi utenti devono anche disporre di un account NetApp Support Site registrato per accedere al portale.</block>
+  <block id="b254250f174f69b5a6865ed48495f383" category="inline-link-macro">Esaminare le differenze tra i privilegi di sola lettura, scrittura e proprietario</block>
+  <block id="f68fd2bda477ef42116068a57cdb124f" category="paragraph"><block ref="771ba01147318949b5eb029f7646acb8" category="inline-link-macro-rx"></block>.</block>
+  <block id="76349c2170a5e8f7ab2e2e2ce564165d" category="summary">Per iniziare a utilizzare Converged Systems Advisor, è necessario preparare l'ambiente, installare e configurare l'agente e aggiungere l'infrastruttura convergente al portale.</block>
+  <block id="7e156a5779175bc209a90f37db31f6e0" category="doc">Inizia con Converged Systems Advisor</block>
+  <block id="0c6612b13f695372bd37700714ed1430" category="paragraph">Per iniziare a utilizzare Converged Systems Advisor, è necessario preparare l'ambiente, installare e configurare l'agente e aggiungere un'infrastruttura convergente al portale.</block>
+  <block id="713856a9e25b955fc362c74ba01c8c73" category="paragraph">La preparazione dell'ambiente include la verifica del supporto per la configurazione, la creazione di account per l'agente e la registrazione per un account NetApp Support Site.</block>
+  <block id="52bf1942dcfb1c141867def7c2796418" category="inline-xref">Creare account su ciascun componente di FlexPod</block>
+  <block id="f50dcc97b97d9278ef4fdb3ef6e1da3f" category="list-text"><block ref="42cd4f375d7c524be1664eb35460cb25" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a478c363f47702e06b92b7c1d5f4089c" category="paragraph">L'agente richiede credenziali per raccogliere i dati di configurazione. Quando si configura l'agente, è necessario fornire le credenziali.</block>
+  <block id="d87b78a031b9948c6c89981ce3d89f1b" category="section-title">Creazione di account sui dispositivi FlexPod</block>
+  <block id="0cd05894cf4c7bb8f868ffe1d1290fea" category="paragraph">È necessario impostare un account di sola lettura in Cisco UCS Manager e sugli switch Cisco Nexus. Per i sistemi ONTAP e VMware è necessario un account amministratore. È possibile impostare un account di accesso in sola lettura per altri utenti sull'APIC. L'agente utilizza questi account per raccogliere i dati di configurazione da ciascun dispositivo.</block>
+  <block id="2d8f09b5e52b0c5b7187bbebd4f2579f" category="section-title">Crea un account di sola lettura per i tuoi switch Nexus</block>
+  <block id="8f3824888496549aad15cdf6df65ad33" category="list-text">Accedi a ogni switch Nexus utilizzando SSH o telnet.</block>
+  <block id="bedbd0468de13d5fb35dc8cafead626c" category="list-text">Creare un nuovo utente:</block>
+  <block id="33779c44170cc34cb1bbefd6d30a5208" category="list-text">Salvare la configurazione:</block>
+  <block id="18ee0f6fb35c83513ae3e270c131adf7" category="paragraph">Se si utilizza un server TACACS+ e si devono concedere privilegi utente CSA, visitare il sito <block ref="1f496b11ca6becda819d4556c4ea6608" category="inline-xref-macro-rx"></block>.</block>
+  <block id="275fe1c07e5b801ba6ba209e8429002d" category="section-title">Implementazione dell'agente</block>
+  <block id="5cd2b1880169837e25d4f1460662faad" category="paragraph">È necessario implementare l'agente Converged Systems Advisor su un server VMware ESXi. L'agente raccoglie i dati di configurazione relativi a ciascun dispositivo dell'infrastruttura convergente FlexPod e li invia al portale Converged Systems Advisor.</block>
+  <block id="e9df7b526871e1af66c58d80e0a5111a" category="inline-xref">Scaricare e installare l'agente</block>
+  <block id="78101ef6c0779de08b1416b9c3192d77" category="list-text"><block ref="35db1a96bdc74882892c9a3ad7bed133" category="inline-xref-macro-rx"></block></block>
+  <block id="a0a3282ed6dd2a46a69cacb4c53cd598" category="inline-xref">Impostare la rete per l'agente</block>
+  <block id="560f339ffbc95c1d9e2bbea8745d7de3" category="list-text"><block ref="fb6f86724092168a486d00273ca30c97" category="inline-xref-macro-rx"></block></block>
+  <block id="afaf395cc9e80eeef6c225888e99a98a" category="inline-xref">Se necessario, installare un certificato SSL sull'agente</block>
+  <block id="1b38ed85a443a952ad76b68bf23769fa" category="list-text"><block ref="103fd69b0420c45c6e760ec436c53011" category="inline-xref-macro-rx"></block></block>
+  <block id="92a159a5819ea2a230346fe9a8561216" category="inline-xref">Configurare l'agente per rilevare l'infrastruttura FlexPod</block>
+  <block id="ce173e4ce871869d4655c419893b22c0" category="list-text"><block ref="206a2ab2cff5047902495fb5dc2a8730" category="inline-xref-macro-rx"></block></block>
+  <block id="ff7b3a545ce0d3e37f3491c0365fd883" category="section-title">Download e installazione dell'agente</block>
+  <block id="3e29de7ce6b52ed5b2efb0ccd6d814af" category="paragraph">È necessario implementare l'agente Converged Systems Advisor su un server VMware ESXi.</block>
+  <block id="a1808424c169f18629e29f0d62f1fcdb" category="paragraph">Per ridurre al minimo l'utilizzo della larghezza di banda, è necessario installare l'agente su un server VMware ESXi che si trova nello stesso data center della configurazione FlexPod. L'agente deve essere connesso a ciascun componente FlexPod e a Internet in modo da poter inviare i dati di configurazione al portale Converged Systems Advisor utilizzando la porta HTTPS 443.</block>
+  <block id="5731b3791a0c926c2e0d4fd691c8b8ae" category="paragraph">L'agente viene implementato come macchina virtuale VMware vSphere da un modello OVF (Open Virtualization Format). Il modello è basato su Debian con 1 vCPU e 2 GB di RAM (potrebbe essere necessario un numero maggiore di sistemi FlexPod multipli o maggiori).</block>
+  <block id="2f5f4104d2369384772742794186a5ee" category="list-text">Scarica l'agente:</block>
+  <block id="283dd3a1146b22159cc711daf4b83a86" category="list-text">Fare clic su *Download Agent*.</block>
+  <block id="763956d175b6f4a7857600adc356352a" category="list-text">Installare l'agente implementando il modello OVF sul server VMware ESXi.</block>
+  <block id="c46511864b55b0df238295aa98452ec4" category="paragraph">Su alcune versioni di VMware, potrebbe essere visualizzato un avviso durante l'implementazione del modello OVF. La macchina virtuale è stata sviluppata sulla versione più recente di vCenter con compatibilità hardware per le versioni precedenti, il che potrebbe causare l'avviso. Esaminare le opzioni di configurazione prima di confermare l'avviso e procedere con l'installazione.</block>
+  <block id="7c18ca1754eac6117d06a06207ce5382" category="section-title">Impostazione della rete per l'agente</block>
+  <block id="329cd1f5e59ba758295de91326be0e01" category="paragraph">Per consentire la comunicazione tra l'agente e i dispositivi FlexPod e tra l'agente e diversi endpoint Internet, è necessario assicurarsi che la rete sia configurata correttamente sulla macchina virtuale dell'agente. Si noti che lo stack di rete viene disattivato sulla macchina virtuale fino all'inizializzazione del sistema.</block>
+  <block id="724bb0e043ebedd4c528a2ad4d7b0adb" category="list-text">Assicurarsi che una connessione Internet in uscita consenta l'accesso ai seguenti endpoint:</block>
+  <block id="42f326fc7913ed803404dc30e968aa06" category="list-text">Accedere alla console della macchina virtuale dell'agente utilizzando il client VMware vSphere.</block>
+  <block id="bdad4c067bbbc6dec75356d1c530686d" category="paragraph">Il nome utente predefinito è<block ref="fdcde0ec8cfe1e177670f658ae15721e" prefix=" " category="inline-code"></block> e la password predefinita è<block ref="16dfba14481ba8b67fd1c1d9e0f32d2a" prefix=" " category="inline-code"></block>.</block>
+  <block id="d59729c9e3b22da01a8010c4c446e0c7" category="admonition">Per motivi di sicurezza, SSHD è disattivato per impostazione predefinita.</block>
+  <block id="95f7e4a76daadedf42ba81d66ec78941" category="list-text">Quando richiesto, modificare la password predefinita e prendere nota della password, perché non può essere recuperata.</block>
+  <block id="17b9e6bd62d19982683ebb767f9317b1" category="paragraph">Dopo aver modificato la password, il sistema si riavvia e avvia il software dell'agente.</block>
+  <block id="11dfdf5f669d5123bb4032af68545aba" category="list-text">Se DHCP non è disponibile nella subnet, configurare un indirizzo IP statico e le impostazioni DNS utilizzando gli strumenti standard di Debian, quindi riavviare l'agente.</block>
+  <block id="a0e6a5fd5358310f791eeb5382cc260d" category="inline-link-macro">Fare clic qui per istruzioni dettagliate</block>
+  <block id="86259f9852f91497e3e1d2fd3d115bfc" category="paragraph"><block ref="675b653dc4a3b6331b86bde725aa69f3" category="inline-link-macro-rx"></block>.</block>
+  <block id="df4283c930edcdb46c45530338d7eaf6" category="inline-link">pagina man</block>
+  <block id="6a8cb1a182d8afbf0f4cc04515d5716a" category="paragraph">La configurazione di rete per la macchina virtuale Debian è DHCP per impostazione predefinita. NetworkManager è installato e fornisce un'interfaccia utente di testo che è possibile avviare dal comando nmtui (vedere la<block ref="95715ffe5b6c7600e8f0d16b6b6064ce" category="inline-link-rx"></block> per ulteriori dettagli).</block>
+  <block id="f93e60fa5e03356de106feb392f31b27" category="inline-link">La pagina di configurazione di rete nel wiki Debian</block>
+  <block id="fc239c96114ecfe7779c0eda49dec747" category="paragraph">Per ulteriori informazioni sulla rete, vedere<block ref="9f18f481b02a08531df854d052dfd37c" category="inline-link-rx"></block>.</block>
+  <block id="48aa8739f4f4121f8aa3ae2d609c08c2" category="list-text">Se le policy di sicurezza stabiliscono che l'agente deve trovarsi su una rete per comunicare con i dispositivi FlexPod e un'altra rete per comunicare con Internet, aggiungere una seconda interfaccia di rete in vCenter e configurare le VLAN e gli indirizzi IP corretti.</block>
+  <block id="09c910e2b610ff827c810320a5bb1bf1" category="list-text">Se per l'accesso a Internet è necessario un server proxy, eseguire il seguente comando:</block>
+  <block id="9c161583590077a38147451093c8e3b7" category="paragraph"><block ref="450717a1dfd6b123239d086f76ab77c4" prefix="" category="inline-code"></block></block>
+  <block id="a42c5a3e72e626b0102050296595b5f6" category="paragraph">Il comando genera due prompt e mostra il formato richiesto per la voce del proxy. Il primo prompt consente di specificare un proxy HTTP, mentre il secondo consente di specificare un proxy HTTPS.</block>
+  <block id="6493001546d3670c20983d0c9086630f" category="paragraph">Di seguito viene visualizzato il prompt per il proxy HTTP:</block>
+  <block id="0c93fbbaac62b215373a9e38e9977f90" category="inline-image-macro">Una schermata che mostra il prompt del proxy HTTP.</block>
+  <block id="602bfc44630c83752cb212e8e3fa3034" category="paragraph"><block ref="602bfc44630c83752cb212e8e3fa3034" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="264420168f7168ebab16ddf30346c7b2" category="list-text">Una volta attivata la rete, attendere circa 5 minuti per l'aggiornamento e l'avvio del sistema.</block>
+  <block id="421c75e0d71b645e17e0c5021c658416" category="paragraph">Quando l'agente è operativo, sulla console viene visualizzato un messaggio broadcast.</block>
+  <block id="babc70026f560cfa0d6c61295c5225d6" category="list-text">Verificare la connettività eseguendo il seguente comando CLI dall'agente:</block>
+  <block id="a2daedf39c86073e7c4cd232bfbd100e" category="paragraph">Se il comando non riesce, verificare le impostazioni DNS. La macchina virtuale dell'agente deve avere una configurazione DNS valida e la capacità di raggiungere csa.netapp.com.</block>
+  <block id="19f77703ec1a53feaa16f7a9751f0a54" category="section-title">Installazione di un certificato SSL sull'agente</block>
+  <block id="ec184748fa512f7e90e12fac5d2da94f" category="paragraph">L'agente crea un certificato autofirmato al primo avvio della macchina virtuale. Se necessario, è possibile eliminare il certificato e utilizzare il proprio certificato SSL.</block>
+  <block id="9533f62043c0f6a64722739ba689fbd0" category="paragraph">Converged Systems Advisor supporta quanto segue:</block>
+  <block id="aca50f4ea5e538572c25e7ef1c877f50" category="list-text">Qualsiasi crittografia compatibile con OpenSSL versione 1.0.1 o superiore</block>
+  <block id="014f10162fac6ab78ea8f52a63b4b609" category="list-text">TLS 1.1 e TLS 1.2</block>
+  <block id="f28c30feee14e0e3a4891672e11903c9" category="list-text">Accedere alla console della macchina virtuale dell'agente.</block>
+  <block id="146553325b51e54bcf0792d1cf4e39a1" category="list-text">Selezionare<block ref="7a7c22f2b956d8d3ef902f79d0952515" prefix=" " category="inline-code"></block></block>
+  <block id="760317b4e4066ad5978fae4a5b173735" category="list-text">Eliminare il certificato autofirmato creato dall'agente.</block>
+  <block id="3f40ebc6677d56438abc875acca060ee" category="list-text">Incollare il certificato SSL.</block>
+  <block id="9ead19f5a06efd01e02fd83050e576f0" category="list-text">Riavviare la macchina virtuale.</block>
+  <block id="c9b14be3bee9b401f753a94ca3ded907" category="section-title">Configurazione dell'agente per rilevare l'infrastruttura FlexPod</block>
+  <block id="cce04dd5930e941a442176af284fb516" category="paragraph">È necessario configurare l'agente in modo che raccolga i dati di configurazione da ciascun dispositivo nell'infrastruttura convergente FlexPod.</block>
+  <block id="d6649c6eb0292890a97eb268a7e94af9" category="list-text">Aprire un browser Web e inserire l'indirizzo IP della macchina virtuale dell'agente.</block>
+  <block id="6fe5959541c89cbce478c554777ac5d8" category="list-text">Accedere all'agente inserendo il nome utente e la password dell'account NetApp Support Site.</block>
+  <block id="7608393b2da1bb3b5d734c44470e02be" category="list-text">Aggiungere i dispositivi FlexPod che l'agente deve rilevare.</block>
+  <block id="fd6f3efc498de1b121d4286a7865dda4" category="paragraph">Sono disponibili due opzioni:</block>
+  <block id="1364b2acff150024c37f0452146b6d84" category="list-text">Fare clic su *Aggiungi un dispositivo* per immettere i dettagli relativi ai dispositivi FlexPod, uno alla volta.</block>
+  <block id="c750134cf0be6481ba8ff6528300b71a" category="list-text">Fare clic su *Import Devices* (Importa dispositivi) per compilare e caricare un modello CSV che include i dettagli su tutti i dispositivi.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Tenere presente quanto segue:</block>
+  <block id="6624e3ce2082bff6a9538a57b6e135ac" category="list-text">Il nome utente e la password devono corrispondere all'account creato in precedenza per la periferica.</block>
+  <block id="6e4517322a6a78e6e22096c260aea198" category="list-text">Se nell'ambiente UCS è configurata la gestione utente LDAP, è necessario aggiungere il dominio dell'utente prima del nome utente. Ad esempio: Locale/csa-readonly</block>
+  <block id="64c2f93dc8ddeec207e25d7b17093c26" category="paragraph">Ogni dispositivo nell'infrastruttura FlexPod deve essere visualizzato nella tabella con un segno di spunta.</block>
+  <block id="ee74ecd3efa95b8078ceb5dc392b12fd" category="inline-image-macro">Mostra ogni dispositivo richiesto con un segno di spunta verde nella colonna Status (Stato).</block>
+  <block id="7e0f6190afd11994fbf2acbbb620f788" category="paragraph"><block ref="7e0f6190afd11994fbf2acbbb620f788" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="91dd7b0081abea60a0763bc35637f5ba" category="section-title">Aggiunta di un'infrastruttura al portale</block>
+  <block id="775d2ba16d79b874e995444c31ce184d" category="paragraph">Una volta selezionati tutti i componenti richiesti, accanto a ciascun tipo di dispositivo viene visualizzato un segno di spunta verde.</block>
+  <block id="e7d336fd675578d55b211bb25a960940" category="section-title">Configurazione delle notifiche</block>
+  <block id="093e4ca191076aaeab8a87c32f3e59b9" category="summary">I problemi noti identificano i problemi che potrebbero impedire il corretto utilizzo del servizio. Se è disponibile un report Bugs Online, l'ID bug contiene un collegamento ipertestuale al report.</block>
+  <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">Problemi noti</block>
+  <block id="07646d96b0a5453c5d151d754d2dbb4b" category="inline-link">1234597</block>
+  <block id="5dc015869ee1fffcfe18ffb7b0380578" category="cell"><block ref="e9377e240fb8deadfedc2e31ee75b093" category="inline-link-rx"></block></block>
+  <block id="ad53fa7bb171e082d2d1cb699a67c551" category="cell">Converged Systems Advisor non risolve la configurazione DNS per più di quattro SVM.</block>
+  <block id="798bb4078a98dfc398ee27ded37fccb9" category="inline-link">1234603</block>
+  <block id="63b2552c29ae354107fcfb9604981826" category="cell"><block ref="9ea63614a471f724be04717758df478d" category="inline-link-rx"></block></block>
+  <block id="7d459d150271ac4124abd6ef7eb50437" category="cell">Dopo aver creato più processi di correzione con la raccolta attivata, la raccolta viene attivata solo per il primo processo di correzione.</block>
+  <block id="954aaefe49d225da7ff2a5c6265a3f74" category="inline-link">1335590</block>
+  <block id="56cbc985c9341566bd1bcdccacae3c33" category="cell"><block ref="cb1155f7f28efdd1e05510903264c499" category="inline-link-rx"></block></block>
+  <block id="361198e1f4f8acd67465a74b3b90cabe" category="cell">La regola CA "Storage failover state" (Stato di failover dello storage) è stata rimossa da Converged Systems Advisor.</block>
+  <block id="59dd5af94dc714215999ade6dcfc5e6d" category="inline-link">1335593</block>
+  <block id="0737ee285ab66d2b8009bb58d622261c" category="cell"><block ref="8a3f01dd75676a73cfafd2b1daf552ce" category="inline-link-rx"></block></block>
+  <block id="839eaaea535ab65cf6fcf7a1845e1d71" category="cell">I numeri di versione degli switch Nexus e MDS non sono visualizzati correttamente in "Upgrade Advisor".</block>
+  <block id="19e149b86fe87374d6b13ab3c1aa59c1" category="summary">Implementare l'agente Converged Systems Advisor su un server VMware ESXi.</block>
+  <block id="299c9bc2f2558e7ca5b14d172d438580" category="doc">Configurare e implementare l'agente</block>
+  <block id="57750ce19329b425174cbc93e6a43e62" category="list-text"><block ref="0bf5e97b243054f72da9a63ad8890d33" category="inline-xref-macro-rx"></block></block>
+  <block id="2214fd2fdaa4608476ac6f7c414cfc1c" category="list-text"><block ref="970f7963be3b539669866471b49eb842" category="inline-xref-macro-rx"></block></block>
+  <block id="b2dad7356075346268f85e3b33bd7d98" category="list-text"><block ref="9707b20d628746abe74ac98ac3cf317d" category="inline-xref-macro-rx"></block></block>
+  <block id="78bdb79e38127e38c9f36e8fa078ac0f" category="list-text"><block ref="73d26a40aa0069c926cf11f2b34f94d9" category="inline-xref-macro-rx"></block></block>
+  <block id="6078750bfcc811063bfb2a2ceaba55e2" category="paragraph">Immettere il proxy HTTP seguente utilizzando il formato:<block ref="1c812ffdc16711850f003776e55e1b66" prefix=" " category="inline-code"></block></block>
+  <block id="565c0cc9c79be5003d947c57c93b6855" category="paragraph">Lasciare vuoto se non è richiesto alcun proxy HTTP per l'accesso a Internet.</block>
+  <block id="427cb0ec1b7b1f159c664b2e33c2ab42" category="section-title">Installare un certificato SSL sull'agente</block>
+  <block id="ffaa787fcbf7a79905f4077f8a8c365a" category="paragraph">Facoltativo: Se necessario, installare un certificato SSL sull'agente.</block>
+  <block id="befa1cf57e6e8a9ac1352c5e81a8ed05" category="paragraph">Converged Systems Advisor supporta quanto segue: * Qualsiasi crittografia compatibile con OpenSSL versione 1.0.1 o superiore * TLS 1.1 e TLS 1.2</block>
+  <block id="a93da1113a93232875b14fb26869da02" category="paragraph">È necessario configurare l'agente in modo che raccolga i dati di configurazione da ciascun dispositivo nell'infrastruttura convergente FlexPod. L'agente richiede credenziali per raccogliere i dati di configurazione. Quando si configura l'agente, è necessario fornire le credenziali.</block>
+  <block id="bf8b4438caf3a61a994abe5231b39201" category="list-text">Accedere all'agente con il nome utente e la password dell'account NetApp Support Site del cliente.</block>
+  <block id="e6b0b23d462e5d837da86ce23da0f93d" category="admonition">Per tutti i partner che implementano una versione concessa in licenza di CSA per conto del cliente, è importante che l'account del cliente venga utilizzato in questa fase (per il supporto NetApp e la gestione dei record).</block>
+  <block id="458a6d581be6d26cc492ea80b79c1cd9" category="paragraph">Nota: * Il nome utente e la password devono corrispondere all'account creato in precedenza per la periferica. * Se nell'ambiente UCS è configurata la gestione utente LDAP, è necessario aggiungere il dominio dell'utente prima del nome utente. Ad esempio: Locale/csa-readonly</block>
+  <block id="ed3bafb82e73ad72d2174d40ff5e566e" category="paragraph">Ogni dispositivo nell'infrastruttura FlexPod deve essere visualizzato nella tabella con un segno di spunta.<block ref="7e0f6190afd11994fbf2acbbb620f788" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a2344a362f5275955ff01f4c0302c7e7" category="summary">È possibile rimediare alle regole non riuscite, eliminare le regole, visualizzare l'elenco delle regole che sono state soppresse e, se si desidera, selezionare per terminare la soppressione.</block>
+  <block id="e0f02631aa2e940e03b75a523e459eb3" category="doc">Monitorare le regole dell'infrastruttura</block>
+  <block id="24744aeb927fc4dede0eec8cf1e1c8d7" category="paragraph">Per monitorare l'infrastruttura, è possibile correggere le regole non riuscite, eliminare le regole, visualizzare l'elenco delle regole che sono state soppresse e, se si desidera, selezionare per terminare la soppressione.</block>
+  <block id="b4459af605041a7930492df886bb4471" category="section-title">Esaminare gli avvisi per le regole e gli avvisi non riusciti</block>
+  <block id="802d3156d7f68322e8ca95584629cb30" category="section-title">Correggere le regole non riuscite</block>
+  <block id="f715709e86a0e4352fd5030dd232c8cd" category="section-title">Elimina regole non riuscite</block>
+  <block id="c0baf402396dab2430411379fb31fb66" category="section-title">Visualizza regole soppresse</block>
+  <block id="571a926cd2e7deab39daf05b2533b8d8" category="doc">Esaminare la cronologia di un'infrastruttura</block>
+  <block id="8d2c4ebf93aef876f912d1dbc5d5f446" category="summary">Se l'ambiente non dispone di un server DHCP, è possibile impostare un indirizzo IP statico nell'agente Converged Systems Advisor.</block>
+  <block id="d9a5f12699bae674c63f2c267573224b" category="paragraph">Il nome utente predefinito è *csa* e la password predefinita è *netapp*. Modificare la password, se richiesto.</block>
+  <block id="b6de644e9b5b1e58594eba0a09555428" category="list-text">Invio<block ref="182845a90d310e78d27d0263172ea43e" prefix=" " category="inline-code"></block> al prompt csa di diventare root.</block>
+  <block id="53b9d6386077deb220e39848631a1432" category="list-text">Invio<block ref="45b46b969f536e00706e771228ae6888" prefix=" " category="inline-code"></block> Per interrompere il servizio CSA.</block>
+  <block id="23d5cee3449e29c27ec154cf829a69c3" category="list-text">Immettere quanto segue per determinare il nome corretto del file di interfaccia.</block>
+  <block id="2bf1d3038022317a128963915a08f202" category="paragraph">In questo esempio, il nome del file di interfaccia è<block ref="a1a5b3d22e82bbd6f878d26feacc2c7d" prefix=" " category="inline-code"></block>.</block>
+  <block id="bcf28884b8c036a478d2f25650c43a5f" category="paragraph"><block ref="d7b9f7d92167d2e358eb2deb37f8b5e7" prefix="" category="inline-code"></block></block>
+  <block id="f77dbe6328f12a32ab9eb2576246ec8f" category="list-text">Invio<block ref="e99d4b93a42f6194cd0d7037e3a3c7b7" prefix=" " category="inline-code"></block> per interrompere l'interfaccia attiva.</block>
+  <block id="9660dc3d2d47bb1edf0d90bc60359a4f" category="list-text">Modificare il file /etc/network/interfaces.d/eth0 con l'editor desiderato.</block>
+  <block id="cdb12d95400318fd9ca6cc49132ab819" category="paragraph"><block ref="e2d6b22dc3b164bb62e7f610e45e4eac" prefix="" category="inline-code"></block>oppure<block ref="273735561fc4c6ddeea80fd219941ed9" prefix=" " category="inline-code"></block></block>
+  <block id="1756345afbc4de489ffcc0f962d00c59" category="paragraph">Il file contiene quanto segue:</block>
+  <block id="96127d77fba94b76446bd73e9a3088e5" category="paragraph"><block ref="fde6d9acd020a6b8b1e1022420d689b1" prefix="" category="inline-code"></block><block ref="a7b786ee01f54da8a81cd2038d305b98" prefix=" " category="inline-code"></block></block>
+  <block id="25e011b9fcda92e242aa20ba3c216c64" category="list-text">Rimuovere<block ref="a7b786ee01f54da8a81cd2038d305b98" prefix=" " category="inline-code"></block> e aggiungere quanto segue. NOTA: È necessario sostituire i valori corretti per tutte le voci che seguono i nomi dei campi nell'esempio seguente. Ad esempio,<block ref="ee519fb02205bf17b03ef00f6daf6c6e" prefix=" " category="inline-code"></block> è il valore del gateway nell'esempio. Tuttavia, invece di<block ref="ee519fb02205bf17b03ef00f6daf6c6e" prefix=" " category="inline-code"></block>, inserire l'indirizzo corretto per il gateway.</block>
+  <block id="69e9edbe64528504bd6ba53958fd606a" category="paragraph"><block ref="b50061b83dcce32ddf20d7c512730f05" prefix="" category="inline-code"></block><block ref="8530e6cf7ed4bcfcf9986e638e1edc59" prefix=" " category="inline-code"></block><block ref="69f512ef851f7d4789d3ae0e17044f46" prefix=" " category="inline-code"></block><block ref="85547270b02ffe1fd7994ce954b73b67" prefix=" " category="inline-code"></block><block ref="30a74876acb4179e80a86c34c27c308f" prefix=" " category="inline-code"></block><block ref="b3926481af047f3518ea14d87e29f369" prefix=" " category="inline-code"></block></block>
+  <block id="01d3a32280cc94c7c057cd3d14488785" category="list-text">Salvare il file.</block>
+  <block id="38c39deaa2f53315e7b202e17baffc26" category="paragraph">In nano, inserisci *ctrl + o* seguito da *ctrl + x* per salvare.</block>
+  <block id="4cd2bda6af7660c1598f39b9c7d6f529" category="list-text">Invio<block ref="010714161eaea71c25f8f756a8a3f08a" prefix=" " category="inline-code"></block> per aprire il file di configurazione.</block>
+  <block id="2c0c5618501d3f3f63b49af53d2fbd47" category="list-text">Aggiungi<block ref="56f23e537e7fb25254788bcb7047a785" prefix=" " category="inline-code"></block> nella parte superiore del file.</block>
+  <block id="b3030219c1ea1568cd293ed2279fad1e" category="list-text">Invio<block ref="7af78897758337edc6c163366fb4cc74" prefix=" " category="inline-code"></block> per avviare l'interfaccia di rete.</block>
+  <block id="67579867e6a21ae6d929c597a6c6b46f" category="list-text">Invio<block ref="1d84d3cc95e6c234a2e0ea6de1b23b58" prefix=" " category="inline-code"></block> Per riavviare Converged Systems Advisor.</block>
+  <block id="d7eb081e4b63d797a86524b23182f6e0" category="summary">È possibile aggiungere dettagli sui contratti di assistenza per ciascun dispositivo in una configurazione, inclusi data di inizio, data di fine e ID del contratto.</block>
+  <block id="707403f6f79d0a1227617b22557b065b" category="doc">Tenere traccia dei contratti di supporto</block>
+  <block id="5a78e583f1007c774adcf85474a63773" category="doc">Novità di Converged Systems Advisor</block>
+  <block id="49f34bfa1825e63e5d97c99ba28bc215" category="section-title">31 luglio 2020</block>
+  <block id="7f6806da5c10db2d4b7238eff6a3048e" category="paragraph">La release include i seguenti miglioramenti:</block>
+  <block id="1d1dc74e655dfdea0a8ddb51d61996a5" category="list-text"><block ref="1f29bdfefe55e3bb65f3709ed5f0ba05" category="inline-xref-macro-rx"></block></block>
+  <block id="247614e0a41492cd6d4a3eeb5bca6333" category="list-text"><block ref="6a66f062dad1a3503157e2346c820d3c" category="inline-xref-macro-rx"></block></block>
+  <block id="e472339f84111c01e68b8257137a2b22" category="list-text"><block ref="56e3284e19e0b171a2242f210e14f6df" category="inline-xref-macro-rx"></block></block>
+  <block id="47d666e6df1427f5d1fd84e8f73f7230" category="section-title">Nuove funzionalità per il rilevamento delle modifiche dello storage (Diff)</block>
+  <block id="217ff35f7d6b3469892b68928ba39705" category="paragraph">Ora è possibile rilevare le modifiche che si sono verificate nel sistema di storage. Per verificare la presenza di modifiche, dalle pagine *Storage Inventory* (inventario storage), fare clic su *View Configuration Difference* (Visualizza differenza configurazione). Quindi, selezionare i dati e l'ora di configurazione precedenti, che verranno confrontati con la configurazione dello storage più recente. Le eventuali modifiche apportate verranno evidenziate per una rapida revisione.</block>
+  <block id="d12b8ca6afcdf0d8044a82908222bbaf" category="section-title">Garanzia di configurazione estesa per switch di interconnessione cluster</block>
+  <block id="f8046d35bf2bc5985759f821ad3a42eb" category="paragraph">Nel portale Converged Systems Advisor, i controlli di configurazione sono stati ampliati per monitorare la supportabilità dello switching di interconnessione cluster ONTAP per i seguenti modelli:</block>
+  <block id="85b827a1928acc59a94521cd88bfd8c3" category="section-title">Copertura iniziale dei progetti NVMe</block>
+  <block id="fa5c0cce16f3f3a76bf624862e41bcbd" category="paragraph">Sono stati aggiunti i controlli iniziali di verifica della configurazione per monitorare la supportabilità dei progetti di storage NVMe ONTAP in FlexPod.</block>
+  <block id="3b2546b817f28d703c31d7aed00be35b" category="summary">Se si riscontrano problemi durante l'utilizzo di Converged Systems Advisor, le seguenti informazioni potrebbero essere utili per risolvere il problema.</block>
+  <block id="463cc44c201d5ae719550157ac2a413b" category="doc">Risoluzione dei problemi di Converged Systems Advisor</block>
+  <block id="428d0d725fffa01833d1c1657a9cc053" category="section-title">Non è possibile connettersi all'agente tramite un browser Web</block>
+  <block id="1bcbf11c77c23773c9cd5195b4d8ac35" category="paragraph">Per configurare il rilevamento dei dispositivi FlexPod, è necessario connettersi all'agente tramite un browser Web. Se non è possibile connettersi tramite un browser Web, assicurarsi che l'agente disponga di una connessione Internet in uscita a csa.netapp.com. L'applicazione Agent non può essere avviata senza una connessione a Internet, impedendo l'accesso alla relativa interfaccia Web.</block>
+  <block id="8304febf8351132b2b9a821976ba71e7" category="inline-link-macro">configurare la macchina virtuale dell'agente per utilizzarla</block>
+  <block id="188d24abd8a88712d74796685ffaa46e" category="paragraph">Se per l'accesso a Internet è richiesto un server proxy, <block ref="d49ad811ca1415593c51e7dfbe6a5e10" category="inline-link-macro-rx"></block>.</block>
+  <block id="7b88f77ca44f1eb0b8273fa36ebbb216" category="section-title">L'agente non è in grado di rilevare i dispositivi</block>
+  <block id="d80389ce860d30c8106b32799e3e3061" category="paragraph">Se l'agente non riesce a rilevare un dispositivo FlexPod, verificare quanto segue:</block>
+  <block id="52a6ce76970c0a52517ae2b898732a02" category="list-text">Assicurarsi che l'agente disponga di una connessione aperta a ciascun dispositivo FlexPod.</block>
+  <block id="60bf94fc90364efe96c1ada472fecdd1" category="paragraph">Per verificare, eseguire il ping di ciascun dispositivo dall'agente.</block>
+  <block id="286407c3fa4f709f217f24946aae87f3" category="list-text">Verificare se una rete locale utilizza la subnet 172.17.x.x.</block>
+  <block id="eb093e4c122374d8c203c9c40f0afc9a" category="paragraph">L'agente utilizza internamente la subnet 172.17.x.x. Se una rete locale utilizza la stessa subnet, è necessario modificare la subnet dell'agente:</block>
+  <block id="44c57355f2137f5740ef1cdb5f9c7035" category="paragraph">Il nome utente predefinito è<block ref="fdcde0ec8cfe1e177670f658ae15721e" prefix=" " category="inline-code"></block> e la password predefinita è<block ref="16dfba14481ba8b67fd1c1d9e0f32d2a" prefix=" " category="inline-code"></block>. Dopo aver effettuato l'accesso, modificare la password predefinita.</block>
+  <block id="8ab2a3d62ebd7af039152e14f12d58ac" category="list-text">Aggiungere il file<block ref="07652a761f427c3e3e3e2e9d2cbab273" prefix=" " category="inline-code"></block> con i seguenti contenuti:</block>
+  <block id="ea680b088905eba82105c090c1d63e93" category="paragraph">L'indirizzo bip può essere qualsiasi indirizzo IP non in conflitto. Non è necessario che sia compreso nell'intervallo 172.</block>
+  <block id="c93bb56c92330fc7f15bdb5f83e6cebc" category="list-text">Riavviare la macchina virtuale.</block>
+  <block id="b36869091223af043b61346977f2e3d7" category="section-title">Impossibile connettersi alla macchina virtuale dell'agente utilizzando SSH</block>
+  <block id="ce5f0b7deafe1859b1b53204e08d13e5" category="paragraph">L'SSH per la macchina virtuale dell'agente è disattivato per impostazione predefinita.</block>
+  <block id="a3902f858969f391d50709c249064a7c" category="list-text">Per avviare SSH, accedere alla macchina virtuale dell'agente tramite la console in vCenter ed eseguire i seguenti comandi:</block>
+  <block id="44a23a7131a2e87264023226122897b4" category="paragraph"><block ref="e73620038e8b54deb176b2581c7558a7" prefix="" category="inline-code"></block><block ref="207527df47b3ce446a857581ba543a5f" prefix=" " category="inline-code"></block></block>
+  <block id="1f697227c3ddcc4288f43237b393d856" category="list-text">Per verificare se SSH è attivato, eseguire il seguente comando:</block>
+  <block id="5285394e5834a03059adcf3a5c96ba35" category="paragraph"><block ref="91a553aa7bf69d5e459f48e42311ba6a" prefix="" category="inline-code"></block></block>
+  <block id="efbf3282c28d88b8f4ac719755b8f812" category="list-text">Per verificare lo stato di SSH sulla macchina virtuale dell'agente, eseguire il seguente comando:</block>
+  <block id="e8088ad97b5eacf66e0007a17928a4b0" category="paragraph"><block ref="3c2bd8c19e9f305abdd8f85709651e0b" prefix="" category="inline-code"></block></block>
+  <block id="7153dae840d94fd333315e2381595ab1" category="list-text">Per consentire a SSH di rimanere in fase di riavvio, eseguire i seguenti comandi:</block>
+  <block id="d334971ac8733188439f1850f5f8bfc3" category="paragraph"><block ref="e73620038e8b54deb176b2581c7558a7" prefix="" category="inline-code"></block><block ref="b6392595526206464a4380c83805eda7" prefix=" " category="inline-code"></block></block>
+  <block id="115b9f0ff63d039cd385c57b40bf95a9" category="sidebar">Documenti di Converged Systems Advisor</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novità</block>
+  <block id="96573196b0bc5ca16f36a7ab51440d98" category="sidebar">Archivio novità</block>
+  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">Concetti</block>
+  <block id="cb59b87e00d11222bfd9159d0d23836f" category="sidebar">Per iniziare</block>
+  <block id="fcfe3322250efe8a9b82e67dc1a52629" category="sidebar">Configurare e implementare l'agente</block>
+  <block id="2db72662c8c544bb8061d0dd7316e260" category="sidebar">Aggiungere l'infrastruttura nel portale</block>
+  <block id="ed921ee7e2f886f27ab4462f27404241" category="sidebar">Impostare un IP statico sull'agente</block>
+  <block id="6cf8e922cda64d990e6cd69cd9ddde4f" category="sidebar">Monitoraggio dell'infrastruttura</block>
+  <block id="6c9d9b02e3e64a4c7870f630c5d9dbc2" category="sidebar">Esaminare la cronologia dell'infrastruttura</block>
+  <block id="b7b722eea69a1d2e85256ecaa18b4620" category="sidebar">Monitorare le regole</block>
+  <block id="231cf4c70d866b616c21baddaeed0696" category="sidebar">Risoluzione dei problemi</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="sidebar">Link correlati</block>
+</blocks>
