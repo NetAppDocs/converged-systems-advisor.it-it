@@ -16,11 +16,11 @@ summary: Puoi ottenere aiuto e ottenere ulteriori informazioni su Converged Syst
 [role="lead"]
 Puoi ottenere aiuto e ottenere ulteriori informazioni su Converged Systems Advisor attraverso varie risorse.
 
-* https://www.netapp.com/us/media/ds-3896.pdf["Scheda informativa di Converged Systems Advisor"^]
+* https://www.netapp.com/data-storage/flexpod/cooperative-support/["Scheda informativa di Converged Systems Advisor"^]
 +
 Per ulteriori informazioni sul valore offerto da Converged Systems Advisor.
 
-* https://www.netapp.com/us/media/tr-4036.pdf["Report tecnico NetApp 4036: Specifiche tecniche del data center FlexPod"^]
+* https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_solution_overview.html["Report tecnico NetApp 4036: Specifiche tecniche del data center FlexPod"^]
 +
 Esaminate le Best practice e i requisiti del firmware che Converged Systems Advisor mette a confronto le vostre configurazioni.
 

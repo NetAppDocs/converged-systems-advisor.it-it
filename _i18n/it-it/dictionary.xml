@@ -3,10 +3,8 @@
   <block id="70a81ab3570971044c051a122f25ee0b" category="summary">Puoi ottenere aiuto e ottenere ulteriori informazioni su Converged Systems Advisor attraverso varie risorse.</block>
   <block id="3cd12697cda279c9c99b093a265c1ba8" category="doc">Dove trovare assistenza e ulteriori informazioni</block>
   <block id="ba69e3ff884a3e60e26bcffcb121315d" category="inline-link">Scheda informativa di Converged Systems Advisor</block>
-  <block id="5bcf85e8807e9d7961fa86529a7ee3ac" category="list-text"><block ref="5bcf85e8807e9d7961fa86529a7ee3ac" category="inline-link-rx"></block></block>
   <block id="b1b49e994988385600e529f9e03aeded" category="paragraph">Per ulteriori informazioni sul valore offerto da Converged Systems Advisor.</block>
   <block id="5768a4e6671c0fb61f9cc9bccc217998" category="inline-link">Report tecnico NetApp 4036: Specifiche tecniche del data center FlexPod</block>
-  <block id="9569519d894aa3e75942763a12a60c12" category="list-text"><block ref="9569519d894aa3e75942763a12a60c12" category="inline-link-rx"></block></block>
   <block id="d5ae438f326f42644223635842ca89cc" category="paragraph">Esaminate le Best practice e i requisiti del firmware che Converged Systems Advisor mette a confronto le vostre configurazioni.</block>
   <block id="9ed4a475dd3705157a9fed8811f63ce2" category="inline-link">Tool di matrice di interoperabilità NetApp</block>
   <block id="b1540a3ec25c7d8277b499a1cc1d920b" category="list-text"><block ref="b1540a3ec25c7d8277b499a1cc1d920b" category="inline-link-rx"></block></block>
@@ -201,7 +199,6 @@
   <block id="4daf49986af67aba8f5e944968d88167" category="doc">Panoramica di Converged Systems Advisor</block>
   <block id="b3072b853bb7e155aaf1f74dc7548418" category="paragraph">Guarda il seguente video per una panoramica di Converged Systems Advisor:</block>
   <block id="fccce43bca628d5f348a9d60196dd5ac" category="inline-link">leggi la scheda informativa</block>
-  <block id="c4a6f4e43c995f810acb8c7b73e0d5d1" category="paragraph">Per ulteriori informazioni sul valore offerto da Converged Systems Advisor,<block ref="f25cd14a6ee6a3fdd35c3bb14df6ae32" category="inline-link-rx"></block>.</block>
   <block id="ade2db7ff69f464a3b4134ab103d943b" category="summary">Converged Systems Advisor è una piattaforma SaaS (Software-as-a-Service) che consiste in un agente on-premise e un portale basato sul cloud.</block>
   <block id="77a689c1bae0e53995786b80a8e17081" category="doc">Come funziona Converged Systems Advisor</block>
   <block id="0a00ece35e033d1841a339c210e04460" category="paragraph">La seguente immagine mostra la relazione tra i componenti di Converged Systems Advisor:</block>
@@ -790,4 +787,7 @@
   <block id="b7b722eea69a1d2e85256ecaa18b4620" category="sidebar">Monitorare le regole</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="sidebar">Risoluzione dei problemi</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="sidebar">Link correlati</block>
+  <block id="671f9fcb308d27b5e6c67487a132689b" category="paragraph">Per ulteriori dettagli sul valore offerto da Converged Systems Advisor,<block ref="fc23d3c004c60b82dbfd031bd239bfab" category="inline-link-rx"></block>.</block>
+  <block id="87f06a4b2aacd95154431aea948042fa" category="list-text"><block ref="87f06a4b2aacd95154431aea948042fa" category="inline-link-rx"></block></block>
+  <block id="cf7b58ed3bc4022cb990fe98807b8da5" category="list-text"><block ref="cf7b58ed3bc4022cb990fe98807b8da5" category="inline-link-rx"></block></block>
 </blocks>
